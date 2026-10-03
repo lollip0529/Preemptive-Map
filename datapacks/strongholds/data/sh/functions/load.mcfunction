@@ -1,0 +1,88 @@
+scoreboard objectives add sh dummy
+scoreboard objectives add sh.t dummy
+scoreboard objectives add sh.f dummy
+scoreboard objectives add sh.v dummy
+scoreboard objectives add sh.d dummy
+scoreboard objectives add sh.o dummy
+scoreboard objectives add sh.q dummy
+scoreboard objectives add sh.x0 dummy
+scoreboard objectives add sh.y0 dummy
+scoreboard objectives add sh.z0 dummy
+scoreboard objectives add sh.x1 dummy
+scoreboard objectives add sh.y1 dummy
+scoreboard objectives add sh.z1 dummy
+scoreboard objectives add sh.wx dummy
+scoreboard objectives add sh.wh dummy
+scoreboard objectives add sh.wz dummy
+scoreboard objectives add sh.wy dummy
+scoreboard objectives add sh.wp dummy
+scoreboard objectives add sh.wdy dummy
+scoreboard objectives add sh.wdp dummy
+scoreboard objectives add sh.wi dummy
+scoreboard objectives add sh.wn dummy
+scoreboard objectives add sh.wt dummy
+scoreboard objectives add sh.wb dummy
+scoreboard objectives add sh.wq dummy
+scoreboard objectives add ps trigger
+scoreboard objectives add seed trigger
+scoreboard objectives add sh.egg minecraft.used:minecraft.egg
+gamerule maxCommandChainLength 2147483647
+gamerule commandBlockOutput false
+gamerule sendCommandFeedback false
+gamerule doMobSpawning false
+gamerule doDaylightCycle false
+gamerule doWeatherCycle false
+gamerule randomTickSpeed 0
+gamerule doFireTick false
+gamerule announceAdvancements false
+gamerule mobGriefing false
+gamerule keepInventory true
+gamerule doImmediateRespawn true
+scoreboard players set #2 sh 2
+scoreboard players set #4 sh 4
+scoreboard players set #16 sh 16
+scoreboard players set #32 sh 32
+scoreboard players set #35 sh 35
+scoreboard players set #100 sh 100
+scoreboard players set #128 sh 128
+scoreboard players set #2048 sh 2048
+scoreboard players set #4096 sh 4096
+scoreboard players set #524288 sh 524288
+scoreboard players set #-1 sh -1
+scoreboard players set #m0 sh 1645
+scoreboard players set #m1 sh 3790
+scoreboard players set #m2 sh 1502
+scoreboard players set #3 sh 3
+scoreboard players set #7 sh 7
+scoreboard players set #9 sh 9
+scoreboard players set #10 sh 10
+scoreboard players set #400 sh 400
+scoreboard players set #1000 sh 1000
+scoreboard players set #9000 sh 9000
+scoreboard players set #10000 sh 10000
+scoreboard players set #11459 sh 11459
+scoreboard players set #22918 sh 22918
+scoreboard players set #lcg sh 1103515245
+scoreboard players set #36000 sh 36000
+scoreboard players set #5 sh 5
+scoreboard players set #20 sh 20
+execute unless score #seed sh matches -2147483648.. run scoreboard players set #seed sh 0
+execute unless score #jfront sh matches -2147483648.. run scoreboard players set #jfront sh 0
+execute unless score #jbehind sh matches -2147483648.. run scoreboard players set #jbehind sh 0
+execute unless score #jaround sh matches -2147483648.. run scoreboard players set #jaround sh 0
+execute unless score #jspawn sh matches -2147483648.. run scoreboard players set #jspawn sh 0
+execute unless score #jmob sh matches -2147483648.. run scoreboard players set #jmob sh 1
+execute unless score #jdung sh matches -2147483648.. run scoreboard players set #jdung sh 0
+execute unless score #pmob sh matches -2147483648.. run scoreboard players set #pmob sh 0
+execute unless score #terrain sh matches -2147483648.. run scoreboard players set #terrain sh 0
+execute unless score #caves sh matches -2147483648.. run scoreboard players set #caves sh 2
+execute unless score #mobs sh matches -2147483648.. run scoreboard players set #mobs sh 2
+execute unless score #nobuild sh matches -2147483648.. run scoreboard players set #nobuild sh 0
+execute unless score #seg sh matches -2147483648.. run scoreboard players set #seg sh 0
+execute unless score #back sh matches -2147483648.. run scoreboard players set #back sh 0
+execute unless score #lmw sh matches -2147483648.. run scoreboard players set #lmw sh 0
+execute unless score #lo sh matches -2147483648.. run scoreboard players set #lo sh 0
+execute unless score #edit sh matches -2147483648.. run scoreboard players set #edit sh 0
+execute unless score #nav sh matches -2147483648.. run scoreboard players set #nav sh 0
+forceload add 8 3208 8 3208
+function sh:area
