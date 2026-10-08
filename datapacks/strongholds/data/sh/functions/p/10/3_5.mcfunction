@@ -1,0 +1,11 @@
+execute if score #caves sh matches 1.. run clone ~ ~ ~ ~14 ~10 ~13 0 110 3200
+data modify storage sh:b name set value "sh:p/10/3_5"
+data modify storage sh:b name set value "sh:p/10/3_5_m"
+data modify storage sh:b integrity set value 0.4f
+data modify storage sh:b name set value "sh:p/10/3_5_i"
+data modify storage sh:b integrity set value 0.0625f
+data modify storage sh:b name set value "sh:p/10/3_5_c"
+data modify storage sh:b integrity set value 0.2f
+data modify storage sh:b name set value "sh:p/10/3_5_w"
+data modify storage sh:b integrity set value 0.07f
+execute if score #caves sh matches 1.. run function sh:p/10/3_5_cut
