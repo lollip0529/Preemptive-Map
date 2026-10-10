@@ -1,0 +1,13 @@
+execute if score @s sh.t matches 0 run function sh:build/t0
+execute if score @s sh.t matches 1 run function sh:build/t1
+execute if score @s sh.t matches 2 run function sh:build/t2
+execute if score @s sh.t matches 3 run function sh:build/t3
+execute if score @s sh.t matches 4 run function sh:build/t4
+execute if score @s sh.t matches 5 run function sh:build/t5
+execute if score @s sh.t matches 6 run function sh:build/t6
+execute if score @s sh.t matches 7 run function sh:build/t7
+execute if score @s sh.t matches 8 run function sh:build/t8
+execute if score @s sh.t matches 9 run function sh:build/t9
+execute if score @s sh.t matches 10 run function sh:build/t10
+execute if score @s sh.t matches 11 run function sh:build/t11
+execute if score @s sh.t matches 12 run function sh:build/t12

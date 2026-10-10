@@ -1,4 +1,5 @@
 data modify storage sh:b name set value "sh:p/2/1_2_k"
+function sh:build/keep
 fill 0 110 3200 10 114 3208 barrier replace cave_air
 clone 0 110 3200 10 114 3208 ~ ~ ~ filtered barrier
 fill ~ ~ ~ ~10 ~4 ~8 cave_air replace barrier
