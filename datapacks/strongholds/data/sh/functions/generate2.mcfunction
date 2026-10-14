@@ -10,6 +10,7 @@ function sh:gen/start
 execute if score #nobuild sh matches 0 run function sh:build/all
 function sh:spot/all
 function sh:spot/mob
+function sh:junk/all
 kill @e[type=item]
 execute as @a run function sh:go
 scoreboard players set #mready sh 0
