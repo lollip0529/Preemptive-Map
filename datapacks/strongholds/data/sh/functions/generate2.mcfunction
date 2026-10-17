@@ -7,6 +7,7 @@ kill @e[tag=sh.mark]
 summon area_effect_cloud 8 100 3208 {Tags:["sh.mark"],Duration:1000000000,WaitTime:0,Radius:0f}
 function sh:reset
 function sh:gen/start
+function sh:cave/all
 execute if score #nobuild sh matches 0 run function sh:build/all
 function sh:spot/all
 function sh:spot/mob
