@@ -1,0 +1,24 @@
+{
+  "values": [
+    "minecraft:andesite",
+    "minecraft:arrow",
+    "minecraft:barrier",
+    "minecraft:beef",
+    "minecraft:bone",
+    "minecraft:cave_spider_spawn_egg",
+    "minecraft:chest",
+    "minecraft:cobblestone",
+    "minecraft:glass",
+    "minecraft:gray_dye",
+    "minecraft:mossy_cobblestone",
+    "minecraft:rotten_flesh",
+    "minecraft:silverfish_spawn_egg",
+    "minecraft:skeleton_spawn_egg",
+    "minecraft:spawner",
+    "minecraft:spider_eye",
+    "minecraft:spider_spawn_egg",
+    "minecraft:stone",
+    "minecraft:tnt",
+    "minecraft:zombie_spawn_egg"
+  ]
+}
