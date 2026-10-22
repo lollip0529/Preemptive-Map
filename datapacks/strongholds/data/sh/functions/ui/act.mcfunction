@@ -1,3 +1,4 @@
+execute if score @s ps matches 2 run function sh:ui/a2
 execute if score @s ps matches 10 run function sh:ui/a10
 execute if score @s ps matches 11 run function sh:ui/a11
 execute if score @s ps matches 12 run function sh:ui/a12
