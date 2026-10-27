@@ -26,6 +26,7 @@ scoreboard objectives add sh.wq dummy
 scoreboard objectives add ps trigger
 scoreboard objectives add seed trigger
 scoreboard objectives add sh.egg minecraft.used:minecraft.egg
+scoreboard objectives add sh.die deathCount
 gamerule maxCommandChainLength 2147483647
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
@@ -86,4 +87,5 @@ execute unless score #edit sh matches -2147483648.. run scoreboard players set #
 execute unless score #nav sh matches -2147483648.. run scoreboard players set #nav sh 0
 forceload add 8 3208 8 3208
 function sh:area
+function sh:lo/init
 function sh:menu/build
