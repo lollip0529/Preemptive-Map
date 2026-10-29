@@ -81,6 +81,7 @@ data modify storage sh:lo part append from storage sh:lo cur[{Slot:34b}]
 data modify storage sh:lo part[{Slot:34b}].Slot set value 25b
 data modify storage sh:lo part append from storage sh:lo cur[{Slot:35b}]
 data modify storage sh:lo part[{Slot:35b}].Slot set value 26b
+execute if score #invj sh matches 1 if score #edit sh matches 0 run function sh:lo/shuffle
 data modify block 8 1 3208 Items set from storage sh:lo part
 loot replace entity @s inventory.0 27 mine 8 1 3208 minecraft:air{drop_contents:1b}
 data modify storage sh:lo part set value []
@@ -100,3 +101,4 @@ data modify storage sh:lo part[{Slot:-106b}].Slot set value 0b
 data modify block 8 1 3208 Items set from storage sh:lo part
 loot replace entity @s weapon.offhand mine 8 1 3208 minecraft:air{drop_contents:1b}
 setblock 8 1 3208 stone
+execute if score #invj sh matches 1 if score #edit sh matches 0 run loot give @s loot sh:junk

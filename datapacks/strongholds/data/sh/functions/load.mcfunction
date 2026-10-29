@@ -27,6 +27,12 @@ scoreboard objectives add ps trigger
 scoreboard objectives add seed trigger
 scoreboard objectives add sh.egg minecraft.used:minecraft.egg
 scoreboard objectives add sh.die deathCount
+scoreboard objectives add sh.pk.wooden minecraft.dropped:minecraft.wooden_pickaxe
+scoreboard objectives add sh.pk.stone minecraft.dropped:minecraft.stone_pickaxe
+scoreboard objectives add sh.pk.iron minecraft.dropped:minecraft.iron_pickaxe
+scoreboard objectives add sh.pk.golden minecraft.dropped:minecraft.golden_pickaxe
+scoreboard objectives add sh.pk.diamond minecraft.dropped:minecraft.diamond_pickaxe
+scoreboard objectives add sh.pk.netherite minecraft.dropped:minecraft.netherite_pickaxe
 gamerule maxCommandChainLength 2147483647
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
@@ -85,6 +91,8 @@ execute unless score #lmw sh matches -2147483648.. run scoreboard players set #l
 execute unless score #lo sh matches -2147483648.. run scoreboard players set #lo sh 0
 execute unless score #edit sh matches -2147483648.. run scoreboard players set #edit sh 0
 execute unless score #nav sh matches -2147483648.. run scoreboard players set #nav sh 0
+execute unless score #invj sh matches -2147483648.. run scoreboard players set #invj sh 0
+execute unless score #pickr sh matches -2147483648.. run scoreboard players set #pickr sh 0
 forceload add 8 3208 8 3208
 function sh:area
 function sh:lo/init
