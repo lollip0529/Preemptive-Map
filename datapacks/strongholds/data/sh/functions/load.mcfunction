@@ -93,6 +93,7 @@ execute unless score #edit sh matches -2147483648.. run scoreboard players set #
 execute unless score #nav sh matches -2147483648.. run scoreboard players set #nav sh 0
 execute unless score #invj sh matches -2147483648.. run scoreboard players set #invj sh 0
 execute unless score #pickr sh matches -2147483648.. run scoreboard players set #pickr sh 0
+execute unless score #mai sh matches -2147483648.. run scoreboard players set #mai sh 0
 forceload add 8 3208 8 3208
 function sh:area
 function sh:lo/init
