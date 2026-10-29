@@ -1,4 +1,5 @@
-setblock 8 85 3416 air
-setblock 8 85 3432 air
-setblock 8 85 3440 air
-setblock 8 85 3456 air
+scoreboard players set #lc0 sh 0
+scoreboard players set #lc1 sh 0
+scoreboard players set #lc2 sh 0
+scoreboard players set #lc3 sh 0
+function sh:learn/place
