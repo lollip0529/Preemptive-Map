@@ -1,6 +1,7 @@
 scoreboard players enable @a ps
 scoreboard players enable @a seed
 function sh:menu/watch
+function sh:learn/hhb
 execute as @a[scores={sh.egg=1..}] run function sh:egg
 execute as @a[scores={sh.pk.wooden=1..}] at @s run function sh:pick
 execute as @a[scores={sh.pk.stone=1..}] at @s run function sh:pick

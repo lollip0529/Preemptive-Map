@@ -14,17 +14,6 @@ execute if score @s ps matches 26 run function sh:ui/a26
 execute if score @s ps matches 27 run function sh:ui/a27
 execute if score @s ps matches 28 run function sh:ui/a28
 execute if score @s ps matches 29 run function sh:ui/a29
-execute if score @s ps matches 30 run function sh:ui/a30
-execute if score @s ps matches 31 run function sh:ui/a31
-execute if score @s ps matches 32 run function sh:ui/a32
-execute if score @s ps matches 33 run function sh:ui/a33
-execute if score @s ps matches 34 run function sh:ui/a34
-execute if score @s ps matches 35 run function sh:ui/a35
-execute if score @s ps matches 36 run function sh:ui/a36
-execute if score @s ps matches 37 run function sh:ui/a37
-execute if score @s ps matches 38 run function sh:ui/a38
-execute if score @s ps matches 39 run function sh:ui/a39
-execute if score @s ps matches 40 run function sh:ui/a40
 execute if score @s ps matches 49 run function sh:ui/a49
 execute if score @s ps matches 50 run function sh:ui/a50
 execute if score @s ps matches 51 run function sh:ui/a51

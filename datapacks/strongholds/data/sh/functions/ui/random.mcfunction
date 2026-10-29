@@ -31,5 +31,4 @@ execute if predicate sh:coin run scoreboard players add #seed sh 268435456
 execute if predicate sh:coin run scoreboard players add #seed sh 536870912
 execute if predicate sh:coin run scoreboard players add #seed sh 1073741824
 execute if predicate sh:coin run scoreboard players operation #seed sh *= #-1 sh
-function sh:cull/forget
 function sh:generate

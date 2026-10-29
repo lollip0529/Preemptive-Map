@@ -1,5 +1,0 @@
-execute if score #hi sh matches 4094 run data modify storage sh:tmp c set from storage shbank:b l3[4094]
-execute if score #hi sh matches 4095 run data modify storage sh:tmp c set from storage shbank:b l3[4095]
-execute if score #hi sh matches 4096 run data modify storage sh:tmp c set from storage shbank:b l3[4096]
-execute if score #hi sh matches 4097 run data modify storage sh:tmp c set from storage shbank:b l3[4097]
-execute if score #hi sh matches 4098 run data modify storage sh:tmp c set from storage shbank:b l3[4098]

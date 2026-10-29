@@ -1,1 +1,0 @@
-function sh:bank/find
