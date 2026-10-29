@@ -1,0 +1,10 @@
+scoreboard players set #ct0 sh 0
+scoreboard players set #ct1 sh 0
+scoreboard players set #ct2 sh 0
+scoreboard players set #ct3 sh 0
+scoreboard players set #ct4 sh 0
+scoreboard players set #ct5 sh 0
+scoreboard players set #ct6 sh 0
+scoreboard players set #ct7 sh 0
+scoreboard players set #ct8 sh 0
+scoreboard players set #ct9 sh 0
