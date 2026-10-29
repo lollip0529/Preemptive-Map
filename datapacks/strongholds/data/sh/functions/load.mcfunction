@@ -94,6 +94,26 @@ execute unless score #nav sh matches -2147483648.. run scoreboard players set #n
 execute unless score #invj sh matches -2147483648.. run scoreboard players set #invj sh 0
 execute unless score #pickr sh matches -2147483648.. run scoreboard players set #pickr sh 0
 execute unless score #mai sh matches -2147483648.. run scoreboard players set #mai sh 0
+execute unless score #ct0 sh matches -2147483648.. run scoreboard players set #ct0 sh 0
+execute unless score #ct1 sh matches -2147483648.. run scoreboard players set #ct1 sh 0
+execute unless score #ct2 sh matches -2147483648.. run scoreboard players set #ct2 sh 0
+execute unless score #ct3 sh matches -2147483648.. run scoreboard players set #ct3 sh 0
+execute unless score #ct4 sh matches -2147483648.. run scoreboard players set #ct4 sh 0
+execute unless score #ct5 sh matches -2147483648.. run scoreboard players set #ct5 sh 0
+execute unless score #ct6 sh matches -2147483648.. run scoreboard players set #ct6 sh 0
+execute unless score #ct7 sh matches -2147483648.. run scoreboard players set #ct7 sh 0
+execute unless score #ct8 sh matches -2147483648.. run scoreboard players set #ct8 sh 0
+execute unless score #ct9 sh matches -2147483648.. run scoreboard players set #ct9 sh 0
+execute unless score #cb0 sh matches -2147483648.. run scoreboard players set #cb0 sh -1
+execute unless score #cb1 sh matches -2147483648.. run scoreboard players set #cb1 sh -1
+execute unless score #cb2 sh matches -2147483648.. run scoreboard players set #cb2 sh -1
+execute unless score #cb3 sh matches -2147483648.. run scoreboard players set #cb3 sh -1
+execute unless score #cb4 sh matches -2147483648.. run scoreboard players set #cb4 sh -1
+execute unless score #cb5 sh matches -2147483648.. run scoreboard players set #cb5 sh -1
+execute unless score #cb6 sh matches -2147483648.. run scoreboard players set #cb6 sh -1
+execute unless score #cb7 sh matches -2147483648.. run scoreboard players set #cb7 sh -1
+execute unless score #cb8 sh matches -2147483648.. run scoreboard players set #cb8 sh -1
+execute unless score #cb9 sh matches -2147483648.. run scoreboard players set #cb9 sh -1
 forceload add 8 3208 8 3208
 function sh:area
 function sh:lo/init
