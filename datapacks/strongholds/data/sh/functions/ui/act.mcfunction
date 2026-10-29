@@ -13,6 +13,7 @@ execute if score @s ps matches 25 run function sh:ui/a25
 execute if score @s ps matches 26 run function sh:ui/a26
 execute if score @s ps matches 27 run function sh:ui/a27
 execute if score @s ps matches 28 run function sh:ui/a28
+execute if score @s ps matches 29 run function sh:ui/a29
 execute if score @s ps matches 49 run function sh:ui/a49
 execute if score @s ps matches 50 run function sh:ui/a50
 execute if score @s ps matches 51 run function sh:ui/a51

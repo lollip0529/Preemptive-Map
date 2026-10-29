@@ -43,3 +43,4 @@ execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 
 execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:22b}] run function sh:menu/do23
 execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:23b}] run function sh:menu/do27
 execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 3240 Items[{Slot:23b,Count:1b}] run function sh:menu/back27
+execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:25b}] run function sh:menu/do29
