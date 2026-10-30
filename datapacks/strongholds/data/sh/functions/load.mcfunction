@@ -52,6 +52,8 @@ scoreboard players set #lcg sh 1103515245
 scoreboard players set #3 sh 3
 scoreboard players set #5 sh 5
 scoreboard players set #20 sh 20
+execute unless score #hp sh matches -2147483648.. run scoreboard players set #hp sh 0
+execute unless score #food sh matches -2147483648.. run scoreboard players set #food sh 0
 execute unless score #seed sh matches -2147483648.. run scoreboard players set #seed sh 0
 execute unless score #jfront sh matches -2147483648.. run scoreboard players set #jfront sh 0
 execute unless score #jbehind sh matches -2147483648.. run scoreboard players set #jbehind sh 0
