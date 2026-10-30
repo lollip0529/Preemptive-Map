@@ -51,5 +51,9 @@ execute if score @s ps matches 74 run function sh:ui/a74
 execute if score @s ps matches 75 run function sh:ui/a75
 execute if score @s ps matches 76 run function sh:ui/a76
 execute if score @s ps matches 77 run function sh:ui/a77
+execute if score @s ps matches 80 run function sh:ui/a80
+execute if score @s ps matches 81 run function sh:ui/a81
+execute if score @s ps matches 82 run function sh:ui/a82
+execute if score @s ps matches 83 run function sh:ui/a83
 scoreboard players set @s ps 0
 scoreboard players enable @s ps

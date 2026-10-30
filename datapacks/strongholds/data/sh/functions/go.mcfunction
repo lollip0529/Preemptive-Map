@@ -1,3 +1,4 @@
+function sh:rec/start
 gamemode survival @s
 tp @s @e[tag=sh.scan,limit=1]
 effect give @s night_vision 1000000 0 true

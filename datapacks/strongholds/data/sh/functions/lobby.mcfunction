@@ -1,3 +1,4 @@
+execute if score #nav sh matches 1 run function sh:rec/quit
 gamemode adventure @s
 clear @s
 tp @s 8.5 43 3241.5 180 0

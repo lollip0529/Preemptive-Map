@@ -1,0 +1,13 @@
+scoreboard players operation #rmin sh = #rv sh
+scoreboard players operation #rmin sh /= #6000 sh
+scoreboard players operation #rs1 sh = #rv sh
+scoreboard players operation #rs1 sh /= #100 sh
+scoreboard players operation #rs1 sh %= #60 sh
+scoreboard players operation #rs0 sh = #rs1 sh
+scoreboard players operation #rs1 sh /= #10 sh
+scoreboard players operation #rs0 sh %= #10 sh
+scoreboard players operation #rc1 sh = #rv sh
+scoreboard players operation #rc1 sh %= #100 sh
+scoreboard players operation #rc0 sh = #rc1 sh
+scoreboard players operation #rc1 sh /= #10 sh
+scoreboard players operation #rc0 sh %= #10 sh

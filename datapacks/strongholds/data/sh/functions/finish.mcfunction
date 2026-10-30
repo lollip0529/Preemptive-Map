@@ -1,3 +1,4 @@
+execute as @p run function sh:rec/done
 scoreboard players set #nav sh 0
 execute store result score #nt sh run time query gametime
 scoreboard players operation #nt sh -= #nt0 sh
