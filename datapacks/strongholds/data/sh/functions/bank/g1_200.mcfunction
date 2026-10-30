@@ -14,8 +14,8 @@ function sh:bank/roll
 scoreboard players operation #hi sh = #r sh
 scoreboard players operation #hi sh /= #bk sh
 scoreboard players add #hi sh 3830
-scoreboard players operation #lo sh = #r sh
-scoreboard players operation #lo sh %= #bk sh
+scoreboard players operation #bi sh = #r sh
+scoreboard players operation #bi sh %= #bk sh
 function sh:bank/c1
 function sh:bank/walk
 scoreboard players set #found sh 1
