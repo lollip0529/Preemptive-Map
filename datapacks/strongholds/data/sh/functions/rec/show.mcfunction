@@ -4,7 +4,7 @@ data modify storage sh:rec view set value []
 scoreboard players set #ra sh 0
 scoreboard players set #rfin sh 0
 scoreboard players set #rts sh 0
-scoreboard players set #rdeath sh 0
+scoreboard players set #rrs sh 0
 scoreboard players set #rds sh 0
 scoreboard players set #rps sh 0
 execute if data storage sh:rec src[0] run function sh:rec/scan
@@ -38,10 +38,10 @@ data merge block 8 3 3208 {Text1:'["", {"nbt": "al", "storage": "sh:rec", "color
 data modify entity @e[tag=sh.rec.page,limit=1] CustomName set from block 8 3 3208 Text1
 data merge entity @e[tag=sh.rec.page,limit=1] {CustomNameVisible:1b}
 execute if score #rfin sh matches 1.. run function sh:rec/avg
-execute if score #rfin sh matches 1.. run data merge block 8 3 3208 {Text1:'["", {"text": "Avg: ", "color": "light_purple", "bold": true}, {"text": "", "color": "gold", "extra": [{"score": {"name": "#rsec", "objective": "sh"}}, ".", {"score": {"name": "#rc1", "objective": "sh"}}, {"score": {"name": "#rc0", "objective": "sh"}}, "s"]}, {"text": "   \\u2714 ", "color": "green"}, {"score": {"name": "#rfin", "objective": "sh"}, "color": "white"}, {"text": "/", "color": "gray"}, {"score": {"name": "#ra", "objective": "sh"}, "color": "white"}]'}
+execute if score #rfin sh matches 1.. run data merge block 8 3 3208 {Text1:'["", {"text": "Avg: ", "color": "light_purple", "bold": true}, {"text": "", "color": "gold", "extra": [{"score": {"name": "#rsec", "objective": "sh"}}, ".", {"score": {"name": "#rc1", "objective": "sh"}}, {"score": {"name": "#rc0", "objective": "sh"}}, "s"]}, {"text": "  \\u2714 ", "color": "green"}, {"score": {"name": "#rfin", "objective": "sh"}, "color": "white"}, {"text": "/", "color": "gray"}, {"score": {"name": "#ra", "objective": "sh"}, "color": "white"}]'}
 execute if score #rfin sh matches 1.. run data modify entity @e[tag=sh.rec.avg,limit=1] CustomName set from block 8 3 3208 Text1
 execute if score #rfin sh matches 1.. run data merge entity @e[tag=sh.rec.avg,limit=1] {CustomNameVisible:1b}
-execute if score #rfin sh matches 0 run data merge block 8 3 3208 {Text1:'["", {"text": "Avg: ", "color": "light_purple", "bold": true}, {"text": "--", "color": "gold"}, {"text": "   \\u2714 ", "color": "green"}, {"score": {"name": "#rfin", "objective": "sh"}, "color": "white"}, {"text": "/", "color": "gray"}, {"score": {"name": "#ra", "objective": "sh"}, "color": "white"}]'}
+execute if score #rfin sh matches 0 run data merge block 8 3 3208 {Text1:'["", {"text": "Avg: ", "color": "light_purple", "bold": true}, {"text": "--", "color": "gold"}, {"text": "  \\u2714 ", "color": "green"}, {"score": {"name": "#rfin", "objective": "sh"}, "color": "white"}, {"text": "/", "color": "gray"}, {"score": {"name": "#ra", "objective": "sh"}, "color": "white"}]'}
 execute if score #rfin sh matches 0 run data modify entity @e[tag=sh.rec.avg,limit=1] CustomName set from block 8 3 3208 Text1
 execute if score #rfin sh matches 0 run data merge entity @e[tag=sh.rec.avg,limit=1] {CustomNameVisible:1b}
 execute if score #ra sh matches 1.. run function sh:rec/sum

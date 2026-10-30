@@ -1,8 +1,8 @@
 execute if score #nav sh matches 1 run function sh:rec/quit
 scoreboard players set @s sh.dmg 0
-scoreboard players set @s sh.res 0
 scoreboard players set @s sh.pearl 0
 scoreboard players set #rc sh -1
+scoreboard players set #rr sh 0
 execute if score #cb0 sh matches 0.. run scoreboard players set #rc sh 0
 execute if score #cb0 sh matches 1 run scoreboard players add #rc sh 1
 execute if score #cb1 sh matches 1 run scoreboard players add #rc sh 2

@@ -12,7 +12,7 @@ execute as @a[scores={sh.pk.iron=1..}] at @s run function sh:pick
 execute as @a[scores={sh.pk.golden=1..}] at @s run function sh:pick
 execute as @a[scores={sh.pk.diamond=1..}] at @s run function sh:pick
 execute as @a[scores={sh.pk.netherite=1..}] at @s run function sh:pick
-execute as @e[type=player,scores={sh.die=1..}] run function sh:lobby
+execute as @e[type=player,scores={sh.die=1..}] run function sh:died
 execute if score #nav sh matches 1 at @e[tag=sh.mark] if block ~0 ~ ~4 end_portal run function sh:finish
 execute if score #nav sh matches 1 at @e[tag=sh.mark] if block ~0 ~ ~-4 end_portal run function sh:finish
 execute if score #nav sh matches 1 at @e[tag=sh.mark] if block ~4 ~ ~0 end_portal run function sh:finish

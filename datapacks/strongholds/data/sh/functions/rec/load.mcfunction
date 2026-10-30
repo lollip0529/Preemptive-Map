@@ -1,5 +1,4 @@
 scoreboard objectives add sh.dmg minecraft.custom:minecraft.damage_taken
-scoreboard objectives add sh.res minecraft.custom:minecraft.damage_resisted
 scoreboard objectives add sh.pearl minecraft.used:minecraft.ender_pearl
 scoreboard players set #10 sh 10
 scoreboard players set #rpp sh 4
