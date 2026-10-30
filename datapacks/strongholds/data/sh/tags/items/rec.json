@@ -2,6 +2,16 @@
   "values": [
     "minecraft:arrow",
     "minecraft:tnt",
-    "minecraft:spawner"
+    "minecraft:spawner",
+    "minecraft:end_rod",
+    "minecraft:map",
+    "minecraft:compass",
+    "minecraft:ladder",
+    "minecraft:rail",
+    "minecraft:glass_bottle",
+    "minecraft:stone_bricks",
+    "minecraft:iron_bars",
+    "minecraft:ender_eye",
+    "minecraft:phantom_membrane"
   ]
 }
