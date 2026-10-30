@@ -9,7 +9,7 @@ scoreboard players set #cb6 sh 0
 scoreboard players set #cb7 sh 0
 scoreboard players set #cb8 sh 0
 scoreboard players set #cb9 sh 0
-scoreboard players set #bound sh 149983
+scoreboard players set #bound sh 146575
 function sh:bank/roll
 scoreboard players operation #hi sh = #r sh
 scoreboard players operation #hi sh /= #bk sh

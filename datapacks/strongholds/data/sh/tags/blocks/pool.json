@@ -1,0 +1,30 @@
+{
+  "values": [
+    "minecraft:andesite",
+    "minecraft:bedrock",
+    "minecraft:cave_air",
+    "minecraft:chest",
+    "minecraft:coal_ore",
+    "minecraft:cobblestone",
+    "minecraft:cobweb",
+    "minecraft:diamond_ore",
+    "minecraft:diorite",
+    "minecraft:dirt",
+    "minecraft:gold_ore",
+    "minecraft:granite",
+    "minecraft:grass_block",
+    "minecraft:gravel",
+    "minecraft:iron_ore",
+    "minecraft:lapis_ore",
+    "minecraft:lava",
+    "minecraft:mossy_cobblestone",
+    "minecraft:moving_piston",
+    "minecraft:oak_fence",
+    "minecraft:oak_planks",
+    "minecraft:rail",
+    "minecraft:redstone_ore",
+    "minecraft:spawner",
+    "minecraft:wall_torch",
+    "minecraft:water"
+  ]
+}

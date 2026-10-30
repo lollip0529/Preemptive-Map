@@ -1,0 +1,16 @@
+execute if score @s sh.v matches 0 run function sh:sea/p/1/3_0
+execute if score @s sh.v matches 1 run function sh:sea/p/1/3_1
+execute if score @s sh.v matches 2 run function sh:sea/p/1/3_2
+execute if score @s sh.v matches 3 run function sh:sea/p/1/3_3
+execute if score @s sh.v matches 4 run function sh:sea/p/1/3_4
+execute if score @s sh.v matches 5 run function sh:sea/p/1/3_5
+execute if score @s sh.v matches 6 run function sh:sea/p/1/3_6
+execute if score @s sh.v matches 7 run function sh:sea/p/1/3_7
+execute if score @s sh.v matches 8 run function sh:sea/p/1/3_8
+execute if score @s sh.v matches 9 run function sh:sea/p/1/3_9
+execute if score @s sh.v matches 10 run function sh:sea/p/1/3_10
+execute if score @s sh.v matches 11 run function sh:sea/p/1/3_11
+execute if score @s sh.v matches 12 run function sh:sea/p/1/3_12
+execute if score @s sh.v matches 13 run function sh:sea/p/1/3_13
+execute if score @s sh.v matches 14 run function sh:sea/p/1/3_14
+execute if score @s sh.v matches 15 run function sh:sea/p/1/3_15

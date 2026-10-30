@@ -1,0 +1,11 @@
+execute if score #pn sh matches 1 run function sh:cave/fix0_1
+execute if score #pn sh matches 2 run function sh:cave/fix0_2
+execute if score #pn sh matches 3 run function sh:cave/fix1_0
+execute if score #pn sh matches 4 run function sh:cave/fix1_1
+execute if score #pn sh matches 5 run function sh:cave/fix1_2
+execute if score #pn sh matches 6 run function sh:cave/fix2_0
+execute if score #pn sh matches 7 run function sh:cave/fix2_1
+execute if score #pn sh matches 8 run function sh:cave/fix2_2
+execute if score #pn sh matches 9 run function sh:cave/fix3_0
+execute if score #pn sh matches 10 run function sh:cave/fix3_1
+execute if score #pn sh matches 11 run function sh:cave/fix3_2

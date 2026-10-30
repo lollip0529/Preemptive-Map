@@ -20,4 +20,4 @@ function sh:gen/hit
 execute store result entity @e[tag=sh.at,limit=1] Pos[0] double 1 run scoreboard players get #jx sh
 execute store result entity @e[tag=sh.at,limit=1] Pos[1] double 1 run scoreboard players get #jy sh
 execute store result entity @e[tag=sh.at,limit=1] Pos[2] double 1 run scoreboard players get #jz sh
-execute at @e[tag=sh.at] unless block ~ ~ ~ stone unless block ~ ~ ~ air unless block ~ ~ ~ cave_air run scoreboard players set #hit sh 1
+execute at @e[tag=sh.at] unless block ~ ~ ~ #sh:natural run scoreboard players set #hit sh 1

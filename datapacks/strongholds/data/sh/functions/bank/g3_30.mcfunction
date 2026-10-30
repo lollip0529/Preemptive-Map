@@ -9,11 +9,11 @@ scoreboard players set #cb6 sh 0
 scoreboard players set #cb7 sh 0
 scoreboard players set #cb8 sh 0
 scoreboard players set #cb9 sh 0
-scoreboard players set #bound sh 695
+scoreboard players set #bound sh 1066
 function sh:bank/roll
 scoreboard players operation #hi sh = #r sh
 scoreboard players operation #hi sh /= #bk sh
-scoreboard players add #hi sh 863
+scoreboard players add #hi sh 891
 scoreboard players operation #bi sh = #r sh
 scoreboard players operation #bi sh %= #bk sh
 function sh:bank/c3

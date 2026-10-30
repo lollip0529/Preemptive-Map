@@ -73,3 +73,4 @@ execute if score #hi sh matches 71 run data modify storage sh:tmp c set from sto
 execute if score #hi sh matches 72 run data modify storage sh:tmp c set from storage shbank:b l1[72]
 execute if score #hi sh matches 73 run data modify storage sh:tmp c set from storage shbank:b l1[73]
 execute if score #hi sh matches 74 run data modify storage sh:tmp c set from storage shbank:b l1[74]
+execute if score #hi sh matches 75 run data modify storage sh:tmp c set from storage shbank:b l1[75]

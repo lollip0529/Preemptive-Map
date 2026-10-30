@@ -1,0 +1,22 @@
+{
+  "values": [
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:moving_piston",
+    "minecraft:stone_bricks",
+    "minecraft:mossy_stone_bricks",
+    "minecraft:cracked_stone_bricks",
+    "minecraft:infested_stone_bricks",
+    "minecraft:cobblestone",
+    "minecraft:mossy_cobblestone",
+    "minecraft:bookshelf",
+    "minecraft:oak_planks",
+    "minecraft:oak_door",
+    "minecraft:iron_door",
+    "minecraft:end_portal_frame",
+    "minecraft:end_portal",
+    "minecraft:spawner",
+    "minecraft:stone",
+    "minecraft:end_stone"
+  ]
+}

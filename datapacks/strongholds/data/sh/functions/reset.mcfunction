@@ -1,580 +1,290 @@
 kill @e[type=!player,type=!area_effect_cloud,tag=!sh.lmob]
-kill @e[tag=sh.worm]
-execute if score #terrain sh matches 0 run fill -128 1 -128 -113 62 -113 stone
-execute if score #terrain sh matches 1 run fill -128 1 -128 -113 62 -113 air
-execute if score #terrain sh matches 0 run fill -128 1 -112 -113 62 -97 stone
-execute if score #terrain sh matches 1 run fill -128 1 -112 -113 62 -97 air
-execute if score #terrain sh matches 0 run fill -128 1 -96 -113 62 -81 stone
-execute if score #terrain sh matches 1 run fill -128 1 -96 -113 62 -81 air
-execute if score #terrain sh matches 0 run fill -128 1 -80 -113 62 -65 stone
-execute if score #terrain sh matches 1 run fill -128 1 -80 -113 62 -65 air
-execute if score #terrain sh matches 0 run fill -128 1 -64 -113 62 -49 stone
-execute if score #terrain sh matches 1 run fill -128 1 -64 -113 62 -49 air
-execute if score #terrain sh matches 0 run fill -128 1 -48 -113 62 -33 stone
-execute if score #terrain sh matches 1 run fill -128 1 -48 -113 62 -33 air
-execute if score #terrain sh matches 0 run fill -128 1 -32 -113 62 -17 stone
-execute if score #terrain sh matches 1 run fill -128 1 -32 -113 62 -17 air
-execute if score #terrain sh matches 0 run fill -128 1 -16 -113 62 -1 stone
-execute if score #terrain sh matches 1 run fill -128 1 -16 -113 62 -1 air
-execute if score #terrain sh matches 0 run fill -128 1 0 -113 62 15 stone
-execute if score #terrain sh matches 1 run fill -128 1 0 -113 62 15 air
-execute if score #terrain sh matches 0 run fill -128 1 16 -113 62 31 stone
-execute if score #terrain sh matches 1 run fill -128 1 16 -113 62 31 air
-execute if score #terrain sh matches 0 run fill -128 1 32 -113 62 47 stone
-execute if score #terrain sh matches 1 run fill -128 1 32 -113 62 47 air
-execute if score #terrain sh matches 0 run fill -128 1 48 -113 62 63 stone
-execute if score #terrain sh matches 1 run fill -128 1 48 -113 62 63 air
-execute if score #terrain sh matches 0 run fill -128 1 64 -113 62 79 stone
-execute if score #terrain sh matches 1 run fill -128 1 64 -113 62 79 air
-execute if score #terrain sh matches 0 run fill -128 1 80 -113 62 95 stone
-execute if score #terrain sh matches 1 run fill -128 1 80 -113 62 95 air
-execute if score #terrain sh matches 0 run fill -128 1 96 -113 62 111 stone
-execute if score #terrain sh matches 1 run fill -128 1 96 -113 62 111 air
-execute if score #terrain sh matches 0 run fill -128 1 112 -113 62 127 stone
-execute if score #terrain sh matches 1 run fill -128 1 112 -113 62 127 air
-execute if score #terrain sh matches 0 run fill -128 1 128 -113 62 143 stone
-execute if score #terrain sh matches 1 run fill -128 1 128 -113 62 143 air
-execute if score #terrain sh matches 0 run fill -112 1 -128 -97 62 -113 stone
-execute if score #terrain sh matches 1 run fill -112 1 -128 -97 62 -113 air
-execute if score #terrain sh matches 0 run fill -112 1 -112 -97 62 -97 stone
-execute if score #terrain sh matches 1 run fill -112 1 -112 -97 62 -97 air
-execute if score #terrain sh matches 0 run fill -112 1 -96 -97 62 -81 stone
-execute if score #terrain sh matches 1 run fill -112 1 -96 -97 62 -81 air
-execute if score #terrain sh matches 0 run fill -112 1 -80 -97 62 -65 stone
-execute if score #terrain sh matches 1 run fill -112 1 -80 -97 62 -65 air
-execute if score #terrain sh matches 0 run fill -112 1 -64 -97 62 -49 stone
-execute if score #terrain sh matches 1 run fill -112 1 -64 -97 62 -49 air
-execute if score #terrain sh matches 0 run fill -112 1 -48 -97 62 -33 stone
-execute if score #terrain sh matches 1 run fill -112 1 -48 -97 62 -33 air
-execute if score #terrain sh matches 0 run fill -112 1 -32 -97 62 -17 stone
-execute if score #terrain sh matches 1 run fill -112 1 -32 -97 62 -17 air
-execute if score #terrain sh matches 0 run fill -112 1 -16 -97 62 -1 stone
-execute if score #terrain sh matches 1 run fill -112 1 -16 -97 62 -1 air
-execute if score #terrain sh matches 0 run fill -112 1 0 -97 62 15 stone
-execute if score #terrain sh matches 1 run fill -112 1 0 -97 62 15 air
-execute if score #terrain sh matches 0 run fill -112 1 16 -97 62 31 stone
-execute if score #terrain sh matches 1 run fill -112 1 16 -97 62 31 air
-execute if score #terrain sh matches 0 run fill -112 1 32 -97 62 47 stone
-execute if score #terrain sh matches 1 run fill -112 1 32 -97 62 47 air
-execute if score #terrain sh matches 0 run fill -112 1 48 -97 62 63 stone
-execute if score #terrain sh matches 1 run fill -112 1 48 -97 62 63 air
-execute if score #terrain sh matches 0 run fill -112 1 64 -97 62 79 stone
-execute if score #terrain sh matches 1 run fill -112 1 64 -97 62 79 air
-execute if score #terrain sh matches 0 run fill -112 1 80 -97 62 95 stone
-execute if score #terrain sh matches 1 run fill -112 1 80 -97 62 95 air
-execute if score #terrain sh matches 0 run fill -112 1 96 -97 62 111 stone
-execute if score #terrain sh matches 1 run fill -112 1 96 -97 62 111 air
-execute if score #terrain sh matches 0 run fill -112 1 112 -97 62 127 stone
-execute if score #terrain sh matches 1 run fill -112 1 112 -97 62 127 air
-execute if score #terrain sh matches 0 run fill -112 1 128 -97 62 143 stone
-execute if score #terrain sh matches 1 run fill -112 1 128 -97 62 143 air
-execute if score #terrain sh matches 0 run fill -96 1 -128 -81 62 -113 stone
-execute if score #terrain sh matches 1 run fill -96 1 -128 -81 62 -113 air
-execute if score #terrain sh matches 0 run fill -96 1 -112 -81 62 -97 stone
-execute if score #terrain sh matches 1 run fill -96 1 -112 -81 62 -97 air
-execute if score #terrain sh matches 0 run fill -96 1 -96 -81 62 -81 stone
-execute if score #terrain sh matches 1 run fill -96 1 -96 -81 62 -81 air
-execute if score #terrain sh matches 0 run fill -96 1 -80 -81 62 -65 stone
-execute if score #terrain sh matches 1 run fill -96 1 -80 -81 62 -65 air
-execute if score #terrain sh matches 0 run fill -96 1 -64 -81 62 -49 stone
-execute if score #terrain sh matches 1 run fill -96 1 -64 -81 62 -49 air
-execute if score #terrain sh matches 0 run fill -96 1 -48 -81 62 -33 stone
-execute if score #terrain sh matches 1 run fill -96 1 -48 -81 62 -33 air
-execute if score #terrain sh matches 0 run fill -96 1 -32 -81 62 -17 stone
-execute if score #terrain sh matches 1 run fill -96 1 -32 -81 62 -17 air
-execute if score #terrain sh matches 0 run fill -96 1 -16 -81 62 -1 stone
-execute if score #terrain sh matches 1 run fill -96 1 -16 -81 62 -1 air
-execute if score #terrain sh matches 0 run fill -96 1 0 -81 62 15 stone
-execute if score #terrain sh matches 1 run fill -96 1 0 -81 62 15 air
-execute if score #terrain sh matches 0 run fill -96 1 16 -81 62 31 stone
-execute if score #terrain sh matches 1 run fill -96 1 16 -81 62 31 air
-execute if score #terrain sh matches 0 run fill -96 1 32 -81 62 47 stone
-execute if score #terrain sh matches 1 run fill -96 1 32 -81 62 47 air
-execute if score #terrain sh matches 0 run fill -96 1 48 -81 62 63 stone
-execute if score #terrain sh matches 1 run fill -96 1 48 -81 62 63 air
-execute if score #terrain sh matches 0 run fill -96 1 64 -81 62 79 stone
-execute if score #terrain sh matches 1 run fill -96 1 64 -81 62 79 air
-execute if score #terrain sh matches 0 run fill -96 1 80 -81 62 95 stone
-execute if score #terrain sh matches 1 run fill -96 1 80 -81 62 95 air
-execute if score #terrain sh matches 0 run fill -96 1 96 -81 62 111 stone
-execute if score #terrain sh matches 1 run fill -96 1 96 -81 62 111 air
-execute if score #terrain sh matches 0 run fill -96 1 112 -81 62 127 stone
-execute if score #terrain sh matches 1 run fill -96 1 112 -81 62 127 air
-execute if score #terrain sh matches 0 run fill -96 1 128 -81 62 143 stone
-execute if score #terrain sh matches 1 run fill -96 1 128 -81 62 143 air
-execute if score #terrain sh matches 0 run fill -80 1 -128 -65 62 -113 stone
-execute if score #terrain sh matches 1 run fill -80 1 -128 -65 62 -113 air
-execute if score #terrain sh matches 0 run fill -80 1 -112 -65 62 -97 stone
-execute if score #terrain sh matches 1 run fill -80 1 -112 -65 62 -97 air
-execute if score #terrain sh matches 0 run fill -80 1 -96 -65 62 -81 stone
-execute if score #terrain sh matches 1 run fill -80 1 -96 -65 62 -81 air
-execute if score #terrain sh matches 0 run fill -80 1 -80 -65 62 -65 stone
-execute if score #terrain sh matches 1 run fill -80 1 -80 -65 62 -65 air
-execute if score #terrain sh matches 0 run fill -80 1 -64 -65 62 -49 stone
-execute if score #terrain sh matches 1 run fill -80 1 -64 -65 62 -49 air
-execute if score #terrain sh matches 0 run fill -80 1 -48 -65 62 -33 stone
-execute if score #terrain sh matches 1 run fill -80 1 -48 -65 62 -33 air
-execute if score #terrain sh matches 0 run fill -80 1 -32 -65 62 -17 stone
-execute if score #terrain sh matches 1 run fill -80 1 -32 -65 62 -17 air
-execute if score #terrain sh matches 0 run fill -80 1 -16 -65 62 -1 stone
-execute if score #terrain sh matches 1 run fill -80 1 -16 -65 62 -1 air
-execute if score #terrain sh matches 0 run fill -80 1 0 -65 62 15 stone
-execute if score #terrain sh matches 1 run fill -80 1 0 -65 62 15 air
-execute if score #terrain sh matches 0 run fill -80 1 16 -65 62 31 stone
-execute if score #terrain sh matches 1 run fill -80 1 16 -65 62 31 air
-execute if score #terrain sh matches 0 run fill -80 1 32 -65 62 47 stone
-execute if score #terrain sh matches 1 run fill -80 1 32 -65 62 47 air
-execute if score #terrain sh matches 0 run fill -80 1 48 -65 62 63 stone
-execute if score #terrain sh matches 1 run fill -80 1 48 -65 62 63 air
-execute if score #terrain sh matches 0 run fill -80 1 64 -65 62 79 stone
-execute if score #terrain sh matches 1 run fill -80 1 64 -65 62 79 air
-execute if score #terrain sh matches 0 run fill -80 1 80 -65 62 95 stone
-execute if score #terrain sh matches 1 run fill -80 1 80 -65 62 95 air
-execute if score #terrain sh matches 0 run fill -80 1 96 -65 62 111 stone
-execute if score #terrain sh matches 1 run fill -80 1 96 -65 62 111 air
-execute if score #terrain sh matches 0 run fill -80 1 112 -65 62 127 stone
-execute if score #terrain sh matches 1 run fill -80 1 112 -65 62 127 air
-execute if score #terrain sh matches 0 run fill -80 1 128 -65 62 143 stone
-execute if score #terrain sh matches 1 run fill -80 1 128 -65 62 143 air
-execute if score #terrain sh matches 0 run fill -64 1 -128 -49 62 -113 stone
-execute if score #terrain sh matches 1 run fill -64 1 -128 -49 62 -113 air
-execute if score #terrain sh matches 0 run fill -64 1 -112 -49 62 -97 stone
-execute if score #terrain sh matches 1 run fill -64 1 -112 -49 62 -97 air
-execute if score #terrain sh matches 0 run fill -64 1 -96 -49 62 -81 stone
-execute if score #terrain sh matches 1 run fill -64 1 -96 -49 62 -81 air
-execute if score #terrain sh matches 0 run fill -64 1 -80 -49 62 -65 stone
-execute if score #terrain sh matches 1 run fill -64 1 -80 -49 62 -65 air
-execute if score #terrain sh matches 0 run fill -64 1 -64 -49 62 -49 stone
-execute if score #terrain sh matches 1 run fill -64 1 -64 -49 62 -49 air
-execute if score #terrain sh matches 0 run fill -64 1 -48 -49 62 -33 stone
-execute if score #terrain sh matches 1 run fill -64 1 -48 -49 62 -33 air
-execute if score #terrain sh matches 0 run fill -64 1 -32 -49 62 -17 stone
-execute if score #terrain sh matches 1 run fill -64 1 -32 -49 62 -17 air
-execute if score #terrain sh matches 0 run fill -64 1 -16 -49 62 -1 stone
-execute if score #terrain sh matches 1 run fill -64 1 -16 -49 62 -1 air
-execute if score #terrain sh matches 0 run fill -64 1 0 -49 62 15 stone
-execute if score #terrain sh matches 1 run fill -64 1 0 -49 62 15 air
-execute if score #terrain sh matches 0 run fill -64 1 16 -49 62 31 stone
-execute if score #terrain sh matches 1 run fill -64 1 16 -49 62 31 air
-execute if score #terrain sh matches 0 run fill -64 1 32 -49 62 47 stone
-execute if score #terrain sh matches 1 run fill -64 1 32 -49 62 47 air
-execute if score #terrain sh matches 0 run fill -64 1 48 -49 62 63 stone
-execute if score #terrain sh matches 1 run fill -64 1 48 -49 62 63 air
-execute if score #terrain sh matches 0 run fill -64 1 64 -49 62 79 stone
-execute if score #terrain sh matches 1 run fill -64 1 64 -49 62 79 air
-execute if score #terrain sh matches 0 run fill -64 1 80 -49 62 95 stone
-execute if score #terrain sh matches 1 run fill -64 1 80 -49 62 95 air
-execute if score #terrain sh matches 0 run fill -64 1 96 -49 62 111 stone
-execute if score #terrain sh matches 1 run fill -64 1 96 -49 62 111 air
-execute if score #terrain sh matches 0 run fill -64 1 112 -49 62 127 stone
-execute if score #terrain sh matches 1 run fill -64 1 112 -49 62 127 air
-execute if score #terrain sh matches 0 run fill -64 1 128 -49 62 143 stone
-execute if score #terrain sh matches 1 run fill -64 1 128 -49 62 143 air
-execute if score #terrain sh matches 0 run fill -48 1 -128 -33 62 -113 stone
-execute if score #terrain sh matches 1 run fill -48 1 -128 -33 62 -113 air
-execute if score #terrain sh matches 0 run fill -48 1 -112 -33 62 -97 stone
-execute if score #terrain sh matches 1 run fill -48 1 -112 -33 62 -97 air
-execute if score #terrain sh matches 0 run fill -48 1 -96 -33 62 -81 stone
-execute if score #terrain sh matches 1 run fill -48 1 -96 -33 62 -81 air
-execute if score #terrain sh matches 0 run fill -48 1 -80 -33 62 -65 stone
-execute if score #terrain sh matches 1 run fill -48 1 -80 -33 62 -65 air
-execute if score #terrain sh matches 0 run fill -48 1 -64 -33 62 -49 stone
-execute if score #terrain sh matches 1 run fill -48 1 -64 -33 62 -49 air
-execute if score #terrain sh matches 0 run fill -48 1 -48 -33 62 -33 stone
-execute if score #terrain sh matches 1 run fill -48 1 -48 -33 62 -33 air
-execute if score #terrain sh matches 0 run fill -48 1 -32 -33 62 -17 stone
-execute if score #terrain sh matches 1 run fill -48 1 -32 -33 62 -17 air
-execute if score #terrain sh matches 0 run fill -48 1 -16 -33 62 -1 stone
-execute if score #terrain sh matches 1 run fill -48 1 -16 -33 62 -1 air
-execute if score #terrain sh matches 0 run fill -48 1 0 -33 62 15 stone
-execute if score #terrain sh matches 1 run fill -48 1 0 -33 62 15 air
-execute if score #terrain sh matches 0 run fill -48 1 16 -33 62 31 stone
-execute if score #terrain sh matches 1 run fill -48 1 16 -33 62 31 air
-execute if score #terrain sh matches 0 run fill -48 1 32 -33 62 47 stone
-execute if score #terrain sh matches 1 run fill -48 1 32 -33 62 47 air
-execute if score #terrain sh matches 0 run fill -48 1 48 -33 62 63 stone
-execute if score #terrain sh matches 1 run fill -48 1 48 -33 62 63 air
-execute if score #terrain sh matches 0 run fill -48 1 64 -33 62 79 stone
-execute if score #terrain sh matches 1 run fill -48 1 64 -33 62 79 air
-execute if score #terrain sh matches 0 run fill -48 1 80 -33 62 95 stone
-execute if score #terrain sh matches 1 run fill -48 1 80 -33 62 95 air
-execute if score #terrain sh matches 0 run fill -48 1 96 -33 62 111 stone
-execute if score #terrain sh matches 1 run fill -48 1 96 -33 62 111 air
-execute if score #terrain sh matches 0 run fill -48 1 112 -33 62 127 stone
-execute if score #terrain sh matches 1 run fill -48 1 112 -33 62 127 air
-execute if score #terrain sh matches 0 run fill -48 1 128 -33 62 143 stone
-execute if score #terrain sh matches 1 run fill -48 1 128 -33 62 143 air
-execute if score #terrain sh matches 0 run fill -32 1 -128 -17 62 -113 stone
-execute if score #terrain sh matches 1 run fill -32 1 -128 -17 62 -113 air
-execute if score #terrain sh matches 0 run fill -32 1 -112 -17 62 -97 stone
-execute if score #terrain sh matches 1 run fill -32 1 -112 -17 62 -97 air
-execute if score #terrain sh matches 0 run fill -32 1 -96 -17 62 -81 stone
-execute if score #terrain sh matches 1 run fill -32 1 -96 -17 62 -81 air
-execute if score #terrain sh matches 0 run fill -32 1 -80 -17 62 -65 stone
-execute if score #terrain sh matches 1 run fill -32 1 -80 -17 62 -65 air
-execute if score #terrain sh matches 0 run fill -32 1 -64 -17 62 -49 stone
-execute if score #terrain sh matches 1 run fill -32 1 -64 -17 62 -49 air
-execute if score #terrain sh matches 0 run fill -32 1 -48 -17 62 -33 stone
-execute if score #terrain sh matches 1 run fill -32 1 -48 -17 62 -33 air
-execute if score #terrain sh matches 0 run fill -32 1 -32 -17 62 -17 stone
-execute if score #terrain sh matches 1 run fill -32 1 -32 -17 62 -17 air
-execute if score #terrain sh matches 0 run fill -32 1 -16 -17 62 -1 stone
-execute if score #terrain sh matches 1 run fill -32 1 -16 -17 62 -1 air
-execute if score #terrain sh matches 0 run fill -32 1 0 -17 62 15 stone
-execute if score #terrain sh matches 1 run fill -32 1 0 -17 62 15 air
-execute if score #terrain sh matches 0 run fill -32 1 16 -17 62 31 stone
-execute if score #terrain sh matches 1 run fill -32 1 16 -17 62 31 air
-execute if score #terrain sh matches 0 run fill -32 1 32 -17 62 47 stone
-execute if score #terrain sh matches 1 run fill -32 1 32 -17 62 47 air
-execute if score #terrain sh matches 0 run fill -32 1 48 -17 62 63 stone
-execute if score #terrain sh matches 1 run fill -32 1 48 -17 62 63 air
-execute if score #terrain sh matches 0 run fill -32 1 64 -17 62 79 stone
-execute if score #terrain sh matches 1 run fill -32 1 64 -17 62 79 air
-execute if score #terrain sh matches 0 run fill -32 1 80 -17 62 95 stone
-execute if score #terrain sh matches 1 run fill -32 1 80 -17 62 95 air
-execute if score #terrain sh matches 0 run fill -32 1 96 -17 62 111 stone
-execute if score #terrain sh matches 1 run fill -32 1 96 -17 62 111 air
-execute if score #terrain sh matches 0 run fill -32 1 112 -17 62 127 stone
-execute if score #terrain sh matches 1 run fill -32 1 112 -17 62 127 air
-execute if score #terrain sh matches 0 run fill -32 1 128 -17 62 143 stone
-execute if score #terrain sh matches 1 run fill -32 1 128 -17 62 143 air
-execute if score #terrain sh matches 0 run fill -16 1 -128 -1 62 -113 stone
-execute if score #terrain sh matches 1 run fill -16 1 -128 -1 62 -113 air
-execute if score #terrain sh matches 0 run fill -16 1 -112 -1 62 -97 stone
-execute if score #terrain sh matches 1 run fill -16 1 -112 -1 62 -97 air
-execute if score #terrain sh matches 0 run fill -16 1 -96 -1 62 -81 stone
-execute if score #terrain sh matches 1 run fill -16 1 -96 -1 62 -81 air
-execute if score #terrain sh matches 0 run fill -16 1 -80 -1 62 -65 stone
-execute if score #terrain sh matches 1 run fill -16 1 -80 -1 62 -65 air
-execute if score #terrain sh matches 0 run fill -16 1 -64 -1 62 -49 stone
-execute if score #terrain sh matches 1 run fill -16 1 -64 -1 62 -49 air
-execute if score #terrain sh matches 0 run fill -16 1 -48 -1 62 -33 stone
-execute if score #terrain sh matches 1 run fill -16 1 -48 -1 62 -33 air
-execute if score #terrain sh matches 0 run fill -16 1 -32 -1 62 -17 stone
-execute if score #terrain sh matches 1 run fill -16 1 -32 -1 62 -17 air
-execute if score #terrain sh matches 0 run fill -16 1 -16 -1 62 -1 stone
-execute if score #terrain sh matches 1 run fill -16 1 -16 -1 62 -1 air
-execute if score #terrain sh matches 0 run fill -16 1 0 -1 62 15 stone
-execute if score #terrain sh matches 1 run fill -16 1 0 -1 62 15 air
-execute if score #terrain sh matches 0 run fill -16 1 16 -1 62 31 stone
-execute if score #terrain sh matches 1 run fill -16 1 16 -1 62 31 air
-execute if score #terrain sh matches 0 run fill -16 1 32 -1 62 47 stone
-execute if score #terrain sh matches 1 run fill -16 1 32 -1 62 47 air
-execute if score #terrain sh matches 0 run fill -16 1 48 -1 62 63 stone
-execute if score #terrain sh matches 1 run fill -16 1 48 -1 62 63 air
-execute if score #terrain sh matches 0 run fill -16 1 64 -1 62 79 stone
-execute if score #terrain sh matches 1 run fill -16 1 64 -1 62 79 air
-execute if score #terrain sh matches 0 run fill -16 1 80 -1 62 95 stone
-execute if score #terrain sh matches 1 run fill -16 1 80 -1 62 95 air
-execute if score #terrain sh matches 0 run fill -16 1 96 -1 62 111 stone
-execute if score #terrain sh matches 1 run fill -16 1 96 -1 62 111 air
-execute if score #terrain sh matches 0 run fill -16 1 112 -1 62 127 stone
-execute if score #terrain sh matches 1 run fill -16 1 112 -1 62 127 air
-execute if score #terrain sh matches 0 run fill -16 1 128 -1 62 143 stone
-execute if score #terrain sh matches 1 run fill -16 1 128 -1 62 143 air
-execute if score #terrain sh matches 0 run fill 0 1 -128 15 62 -113 stone
-execute if score #terrain sh matches 1 run fill 0 1 -128 15 62 -113 air
-execute if score #terrain sh matches 0 run fill 0 1 -112 15 62 -97 stone
-execute if score #terrain sh matches 1 run fill 0 1 -112 15 62 -97 air
-execute if score #terrain sh matches 0 run fill 0 1 -96 15 62 -81 stone
-execute if score #terrain sh matches 1 run fill 0 1 -96 15 62 -81 air
-execute if score #terrain sh matches 0 run fill 0 1 -80 15 62 -65 stone
-execute if score #terrain sh matches 1 run fill 0 1 -80 15 62 -65 air
-execute if score #terrain sh matches 0 run fill 0 1 -64 15 62 -49 stone
-execute if score #terrain sh matches 1 run fill 0 1 -64 15 62 -49 air
-execute if score #terrain sh matches 0 run fill 0 1 -48 15 62 -33 stone
-execute if score #terrain sh matches 1 run fill 0 1 -48 15 62 -33 air
-execute if score #terrain sh matches 0 run fill 0 1 -32 15 62 -17 stone
-execute if score #terrain sh matches 1 run fill 0 1 -32 15 62 -17 air
-execute if score #terrain sh matches 0 run fill 0 1 -16 15 62 -1 stone
-execute if score #terrain sh matches 1 run fill 0 1 -16 15 62 -1 air
-execute if score #terrain sh matches 0 run fill 0 1 0 15 62 15 stone
-execute if score #terrain sh matches 1 run fill 0 1 0 15 62 15 air
-execute if score #terrain sh matches 0 run fill 0 1 16 15 62 31 stone
-execute if score #terrain sh matches 1 run fill 0 1 16 15 62 31 air
-execute if score #terrain sh matches 0 run fill 0 1 32 15 62 47 stone
-execute if score #terrain sh matches 1 run fill 0 1 32 15 62 47 air
-execute if score #terrain sh matches 0 run fill 0 1 48 15 62 63 stone
-execute if score #terrain sh matches 1 run fill 0 1 48 15 62 63 air
-execute if score #terrain sh matches 0 run fill 0 1 64 15 62 79 stone
-execute if score #terrain sh matches 1 run fill 0 1 64 15 62 79 air
-execute if score #terrain sh matches 0 run fill 0 1 80 15 62 95 stone
-execute if score #terrain sh matches 1 run fill 0 1 80 15 62 95 air
-execute if score #terrain sh matches 0 run fill 0 1 96 15 62 111 stone
-execute if score #terrain sh matches 1 run fill 0 1 96 15 62 111 air
-execute if score #terrain sh matches 0 run fill 0 1 112 15 62 127 stone
-execute if score #terrain sh matches 1 run fill 0 1 112 15 62 127 air
-execute if score #terrain sh matches 0 run fill 0 1 128 15 62 143 stone
-execute if score #terrain sh matches 1 run fill 0 1 128 15 62 143 air
-execute if score #terrain sh matches 0 run fill 16 1 -128 31 62 -113 stone
-execute if score #terrain sh matches 1 run fill 16 1 -128 31 62 -113 air
-execute if score #terrain sh matches 0 run fill 16 1 -112 31 62 -97 stone
-execute if score #terrain sh matches 1 run fill 16 1 -112 31 62 -97 air
-execute if score #terrain sh matches 0 run fill 16 1 -96 31 62 -81 stone
-execute if score #terrain sh matches 1 run fill 16 1 -96 31 62 -81 air
-execute if score #terrain sh matches 0 run fill 16 1 -80 31 62 -65 stone
-execute if score #terrain sh matches 1 run fill 16 1 -80 31 62 -65 air
-execute if score #terrain sh matches 0 run fill 16 1 -64 31 62 -49 stone
-execute if score #terrain sh matches 1 run fill 16 1 -64 31 62 -49 air
-execute if score #terrain sh matches 0 run fill 16 1 -48 31 62 -33 stone
-execute if score #terrain sh matches 1 run fill 16 1 -48 31 62 -33 air
-execute if score #terrain sh matches 0 run fill 16 1 -32 31 62 -17 stone
-execute if score #terrain sh matches 1 run fill 16 1 -32 31 62 -17 air
-execute if score #terrain sh matches 0 run fill 16 1 -16 31 62 -1 stone
-execute if score #terrain sh matches 1 run fill 16 1 -16 31 62 -1 air
-execute if score #terrain sh matches 0 run fill 16 1 0 31 62 15 stone
-execute if score #terrain sh matches 1 run fill 16 1 0 31 62 15 air
-execute if score #terrain sh matches 0 run fill 16 1 16 31 62 31 stone
-execute if score #terrain sh matches 1 run fill 16 1 16 31 62 31 air
-execute if score #terrain sh matches 0 run fill 16 1 32 31 62 47 stone
-execute if score #terrain sh matches 1 run fill 16 1 32 31 62 47 air
-execute if score #terrain sh matches 0 run fill 16 1 48 31 62 63 stone
-execute if score #terrain sh matches 1 run fill 16 1 48 31 62 63 air
-execute if score #terrain sh matches 0 run fill 16 1 64 31 62 79 stone
-execute if score #terrain sh matches 1 run fill 16 1 64 31 62 79 air
-execute if score #terrain sh matches 0 run fill 16 1 80 31 62 95 stone
-execute if score #terrain sh matches 1 run fill 16 1 80 31 62 95 air
-execute if score #terrain sh matches 0 run fill 16 1 96 31 62 111 stone
-execute if score #terrain sh matches 1 run fill 16 1 96 31 62 111 air
-execute if score #terrain sh matches 0 run fill 16 1 112 31 62 127 stone
-execute if score #terrain sh matches 1 run fill 16 1 112 31 62 127 air
-execute if score #terrain sh matches 0 run fill 16 1 128 31 62 143 stone
-execute if score #terrain sh matches 1 run fill 16 1 128 31 62 143 air
-execute if score #terrain sh matches 0 run fill 32 1 -128 47 62 -113 stone
-execute if score #terrain sh matches 1 run fill 32 1 -128 47 62 -113 air
-execute if score #terrain sh matches 0 run fill 32 1 -112 47 62 -97 stone
-execute if score #terrain sh matches 1 run fill 32 1 -112 47 62 -97 air
-execute if score #terrain sh matches 0 run fill 32 1 -96 47 62 -81 stone
-execute if score #terrain sh matches 1 run fill 32 1 -96 47 62 -81 air
-execute if score #terrain sh matches 0 run fill 32 1 -80 47 62 -65 stone
-execute if score #terrain sh matches 1 run fill 32 1 -80 47 62 -65 air
-execute if score #terrain sh matches 0 run fill 32 1 -64 47 62 -49 stone
-execute if score #terrain sh matches 1 run fill 32 1 -64 47 62 -49 air
-execute if score #terrain sh matches 0 run fill 32 1 -48 47 62 -33 stone
-execute if score #terrain sh matches 1 run fill 32 1 -48 47 62 -33 air
-execute if score #terrain sh matches 0 run fill 32 1 -32 47 62 -17 stone
-execute if score #terrain sh matches 1 run fill 32 1 -32 47 62 -17 air
-execute if score #terrain sh matches 0 run fill 32 1 -16 47 62 -1 stone
-execute if score #terrain sh matches 1 run fill 32 1 -16 47 62 -1 air
-execute if score #terrain sh matches 0 run fill 32 1 0 47 62 15 stone
-execute if score #terrain sh matches 1 run fill 32 1 0 47 62 15 air
-execute if score #terrain sh matches 0 run fill 32 1 16 47 62 31 stone
-execute if score #terrain sh matches 1 run fill 32 1 16 47 62 31 air
-execute if score #terrain sh matches 0 run fill 32 1 32 47 62 47 stone
-execute if score #terrain sh matches 1 run fill 32 1 32 47 62 47 air
-execute if score #terrain sh matches 0 run fill 32 1 48 47 62 63 stone
-execute if score #terrain sh matches 1 run fill 32 1 48 47 62 63 air
-execute if score #terrain sh matches 0 run fill 32 1 64 47 62 79 stone
-execute if score #terrain sh matches 1 run fill 32 1 64 47 62 79 air
-execute if score #terrain sh matches 0 run fill 32 1 80 47 62 95 stone
-execute if score #terrain sh matches 1 run fill 32 1 80 47 62 95 air
-execute if score #terrain sh matches 0 run fill 32 1 96 47 62 111 stone
-execute if score #terrain sh matches 1 run fill 32 1 96 47 62 111 air
-execute if score #terrain sh matches 0 run fill 32 1 112 47 62 127 stone
-execute if score #terrain sh matches 1 run fill 32 1 112 47 62 127 air
-execute if score #terrain sh matches 0 run fill 32 1 128 47 62 143 stone
-execute if score #terrain sh matches 1 run fill 32 1 128 47 62 143 air
-execute if score #terrain sh matches 0 run fill 48 1 -128 63 62 -113 stone
-execute if score #terrain sh matches 1 run fill 48 1 -128 63 62 -113 air
-execute if score #terrain sh matches 0 run fill 48 1 -112 63 62 -97 stone
-execute if score #terrain sh matches 1 run fill 48 1 -112 63 62 -97 air
-execute if score #terrain sh matches 0 run fill 48 1 -96 63 62 -81 stone
-execute if score #terrain sh matches 1 run fill 48 1 -96 63 62 -81 air
-execute if score #terrain sh matches 0 run fill 48 1 -80 63 62 -65 stone
-execute if score #terrain sh matches 1 run fill 48 1 -80 63 62 -65 air
-execute if score #terrain sh matches 0 run fill 48 1 -64 63 62 -49 stone
-execute if score #terrain sh matches 1 run fill 48 1 -64 63 62 -49 air
-execute if score #terrain sh matches 0 run fill 48 1 -48 63 62 -33 stone
-execute if score #terrain sh matches 1 run fill 48 1 -48 63 62 -33 air
-execute if score #terrain sh matches 0 run fill 48 1 -32 63 62 -17 stone
-execute if score #terrain sh matches 1 run fill 48 1 -32 63 62 -17 air
-execute if score #terrain sh matches 0 run fill 48 1 -16 63 62 -1 stone
-execute if score #terrain sh matches 1 run fill 48 1 -16 63 62 -1 air
-execute if score #terrain sh matches 0 run fill 48 1 0 63 62 15 stone
-execute if score #terrain sh matches 1 run fill 48 1 0 63 62 15 air
-execute if score #terrain sh matches 0 run fill 48 1 16 63 62 31 stone
-execute if score #terrain sh matches 1 run fill 48 1 16 63 62 31 air
-execute if score #terrain sh matches 0 run fill 48 1 32 63 62 47 stone
-execute if score #terrain sh matches 1 run fill 48 1 32 63 62 47 air
-execute if score #terrain sh matches 0 run fill 48 1 48 63 62 63 stone
-execute if score #terrain sh matches 1 run fill 48 1 48 63 62 63 air
-execute if score #terrain sh matches 0 run fill 48 1 64 63 62 79 stone
-execute if score #terrain sh matches 1 run fill 48 1 64 63 62 79 air
-execute if score #terrain sh matches 0 run fill 48 1 80 63 62 95 stone
-execute if score #terrain sh matches 1 run fill 48 1 80 63 62 95 air
-execute if score #terrain sh matches 0 run fill 48 1 96 63 62 111 stone
-execute if score #terrain sh matches 1 run fill 48 1 96 63 62 111 air
-execute if score #terrain sh matches 0 run fill 48 1 112 63 62 127 stone
-execute if score #terrain sh matches 1 run fill 48 1 112 63 62 127 air
-execute if score #terrain sh matches 0 run fill 48 1 128 63 62 143 stone
-execute if score #terrain sh matches 1 run fill 48 1 128 63 62 143 air
-execute if score #terrain sh matches 0 run fill 64 1 -128 79 62 -113 stone
-execute if score #terrain sh matches 1 run fill 64 1 -128 79 62 -113 air
-execute if score #terrain sh matches 0 run fill 64 1 -112 79 62 -97 stone
-execute if score #terrain sh matches 1 run fill 64 1 -112 79 62 -97 air
-execute if score #terrain sh matches 0 run fill 64 1 -96 79 62 -81 stone
-execute if score #terrain sh matches 1 run fill 64 1 -96 79 62 -81 air
-execute if score #terrain sh matches 0 run fill 64 1 -80 79 62 -65 stone
-execute if score #terrain sh matches 1 run fill 64 1 -80 79 62 -65 air
-execute if score #terrain sh matches 0 run fill 64 1 -64 79 62 -49 stone
-execute if score #terrain sh matches 1 run fill 64 1 -64 79 62 -49 air
-execute if score #terrain sh matches 0 run fill 64 1 -48 79 62 -33 stone
-execute if score #terrain sh matches 1 run fill 64 1 -48 79 62 -33 air
-execute if score #terrain sh matches 0 run fill 64 1 -32 79 62 -17 stone
-execute if score #terrain sh matches 1 run fill 64 1 -32 79 62 -17 air
-execute if score #terrain sh matches 0 run fill 64 1 -16 79 62 -1 stone
-execute if score #terrain sh matches 1 run fill 64 1 -16 79 62 -1 air
-execute if score #terrain sh matches 0 run fill 64 1 0 79 62 15 stone
-execute if score #terrain sh matches 1 run fill 64 1 0 79 62 15 air
-execute if score #terrain sh matches 0 run fill 64 1 16 79 62 31 stone
-execute if score #terrain sh matches 1 run fill 64 1 16 79 62 31 air
-execute if score #terrain sh matches 0 run fill 64 1 32 79 62 47 stone
-execute if score #terrain sh matches 1 run fill 64 1 32 79 62 47 air
-execute if score #terrain sh matches 0 run fill 64 1 48 79 62 63 stone
-execute if score #terrain sh matches 1 run fill 64 1 48 79 62 63 air
-execute if score #terrain sh matches 0 run fill 64 1 64 79 62 79 stone
-execute if score #terrain sh matches 1 run fill 64 1 64 79 62 79 air
-execute if score #terrain sh matches 0 run fill 64 1 80 79 62 95 stone
-execute if score #terrain sh matches 1 run fill 64 1 80 79 62 95 air
-execute if score #terrain sh matches 0 run fill 64 1 96 79 62 111 stone
-execute if score #terrain sh matches 1 run fill 64 1 96 79 62 111 air
-execute if score #terrain sh matches 0 run fill 64 1 112 79 62 127 stone
-execute if score #terrain sh matches 1 run fill 64 1 112 79 62 127 air
-execute if score #terrain sh matches 0 run fill 64 1 128 79 62 143 stone
-execute if score #terrain sh matches 1 run fill 64 1 128 79 62 143 air
-execute if score #terrain sh matches 0 run fill 80 1 -128 95 62 -113 stone
-execute if score #terrain sh matches 1 run fill 80 1 -128 95 62 -113 air
-execute if score #terrain sh matches 0 run fill 80 1 -112 95 62 -97 stone
-execute if score #terrain sh matches 1 run fill 80 1 -112 95 62 -97 air
-execute if score #terrain sh matches 0 run fill 80 1 -96 95 62 -81 stone
-execute if score #terrain sh matches 1 run fill 80 1 -96 95 62 -81 air
-execute if score #terrain sh matches 0 run fill 80 1 -80 95 62 -65 stone
-execute if score #terrain sh matches 1 run fill 80 1 -80 95 62 -65 air
-execute if score #terrain sh matches 0 run fill 80 1 -64 95 62 -49 stone
-execute if score #terrain sh matches 1 run fill 80 1 -64 95 62 -49 air
-execute if score #terrain sh matches 0 run fill 80 1 -48 95 62 -33 stone
-execute if score #terrain sh matches 1 run fill 80 1 -48 95 62 -33 air
-execute if score #terrain sh matches 0 run fill 80 1 -32 95 62 -17 stone
-execute if score #terrain sh matches 1 run fill 80 1 -32 95 62 -17 air
-execute if score #terrain sh matches 0 run fill 80 1 -16 95 62 -1 stone
-execute if score #terrain sh matches 1 run fill 80 1 -16 95 62 -1 air
-execute if score #terrain sh matches 0 run fill 80 1 0 95 62 15 stone
-execute if score #terrain sh matches 1 run fill 80 1 0 95 62 15 air
-execute if score #terrain sh matches 0 run fill 80 1 16 95 62 31 stone
-execute if score #terrain sh matches 1 run fill 80 1 16 95 62 31 air
-execute if score #terrain sh matches 0 run fill 80 1 32 95 62 47 stone
-execute if score #terrain sh matches 1 run fill 80 1 32 95 62 47 air
-execute if score #terrain sh matches 0 run fill 80 1 48 95 62 63 stone
-execute if score #terrain sh matches 1 run fill 80 1 48 95 62 63 air
-execute if score #terrain sh matches 0 run fill 80 1 64 95 62 79 stone
-execute if score #terrain sh matches 1 run fill 80 1 64 95 62 79 air
-execute if score #terrain sh matches 0 run fill 80 1 80 95 62 95 stone
-execute if score #terrain sh matches 1 run fill 80 1 80 95 62 95 air
-execute if score #terrain sh matches 0 run fill 80 1 96 95 62 111 stone
-execute if score #terrain sh matches 1 run fill 80 1 96 95 62 111 air
-execute if score #terrain sh matches 0 run fill 80 1 112 95 62 127 stone
-execute if score #terrain sh matches 1 run fill 80 1 112 95 62 127 air
-execute if score #terrain sh matches 0 run fill 80 1 128 95 62 143 stone
-execute if score #terrain sh matches 1 run fill 80 1 128 95 62 143 air
-execute if score #terrain sh matches 0 run fill 96 1 -128 111 62 -113 stone
-execute if score #terrain sh matches 1 run fill 96 1 -128 111 62 -113 air
-execute if score #terrain sh matches 0 run fill 96 1 -112 111 62 -97 stone
-execute if score #terrain sh matches 1 run fill 96 1 -112 111 62 -97 air
-execute if score #terrain sh matches 0 run fill 96 1 -96 111 62 -81 stone
-execute if score #terrain sh matches 1 run fill 96 1 -96 111 62 -81 air
-execute if score #terrain sh matches 0 run fill 96 1 -80 111 62 -65 stone
-execute if score #terrain sh matches 1 run fill 96 1 -80 111 62 -65 air
-execute if score #terrain sh matches 0 run fill 96 1 -64 111 62 -49 stone
-execute if score #terrain sh matches 1 run fill 96 1 -64 111 62 -49 air
-execute if score #terrain sh matches 0 run fill 96 1 -48 111 62 -33 stone
-execute if score #terrain sh matches 1 run fill 96 1 -48 111 62 -33 air
-execute if score #terrain sh matches 0 run fill 96 1 -32 111 62 -17 stone
-execute if score #terrain sh matches 1 run fill 96 1 -32 111 62 -17 air
-execute if score #terrain sh matches 0 run fill 96 1 -16 111 62 -1 stone
-execute if score #terrain sh matches 1 run fill 96 1 -16 111 62 -1 air
-execute if score #terrain sh matches 0 run fill 96 1 0 111 62 15 stone
-execute if score #terrain sh matches 1 run fill 96 1 0 111 62 15 air
-execute if score #terrain sh matches 0 run fill 96 1 16 111 62 31 stone
-execute if score #terrain sh matches 1 run fill 96 1 16 111 62 31 air
-execute if score #terrain sh matches 0 run fill 96 1 32 111 62 47 stone
-execute if score #terrain sh matches 1 run fill 96 1 32 111 62 47 air
-execute if score #terrain sh matches 0 run fill 96 1 48 111 62 63 stone
-execute if score #terrain sh matches 1 run fill 96 1 48 111 62 63 air
-execute if score #terrain sh matches 0 run fill 96 1 64 111 62 79 stone
-execute if score #terrain sh matches 1 run fill 96 1 64 111 62 79 air
-execute if score #terrain sh matches 0 run fill 96 1 80 111 62 95 stone
-execute if score #terrain sh matches 1 run fill 96 1 80 111 62 95 air
-execute if score #terrain sh matches 0 run fill 96 1 96 111 62 111 stone
-execute if score #terrain sh matches 1 run fill 96 1 96 111 62 111 air
-execute if score #terrain sh matches 0 run fill 96 1 112 111 62 127 stone
-execute if score #terrain sh matches 1 run fill 96 1 112 111 62 127 air
-execute if score #terrain sh matches 0 run fill 96 1 128 111 62 143 stone
-execute if score #terrain sh matches 1 run fill 96 1 128 111 62 143 air
-execute if score #terrain sh matches 0 run fill 112 1 -128 127 62 -113 stone
-execute if score #terrain sh matches 1 run fill 112 1 -128 127 62 -113 air
-execute if score #terrain sh matches 0 run fill 112 1 -112 127 62 -97 stone
-execute if score #terrain sh matches 1 run fill 112 1 -112 127 62 -97 air
-execute if score #terrain sh matches 0 run fill 112 1 -96 127 62 -81 stone
-execute if score #terrain sh matches 1 run fill 112 1 -96 127 62 -81 air
-execute if score #terrain sh matches 0 run fill 112 1 -80 127 62 -65 stone
-execute if score #terrain sh matches 1 run fill 112 1 -80 127 62 -65 air
-execute if score #terrain sh matches 0 run fill 112 1 -64 127 62 -49 stone
-execute if score #terrain sh matches 1 run fill 112 1 -64 127 62 -49 air
-execute if score #terrain sh matches 0 run fill 112 1 -48 127 62 -33 stone
-execute if score #terrain sh matches 1 run fill 112 1 -48 127 62 -33 air
-execute if score #terrain sh matches 0 run fill 112 1 -32 127 62 -17 stone
-execute if score #terrain sh matches 1 run fill 112 1 -32 127 62 -17 air
-execute if score #terrain sh matches 0 run fill 112 1 -16 127 62 -1 stone
-execute if score #terrain sh matches 1 run fill 112 1 -16 127 62 -1 air
-execute if score #terrain sh matches 0 run fill 112 1 0 127 62 15 stone
-execute if score #terrain sh matches 1 run fill 112 1 0 127 62 15 air
-execute if score #terrain sh matches 0 run fill 112 1 16 127 62 31 stone
-execute if score #terrain sh matches 1 run fill 112 1 16 127 62 31 air
-execute if score #terrain sh matches 0 run fill 112 1 32 127 62 47 stone
-execute if score #terrain sh matches 1 run fill 112 1 32 127 62 47 air
-execute if score #terrain sh matches 0 run fill 112 1 48 127 62 63 stone
-execute if score #terrain sh matches 1 run fill 112 1 48 127 62 63 air
-execute if score #terrain sh matches 0 run fill 112 1 64 127 62 79 stone
-execute if score #terrain sh matches 1 run fill 112 1 64 127 62 79 air
-execute if score #terrain sh matches 0 run fill 112 1 80 127 62 95 stone
-execute if score #terrain sh matches 1 run fill 112 1 80 127 62 95 air
-execute if score #terrain sh matches 0 run fill 112 1 96 127 62 111 stone
-execute if score #terrain sh matches 1 run fill 112 1 96 127 62 111 air
-execute if score #terrain sh matches 0 run fill 112 1 112 127 62 127 stone
-execute if score #terrain sh matches 1 run fill 112 1 112 127 62 127 air
-execute if score #terrain sh matches 0 run fill 112 1 128 127 62 143 stone
-execute if score #terrain sh matches 1 run fill 112 1 128 127 62 143 air
-execute if score #terrain sh matches 0 run fill 128 1 -128 143 62 -113 stone
-execute if score #terrain sh matches 1 run fill 128 1 -128 143 62 -113 air
-execute if score #terrain sh matches 0 run fill 128 1 -112 143 62 -97 stone
-execute if score #terrain sh matches 1 run fill 128 1 -112 143 62 -97 air
-execute if score #terrain sh matches 0 run fill 128 1 -96 143 62 -81 stone
-execute if score #terrain sh matches 1 run fill 128 1 -96 143 62 -81 air
-execute if score #terrain sh matches 0 run fill 128 1 -80 143 62 -65 stone
-execute if score #terrain sh matches 1 run fill 128 1 -80 143 62 -65 air
-execute if score #terrain sh matches 0 run fill 128 1 -64 143 62 -49 stone
-execute if score #terrain sh matches 1 run fill 128 1 -64 143 62 -49 air
-execute if score #terrain sh matches 0 run fill 128 1 -48 143 62 -33 stone
-execute if score #terrain sh matches 1 run fill 128 1 -48 143 62 -33 air
-execute if score #terrain sh matches 0 run fill 128 1 -32 143 62 -17 stone
-execute if score #terrain sh matches 1 run fill 128 1 -32 143 62 -17 air
-execute if score #terrain sh matches 0 run fill 128 1 -16 143 62 -1 stone
-execute if score #terrain sh matches 1 run fill 128 1 -16 143 62 -1 air
-execute if score #terrain sh matches 0 run fill 128 1 0 143 62 15 stone
-execute if score #terrain sh matches 1 run fill 128 1 0 143 62 15 air
-execute if score #terrain sh matches 0 run fill 128 1 16 143 62 31 stone
-execute if score #terrain sh matches 1 run fill 128 1 16 143 62 31 air
-execute if score #terrain sh matches 0 run fill 128 1 32 143 62 47 stone
-execute if score #terrain sh matches 1 run fill 128 1 32 143 62 47 air
-execute if score #terrain sh matches 0 run fill 128 1 48 143 62 63 stone
-execute if score #terrain sh matches 1 run fill 128 1 48 143 62 63 air
-execute if score #terrain sh matches 0 run fill 128 1 64 143 62 79 stone
-execute if score #terrain sh matches 1 run fill 128 1 64 143 62 79 air
-execute if score #terrain sh matches 0 run fill 128 1 80 143 62 95 stone
-execute if score #terrain sh matches 1 run fill 128 1 80 143 62 95 air
-execute if score #terrain sh matches 0 run fill 128 1 96 143 62 111 stone
-execute if score #terrain sh matches 1 run fill 128 1 96 143 62 111 air
-execute if score #terrain sh matches 0 run fill 128 1 112 143 62 127 stone
-execute if score #terrain sh matches 1 run fill 128 1 112 143 62 127 air
-execute if score #terrain sh matches 0 run fill 128 1 128 143 62 143 stone
-execute if score #terrain sh matches 1 run fill 128 1 128 143 62 143 air
+fill -128 1 -128 -113 62 -113 stone
+fill -128 1 -112 -113 62 -97 stone
+fill -128 1 -96 -113 62 -81 stone
+fill -128 1 -80 -113 62 -65 stone
+fill -128 1 -64 -113 62 -49 stone
+fill -128 1 -48 -113 62 -33 stone
+fill -128 1 -32 -113 62 -17 stone
+fill -128 1 -16 -113 62 -1 stone
+fill -128 1 0 -113 62 15 stone
+fill -128 1 16 -113 62 31 stone
+fill -128 1 32 -113 62 47 stone
+fill -128 1 48 -113 62 63 stone
+fill -128 1 64 -113 62 79 stone
+fill -128 1 80 -113 62 95 stone
+fill -128 1 96 -113 62 111 stone
+fill -128 1 112 -113 62 127 stone
+fill -128 1 128 -113 62 143 stone
+fill -112 1 -128 -97 62 -113 stone
+fill -112 1 -112 -97 62 -97 stone
+fill -112 1 -96 -97 62 -81 stone
+fill -112 1 -80 -97 62 -65 stone
+fill -112 1 -64 -97 62 -49 stone
+fill -112 1 -48 -97 62 -33 stone
+fill -112 1 -32 -97 62 -17 stone
+fill -112 1 -16 -97 62 -1 stone
+fill -112 1 0 -97 62 15 stone
+fill -112 1 16 -97 62 31 stone
+fill -112 1 32 -97 62 47 stone
+fill -112 1 48 -97 62 63 stone
+fill -112 1 64 -97 62 79 stone
+fill -112 1 80 -97 62 95 stone
+fill -112 1 96 -97 62 111 stone
+fill -112 1 112 -97 62 127 stone
+fill -112 1 128 -97 62 143 stone
+fill -96 1 -128 -81 62 -113 stone
+fill -96 1 -112 -81 62 -97 stone
+fill -96 1 -96 -81 62 -81 stone
+fill -96 1 -80 -81 62 -65 stone
+fill -96 1 -64 -81 62 -49 stone
+fill -96 1 -48 -81 62 -33 stone
+fill -96 1 -32 -81 62 -17 stone
+fill -96 1 -16 -81 62 -1 stone
+fill -96 1 0 -81 62 15 stone
+fill -96 1 16 -81 62 31 stone
+fill -96 1 32 -81 62 47 stone
+fill -96 1 48 -81 62 63 stone
+fill -96 1 64 -81 62 79 stone
+fill -96 1 80 -81 62 95 stone
+fill -96 1 96 -81 62 111 stone
+fill -96 1 112 -81 62 127 stone
+fill -96 1 128 -81 62 143 stone
+fill -80 1 -128 -65 62 -113 stone
+fill -80 1 -112 -65 62 -97 stone
+fill -80 1 -96 -65 62 -81 stone
+fill -80 1 -80 -65 62 -65 stone
+fill -80 1 -64 -65 62 -49 stone
+fill -80 1 -48 -65 62 -33 stone
+fill -80 1 -32 -65 62 -17 stone
+fill -80 1 -16 -65 62 -1 stone
+fill -80 1 0 -65 62 15 stone
+fill -80 1 16 -65 62 31 stone
+fill -80 1 32 -65 62 47 stone
+fill -80 1 48 -65 62 63 stone
+fill -80 1 64 -65 62 79 stone
+fill -80 1 80 -65 62 95 stone
+fill -80 1 96 -65 62 111 stone
+fill -80 1 112 -65 62 127 stone
+fill -80 1 128 -65 62 143 stone
+fill -64 1 -128 -49 62 -113 stone
+fill -64 1 -112 -49 62 -97 stone
+fill -64 1 -96 -49 62 -81 stone
+fill -64 1 -80 -49 62 -65 stone
+fill -64 1 -64 -49 62 -49 stone
+fill -64 1 -48 -49 62 -33 stone
+fill -64 1 -32 -49 62 -17 stone
+fill -64 1 -16 -49 62 -1 stone
+fill -64 1 0 -49 62 15 stone
+fill -64 1 16 -49 62 31 stone
+fill -64 1 32 -49 62 47 stone
+fill -64 1 48 -49 62 63 stone
+fill -64 1 64 -49 62 79 stone
+fill -64 1 80 -49 62 95 stone
+fill -64 1 96 -49 62 111 stone
+fill -64 1 112 -49 62 127 stone
+fill -64 1 128 -49 62 143 stone
+fill -48 1 -128 -33 62 -113 stone
+fill -48 1 -112 -33 62 -97 stone
+fill -48 1 -96 -33 62 -81 stone
+fill -48 1 -80 -33 62 -65 stone
+fill -48 1 -64 -33 62 -49 stone
+fill -48 1 -48 -33 62 -33 stone
+fill -48 1 -32 -33 62 -17 stone
+fill -48 1 -16 -33 62 -1 stone
+fill -48 1 0 -33 62 15 stone
+fill -48 1 16 -33 62 31 stone
+fill -48 1 32 -33 62 47 stone
+fill -48 1 48 -33 62 63 stone
+fill -48 1 64 -33 62 79 stone
+fill -48 1 80 -33 62 95 stone
+fill -48 1 96 -33 62 111 stone
+fill -48 1 112 -33 62 127 stone
+fill -48 1 128 -33 62 143 stone
+fill -32 1 -128 -17 62 -113 stone
+fill -32 1 -112 -17 62 -97 stone
+fill -32 1 -96 -17 62 -81 stone
+fill -32 1 -80 -17 62 -65 stone
+fill -32 1 -64 -17 62 -49 stone
+fill -32 1 -48 -17 62 -33 stone
+fill -32 1 -32 -17 62 -17 stone
+fill -32 1 -16 -17 62 -1 stone
+fill -32 1 0 -17 62 15 stone
+fill -32 1 16 -17 62 31 stone
+fill -32 1 32 -17 62 47 stone
+fill -32 1 48 -17 62 63 stone
+fill -32 1 64 -17 62 79 stone
+fill -32 1 80 -17 62 95 stone
+fill -32 1 96 -17 62 111 stone
+fill -32 1 112 -17 62 127 stone
+fill -32 1 128 -17 62 143 stone
+fill -16 1 -128 -1 62 -113 stone
+fill -16 1 -112 -1 62 -97 stone
+fill -16 1 -96 -1 62 -81 stone
+fill -16 1 -80 -1 62 -65 stone
+fill -16 1 -64 -1 62 -49 stone
+fill -16 1 -48 -1 62 -33 stone
+fill -16 1 -32 -1 62 -17 stone
+fill -16 1 -16 -1 62 -1 stone
+fill -16 1 0 -1 62 15 stone
+fill -16 1 16 -1 62 31 stone
+fill -16 1 32 -1 62 47 stone
+fill -16 1 48 -1 62 63 stone
+fill -16 1 64 -1 62 79 stone
+fill -16 1 80 -1 62 95 stone
+fill -16 1 96 -1 62 111 stone
+fill -16 1 112 -1 62 127 stone
+fill -16 1 128 -1 62 143 stone
+fill 0 1 -128 15 62 -113 stone
+fill 0 1 -112 15 62 -97 stone
+fill 0 1 -96 15 62 -81 stone
+fill 0 1 -80 15 62 -65 stone
+fill 0 1 -64 15 62 -49 stone
+fill 0 1 -48 15 62 -33 stone
+fill 0 1 -32 15 62 -17 stone
+fill 0 1 -16 15 62 -1 stone
+fill 0 1 0 15 62 15 stone
+fill 0 1 16 15 62 31 stone
+fill 0 1 32 15 62 47 stone
+fill 0 1 48 15 62 63 stone
+fill 0 1 64 15 62 79 stone
+fill 0 1 80 15 62 95 stone
+fill 0 1 96 15 62 111 stone
+fill 0 1 112 15 62 127 stone
+fill 0 1 128 15 62 143 stone
+fill 16 1 -128 31 62 -113 stone
+fill 16 1 -112 31 62 -97 stone
+fill 16 1 -96 31 62 -81 stone
+fill 16 1 -80 31 62 -65 stone
+fill 16 1 -64 31 62 -49 stone
+fill 16 1 -48 31 62 -33 stone
+fill 16 1 -32 31 62 -17 stone
+fill 16 1 -16 31 62 -1 stone
+fill 16 1 0 31 62 15 stone
+fill 16 1 16 31 62 31 stone
+fill 16 1 32 31 62 47 stone
+fill 16 1 48 31 62 63 stone
+fill 16 1 64 31 62 79 stone
+fill 16 1 80 31 62 95 stone
+fill 16 1 96 31 62 111 stone
+fill 16 1 112 31 62 127 stone
+fill 16 1 128 31 62 143 stone
+fill 32 1 -128 47 62 -113 stone
+fill 32 1 -112 47 62 -97 stone
+fill 32 1 -96 47 62 -81 stone
+fill 32 1 -80 47 62 -65 stone
+fill 32 1 -64 47 62 -49 stone
+fill 32 1 -48 47 62 -33 stone
+fill 32 1 -32 47 62 -17 stone
+fill 32 1 -16 47 62 -1 stone
+fill 32 1 0 47 62 15 stone
+fill 32 1 16 47 62 31 stone
+fill 32 1 32 47 62 47 stone
+fill 32 1 48 47 62 63 stone
+fill 32 1 64 47 62 79 stone
+fill 32 1 80 47 62 95 stone
+fill 32 1 96 47 62 111 stone
+fill 32 1 112 47 62 127 stone
+fill 32 1 128 47 62 143 stone
+fill 48 1 -128 63 62 -113 stone
+fill 48 1 -112 63 62 -97 stone
+fill 48 1 -96 63 62 -81 stone
+fill 48 1 -80 63 62 -65 stone
+fill 48 1 -64 63 62 -49 stone
+fill 48 1 -48 63 62 -33 stone
+fill 48 1 -32 63 62 -17 stone
+fill 48 1 -16 63 62 -1 stone
+fill 48 1 0 63 62 15 stone
+fill 48 1 16 63 62 31 stone
+fill 48 1 32 63 62 47 stone
+fill 48 1 48 63 62 63 stone
+fill 48 1 64 63 62 79 stone
+fill 48 1 80 63 62 95 stone
+fill 48 1 96 63 62 111 stone
+fill 48 1 112 63 62 127 stone
+fill 48 1 128 63 62 143 stone
+fill 64 1 -128 79 62 -113 stone
+fill 64 1 -112 79 62 -97 stone
+fill 64 1 -96 79 62 -81 stone
+fill 64 1 -80 79 62 -65 stone
+fill 64 1 -64 79 62 -49 stone
+fill 64 1 -48 79 62 -33 stone
+fill 64 1 -32 79 62 -17 stone
+fill 64 1 -16 79 62 -1 stone
+fill 64 1 0 79 62 15 stone
+fill 64 1 16 79 62 31 stone
+fill 64 1 32 79 62 47 stone
+fill 64 1 48 79 62 63 stone
+fill 64 1 64 79 62 79 stone
+fill 64 1 80 79 62 95 stone
+fill 64 1 96 79 62 111 stone
+fill 64 1 112 79 62 127 stone
+fill 64 1 128 79 62 143 stone
+fill 80 1 -128 95 62 -113 stone
+fill 80 1 -112 95 62 -97 stone
+fill 80 1 -96 95 62 -81 stone
+fill 80 1 -80 95 62 -65 stone
+fill 80 1 -64 95 62 -49 stone
+fill 80 1 -48 95 62 -33 stone
+fill 80 1 -32 95 62 -17 stone
+fill 80 1 -16 95 62 -1 stone
+fill 80 1 0 95 62 15 stone
+fill 80 1 16 95 62 31 stone
+fill 80 1 32 95 62 47 stone
+fill 80 1 48 95 62 63 stone
+fill 80 1 64 95 62 79 stone
+fill 80 1 80 95 62 95 stone
+fill 80 1 96 95 62 111 stone
+fill 80 1 112 95 62 127 stone
+fill 80 1 128 95 62 143 stone
+fill 96 1 -128 111 62 -113 stone
+fill 96 1 -112 111 62 -97 stone
+fill 96 1 -96 111 62 -81 stone
+fill 96 1 -80 111 62 -65 stone
+fill 96 1 -64 111 62 -49 stone
+fill 96 1 -48 111 62 -33 stone
+fill 96 1 -32 111 62 -17 stone
+fill 96 1 -16 111 62 -1 stone
+fill 96 1 0 111 62 15 stone
+fill 96 1 16 111 62 31 stone
+fill 96 1 32 111 62 47 stone
+fill 96 1 48 111 62 63 stone
+fill 96 1 64 111 62 79 stone
+fill 96 1 80 111 62 95 stone
+fill 96 1 96 111 62 111 stone
+fill 96 1 112 111 62 127 stone
+fill 96 1 128 111 62 143 stone
+fill 112 1 -128 127 62 -113 stone
+fill 112 1 -112 127 62 -97 stone
+fill 112 1 -96 127 62 -81 stone
+fill 112 1 -80 127 62 -65 stone
+fill 112 1 -64 127 62 -49 stone
+fill 112 1 -48 127 62 -33 stone
+fill 112 1 -32 127 62 -17 stone
+fill 112 1 -16 127 62 -1 stone
+fill 112 1 0 127 62 15 stone
+fill 112 1 16 127 62 31 stone
+fill 112 1 32 127 62 47 stone
+fill 112 1 48 127 62 63 stone
+fill 112 1 64 127 62 79 stone
+fill 112 1 80 127 62 95 stone
+fill 112 1 96 127 62 111 stone
+fill 112 1 112 127 62 127 stone
+fill 112 1 128 127 62 143 stone
+fill 128 1 -128 143 62 -113 stone
+fill 128 1 -112 143 62 -97 stone
+fill 128 1 -96 143 62 -81 stone
+fill 128 1 -80 143 62 -65 stone
+fill 128 1 -64 143 62 -49 stone
+fill 128 1 -48 143 62 -33 stone
+fill 128 1 -32 143 62 -17 stone
+fill 128 1 -16 143 62 -1 stone
+fill 128 1 0 143 62 15 stone
+fill 128 1 16 143 62 31 stone
+fill 128 1 32 143 62 47 stone
+fill 128 1 48 143 62 63 stone
+fill 128 1 64 143 62 79 stone
+fill 128 1 80 143 62 95 stone
+fill 128 1 96 143 62 111 stone
+fill 128 1 112 143 62 127 stone
+fill 128 1 128 143 62 143 stone

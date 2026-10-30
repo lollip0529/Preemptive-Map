@@ -63,3 +63,8 @@ execute if score #hi sh matches 61 run data modify storage sh:tmp c set from sto
 execute if score #hi sh matches 62 run data modify storage sh:tmp c set from storage shbank:b l2[62]
 execute if score #hi sh matches 63 run data modify storage sh:tmp c set from storage shbank:b l2[63]
 execute if score #hi sh matches 64 run data modify storage sh:tmp c set from storage shbank:b l2[64]
+execute if score #hi sh matches 65 run data modify storage sh:tmp c set from storage shbank:b l2[65]
+execute if score #hi sh matches 66 run data modify storage sh:tmp c set from storage shbank:b l2[66]
+execute if score #hi sh matches 67 run data modify storage sh:tmp c set from storage shbank:b l2[67]
+execute if score #hi sh matches 68 run data modify storage sh:tmp c set from storage shbank:b l2[68]
+execute if score #hi sh matches 69 run data modify storage sh:tmp c set from storage shbank:b l2[69]

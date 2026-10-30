@@ -8,10 +8,15 @@ summon area_effect_cloud 8 100 3208 {Tags:["sh.mark"],Duration:1000000000,WaitTi
 function sh:reset
 function sh:gen/start
 function sh:cave/all
+scoreboard players set #cut sh 0
+execute if score #caves sh matches 1.. run scoreboard players set #cut sh 1
+execute if score #mines sh matches 1.. run scoreboard players set #cut sh 1
+execute if score #terrain sh matches 1 if score #nobuild sh matches 0 run function sh:sea/bed
 execute if score #nobuild sh matches 0 run function sh:build/all
 function sh:spot/all
 function sh:spot/mob
 function sh:junk/all
+execute if score #terrain sh matches 1 if score #nobuild sh matches 0 run function sh:sea/all
 kill @e[type=item]
 execute as @a run function sh:go
 scoreboard players set #mready sh 0

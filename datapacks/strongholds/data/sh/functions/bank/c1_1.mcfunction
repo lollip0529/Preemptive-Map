@@ -1,4 +1,3 @@
-execute if score #hi sh matches 75 run data modify storage sh:tmp c set from storage shbank:b l1[75]
 execute if score #hi sh matches 76 run data modify storage sh:tmp c set from storage shbank:b l1[76]
 execute if score #hi sh matches 77 run data modify storage sh:tmp c set from storage shbank:b l1[77]
 execute if score #hi sh matches 78 run data modify storage sh:tmp c set from storage shbank:b l1[78]
@@ -73,3 +72,5 @@ execute if score #hi sh matches 146 run data modify storage sh:tmp c set from st
 execute if score #hi sh matches 147 run data modify storage sh:tmp c set from storage shbank:b l1[147]
 execute if score #hi sh matches 148 run data modify storage sh:tmp c set from storage shbank:b l1[148]
 execute if score #hi sh matches 149 run data modify storage sh:tmp c set from storage shbank:b l1[149]
+execute if score #hi sh matches 150 run data modify storage sh:tmp c set from storage shbank:b l1[150]
+execute if score #hi sh matches 151 run data modify storage sh:tmp c set from storage shbank:b l1[151]

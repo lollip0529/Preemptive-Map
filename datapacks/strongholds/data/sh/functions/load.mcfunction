@@ -11,18 +11,6 @@ scoreboard objectives add sh.z0 dummy
 scoreboard objectives add sh.x1 dummy
 scoreboard objectives add sh.y1 dummy
 scoreboard objectives add sh.z1 dummy
-scoreboard objectives add sh.wx dummy
-scoreboard objectives add sh.wh dummy
-scoreboard objectives add sh.wz dummy
-scoreboard objectives add sh.wy dummy
-scoreboard objectives add sh.wp dummy
-scoreboard objectives add sh.wdy dummy
-scoreboard objectives add sh.wdp dummy
-scoreboard objectives add sh.wi dummy
-scoreboard objectives add sh.wn dummy
-scoreboard objectives add sh.wt dummy
-scoreboard objectives add sh.wb dummy
-scoreboard objectives add sh.wq dummy
 scoreboard objectives add ps trigger
 scoreboard objectives add seed trigger
 scoreboard objectives add count trigger
@@ -60,18 +48,8 @@ scoreboard players set #-1 sh -1
 scoreboard players set #m0 sh 1645
 scoreboard players set #m1 sh 3790
 scoreboard players set #m2 sh 1502
-scoreboard players set #3 sh 3
-scoreboard players set #7 sh 7
-scoreboard players set #9 sh 9
-scoreboard players set #10 sh 10
-scoreboard players set #400 sh 400
-scoreboard players set #1000 sh 1000
-scoreboard players set #9000 sh 9000
-scoreboard players set #10000 sh 10000
-scoreboard players set #11459 sh 11459
-scoreboard players set #22918 sh 22918
 scoreboard players set #lcg sh 1103515245
-scoreboard players set #36000 sh 36000
+scoreboard players set #3 sh 3
 scoreboard players set #5 sh 5
 scoreboard players set #20 sh 20
 execute unless score #seed sh matches -2147483648.. run scoreboard players set #seed sh 0
@@ -84,6 +62,7 @@ execute unless score #jdung sh matches -2147483648.. run scoreboard players set 
 execute unless score #pmob sh matches -2147483648.. run scoreboard players set #pmob sh 0
 execute unless score #terrain sh matches -2147483648.. run scoreboard players set #terrain sh 0
 execute unless score #caves sh matches -2147483648.. run scoreboard players set #caves sh 2
+execute unless score #mines sh matches -2147483648.. run scoreboard players set #mines sh 0
 execute unless score #mobs sh matches -2147483648.. run scoreboard players set #mobs sh 2
 execute unless score #nobuild sh matches -2147483648.. run scoreboard players set #nobuild sh 0
 execute unless score #seg sh matches -2147483648.. run scoreboard players set #seg sh 0
