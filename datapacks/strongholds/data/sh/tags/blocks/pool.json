@@ -21,10 +21,11 @@
     "minecraft:moving_piston",
     "minecraft:oak_fence",
     "minecraft:oak_planks",
-    "minecraft:rail",
     "minecraft:redstone_ore",
     "minecraft:spawner",
     "minecraft:wall_torch",
-    "minecraft:water"
+    "minecraft:water",
+    "minecraft:black_concrete",
+    "minecraft:white_concrete"
   ]
 }
