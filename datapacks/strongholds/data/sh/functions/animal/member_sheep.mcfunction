@@ -15,4 +15,4 @@ scoreboard players set #bound sh 5
 function sh:rng/fast
 scoreboard players operation #u sh -= #r sh
 scoreboard players operation #jz sh += #u sh
-execute if score #pack sh matches 1.. run function sh:animal/member_sheep
+execute if score #pack sh matches 1.. if score #mcount sh < #mwant sh run function sh:animal/member_sheep

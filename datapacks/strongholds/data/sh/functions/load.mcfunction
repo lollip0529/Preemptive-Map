@@ -25,6 +25,7 @@ scoreboard objectives add sh.wb dummy
 scoreboard objectives add sh.wq dummy
 scoreboard objectives add ps trigger
 scoreboard objectives add seed trigger
+scoreboard objectives add count trigger
 scoreboard objectives add sh.egg minecraft.used:minecraft.egg
 scoreboard objectives add sh.die deathCount
 scoreboard objectives add sh.pk.wooden minecraft.dropped:minecraft.wooden_pickaxe
@@ -98,6 +99,17 @@ execute unless score #lc0 sh matches -2147483648.. run scoreboard players set #l
 execute unless score #lc1 sh matches -2147483648.. run scoreboard players set #lc1 sh 0
 execute unless score #lc2 sh matches -2147483648.. run scoreboard players set #lc2 sh 0
 execute unless score #lc3 sh matches -2147483648.. run scoreboard players set #lc3 sh 0
+execute unless score #ask sh matches -2147483648.. run scoreboard players set #ask sh 0
+execute unless score #nfront sh matches -2147483648.. run scoreboard players set #nfront sh 0
+execute unless score #nbehind sh matches -2147483648.. run scoreboard players set #nbehind sh 0
+execute unless score #naround sh matches -2147483648.. run scoreboard players set #naround sh 0
+execute unless score #nspawn sh matches -2147483648.. run scoreboard players set #nspawn sh 0
+execute unless score #ndung sh matches -2147483648.. run scoreboard players set #ndung sh 0
+execute unless score #nmon sh matches -2147483648.. run scoreboard players set #nmon sh 0
+execute unless score #nbat sh matches -2147483648.. run scoreboard players set #nbat sh 0
+execute unless score #npas sh matches -2147483648.. run scoreboard players set #npas sh 0
+execute unless score #nitem sh matches -2147483648.. run scoreboard players set #nitem sh 0
+execute unless score #ncow sh matches -2147483648.. run scoreboard players set #ncow sh 0
 execute unless score #ct0 sh matches -2147483648.. run scoreboard players set #ct0 sh 0
 execute unless score #ct1 sh matches -2147483648.. run scoreboard players set #ct1 sh 0
 execute unless score #ct2 sh matches -2147483648.. run scoreboard players set #ct2 sh 0

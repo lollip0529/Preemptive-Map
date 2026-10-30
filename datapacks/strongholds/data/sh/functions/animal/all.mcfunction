@@ -1,3 +1,4 @@
+scoreboard players set #mwant sh 2147483647
 scoreboard players set #ccx sh -128
 scoreboard players set #ccz sh -128
 function sh:animal/chunk

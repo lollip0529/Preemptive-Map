@@ -1,4 +1,5 @@
 kill @e[tag=sh.mob]
+kill @e[tag=sh.drop]
 function sh:rng/n31
 scoreboard players operation #fs sh = #r sh
 execute if score #mobs sh matches 0 run scoreboard players set #mon sh 0
@@ -9,6 +10,8 @@ execute if score #mobs sh matches 2 run scoreboard players set #mon sh 45
 execute if score #mobs sh matches 2 run scoreboard players set #bats sh 8
 execute if score #mobs sh matches 3 run scoreboard players set #mon sh 70
 execute if score #mobs sh matches 3 run scoreboard players set #bats sh 15
+execute if score #mobs sh matches 4 run scoreboard players operation #mon sh = #nmon sh
+execute if score #mobs sh matches 4 run scoreboard players operation #bats sh = #nbat sh
 scoreboard players set #mx0 sh 2147483647
 scoreboard players set #mz0 sh 2147483647
 scoreboard players set #mx1 sh -2147483648
@@ -38,5 +41,13 @@ scoreboard players set #tries sh 30000
 execute if score #mwant sh matches 1.. run function sh:mob/try_bat
 scoreboard players operation #mplaced sh += #mcount sh
 scoreboard players set #mcount sh 0
-execute if score #mobs sh matches 1.. run function sh:animal/all
+execute if score #mobs sh matches 1..3 run function sh:animal/all
+scoreboard players operation #mwant sh = #npas sh
+scoreboard players set #tries sh 30000
+execute if score #mobs sh matches 4 if score #mwant sh matches 1.. run function sh:animal/some
+scoreboard players operation #mplaced sh += #mcount sh
+scoreboard players set #mcount sh 0
+scoreboard players operation #mwant sh = #nitem sh
+scoreboard players set #tries sh 30000
+execute if score #mobs sh matches 4 if score #mwant sh matches 1.. run function sh:mob/try_item
 scoreboard players operation #mplaced sh += #mcount sh
