@@ -1,0 +1,6 @@
+fill 96 1 -112 111 35 -97 stone replace #sh:notstone
+fill 96 36 -112 111 62 -97 water replace #sh:notwater
+fill 96 63 -112 111 67 -97 air replace #sh:notair
+clone 20824 1 2284 20839 62 2299 96 1 -112 filtered #sh:pool
+fill 96 36 -112 111 62 -97 stone replace minecraft:polished_andesite
+schedule function sh:reset/sea240 1t replace

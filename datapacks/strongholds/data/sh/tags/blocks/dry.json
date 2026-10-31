@@ -16,7 +16,6 @@
     "minecraft:end_portal_frame",
     "minecraft:end_portal",
     "minecraft:spawner",
-    "minecraft:stone",
-    "minecraft:end_stone"
+    "minecraft:stone"
   ]
 }

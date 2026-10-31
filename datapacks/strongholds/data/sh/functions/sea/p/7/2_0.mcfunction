@@ -1,1 +1,38 @@
-function sh:sea/box/4_10_4
+execute if score #smode sh matches 3 run function sh:sea/u/4_10_4
+execute if score #smode sh matches 0 run fill ~ ~ ~ ~4 ~10 ~4 stone replace #sh:wet
+execute if score #smode sh matches 1 run execute if block ~1 ~1 ~0 #sh:open if block ~1 ~1 ~-1 #sh:sea run setblock ~1 ~1 ~0 moving_piston
+execute if score #smode sh matches 1 run execute unless block ~1 ~1 ~0 #sh:dry if block ~1 ~1 ~-1 #sh:wet run setblock ~1 ~1 ~-1 moving_piston
+execute if score #smode sh matches 1 run execute if block ~1 ~2 ~0 #sh:open if block ~1 ~2 ~-1 #sh:sea run setblock ~1 ~2 ~0 moving_piston
+execute if score #smode sh matches 1 run execute unless block ~1 ~2 ~0 #sh:dry if block ~1 ~2 ~-1 #sh:wet run setblock ~1 ~2 ~-1 moving_piston
+execute if score #smode sh matches 1 run execute if block ~1 ~3 ~0 #sh:open if block ~1 ~3 ~-1 #sh:sea run setblock ~1 ~3 ~0 moving_piston
+execute if score #smode sh matches 1 run execute unless block ~1 ~3 ~0 #sh:dry if block ~1 ~3 ~-1 #sh:wet run setblock ~1 ~3 ~-1 moving_piston
+execute if score #smode sh matches 1 run execute if block ~1 ~7 ~4 #sh:open if block ~1 ~7 ~5 #sh:sea run setblock ~1 ~7 ~4 moving_piston
+execute if score #smode sh matches 1 run execute unless block ~1 ~7 ~4 #sh:dry if block ~1 ~7 ~5 #sh:wet run setblock ~1 ~7 ~5 moving_piston
+execute if score #smode sh matches 1 run execute if block ~1 ~8 ~4 #sh:open if block ~1 ~8 ~5 #sh:sea run setblock ~1 ~8 ~4 moving_piston
+execute if score #smode sh matches 1 run execute unless block ~1 ~8 ~4 #sh:dry if block ~1 ~8 ~5 #sh:wet run setblock ~1 ~8 ~5 moving_piston
+execute if score #smode sh matches 1 run execute if block ~1 ~9 ~4 #sh:open if block ~1 ~9 ~5 #sh:sea run setblock ~1 ~9 ~4 moving_piston
+execute if score #smode sh matches 1 run execute unless block ~1 ~9 ~4 #sh:dry if block ~1 ~9 ~5 #sh:wet run setblock ~1 ~9 ~5 moving_piston
+execute if score #smode sh matches 1 run execute if block ~2 ~1 ~0 #sh:open if block ~2 ~1 ~-1 #sh:sea run setblock ~2 ~1 ~0 moving_piston
+execute if score #smode sh matches 1 run execute unless block ~2 ~1 ~0 #sh:dry if block ~2 ~1 ~-1 #sh:wet run setblock ~2 ~1 ~-1 moving_piston
+execute if score #smode sh matches 1 run execute if block ~2 ~2 ~0 #sh:open if block ~2 ~2 ~-1 #sh:sea run setblock ~2 ~2 ~0 moving_piston
+execute if score #smode sh matches 1 run execute unless block ~2 ~2 ~0 #sh:dry if block ~2 ~2 ~-1 #sh:wet run setblock ~2 ~2 ~-1 moving_piston
+execute if score #smode sh matches 1 run execute if block ~2 ~3 ~0 #sh:open if block ~2 ~3 ~-1 #sh:sea run setblock ~2 ~3 ~0 moving_piston
+execute if score #smode sh matches 1 run execute unless block ~2 ~3 ~0 #sh:dry if block ~2 ~3 ~-1 #sh:wet run setblock ~2 ~3 ~-1 moving_piston
+execute if score #smode sh matches 1 run execute if block ~2 ~7 ~4 #sh:open if block ~2 ~7 ~5 #sh:sea run setblock ~2 ~7 ~4 moving_piston
+execute if score #smode sh matches 1 run execute unless block ~2 ~7 ~4 #sh:dry if block ~2 ~7 ~5 #sh:wet run setblock ~2 ~7 ~5 moving_piston
+execute if score #smode sh matches 1 run execute if block ~2 ~8 ~4 #sh:open if block ~2 ~8 ~5 #sh:sea run setblock ~2 ~8 ~4 moving_piston
+execute if score #smode sh matches 1 run execute unless block ~2 ~8 ~4 #sh:dry if block ~2 ~8 ~5 #sh:wet run setblock ~2 ~8 ~5 moving_piston
+execute if score #smode sh matches 1 run execute if block ~2 ~9 ~4 #sh:open if block ~2 ~9 ~5 #sh:sea run setblock ~2 ~9 ~4 moving_piston
+execute if score #smode sh matches 1 run execute unless block ~2 ~9 ~4 #sh:dry if block ~2 ~9 ~5 #sh:wet run setblock ~2 ~9 ~5 moving_piston
+execute if score #smode sh matches 1 run execute if block ~3 ~1 ~0 #sh:open if block ~3 ~1 ~-1 #sh:sea run setblock ~3 ~1 ~0 moving_piston
+execute if score #smode sh matches 1 run execute unless block ~3 ~1 ~0 #sh:dry if block ~3 ~1 ~-1 #sh:wet run setblock ~3 ~1 ~-1 moving_piston
+execute if score #smode sh matches 1 run execute if block ~3 ~2 ~0 #sh:open if block ~3 ~2 ~-1 #sh:sea run setblock ~3 ~2 ~0 moving_piston
+execute if score #smode sh matches 1 run execute unless block ~3 ~2 ~0 #sh:dry if block ~3 ~2 ~-1 #sh:wet run setblock ~3 ~2 ~-1 moving_piston
+execute if score #smode sh matches 1 run execute if block ~3 ~3 ~0 #sh:open if block ~3 ~3 ~-1 #sh:sea run setblock ~3 ~3 ~0 moving_piston
+execute if score #smode sh matches 1 run execute unless block ~3 ~3 ~0 #sh:dry if block ~3 ~3 ~-1 #sh:wet run setblock ~3 ~3 ~-1 moving_piston
+execute if score #smode sh matches 1 run execute if block ~3 ~7 ~4 #sh:open if block ~3 ~7 ~5 #sh:sea run setblock ~3 ~7 ~4 moving_piston
+execute if score #smode sh matches 1 run execute unless block ~3 ~7 ~4 #sh:dry if block ~3 ~7 ~5 #sh:wet run setblock ~3 ~7 ~5 moving_piston
+execute if score #smode sh matches 1 run execute if block ~3 ~8 ~4 #sh:open if block ~3 ~8 ~5 #sh:sea run setblock ~3 ~8 ~4 moving_piston
+execute if score #smode sh matches 1 run execute unless block ~3 ~8 ~4 #sh:dry if block ~3 ~8 ~5 #sh:wet run setblock ~3 ~8 ~5 moving_piston
+execute if score #smode sh matches 1 run execute if block ~3 ~9 ~4 #sh:open if block ~3 ~9 ~5 #sh:sea run setblock ~3 ~9 ~4 moving_piston
+execute if score #smode sh matches 1 run execute unless block ~3 ~9 ~4 #sh:dry if block ~3 ~9 ~5 #sh:wet run setblock ~3 ~9 ~5 moving_piston
