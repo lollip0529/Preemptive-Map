@@ -1,0 +1,43 @@
+scoreboard players set #hf0 sh 0
+scoreboard players set #hf1 sh 0
+scoreboard players set #hf2 sh 0
+scoreboard players set #hf3 sh 0
+scoreboard players set #hf4 sh 0
+scoreboard players set #hf5 sh 0
+function sh:h/vg/step
+execute if score #hf0 sh matches 1 if score #hf0 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~0 ~ ~0 structure_void
+execute if score #hf0 sh matches 1 if score #hf1 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~0 ~ ~1 structure_void
+execute if score #hf0 sh matches 1 if score #hf2 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~0 ~ ~2 structure_void
+execute if score #hf0 sh matches 1 if score #hf3 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~0 ~ ~3 structure_void
+execute if score #hf0 sh matches 1 if score #hf4 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~0 ~ ~4 structure_void
+execute if score #hf0 sh matches 1 if score #hf5 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~0 ~ ~5 structure_void
+execute if score #hf1 sh matches 1 if score #hf0 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~1 ~ ~0 structure_void
+execute if score #hf1 sh matches 1 if score #hf1 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~1 ~ ~1 structure_void
+execute if score #hf1 sh matches 1 if score #hf2 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~1 ~ ~2 structure_void
+execute if score #hf1 sh matches 1 if score #hf3 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~1 ~ ~3 structure_void
+execute if score #hf1 sh matches 1 if score #hf4 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~1 ~ ~4 structure_void
+execute if score #hf1 sh matches 1 if score #hf5 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~1 ~ ~5 structure_void
+execute if score #hf2 sh matches 1 if score #hf0 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~2 ~ ~0 structure_void
+execute if score #hf2 sh matches 1 if score #hf1 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~2 ~ ~1 structure_void
+execute if score #hf2 sh matches 1 if score #hf2 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~2 ~ ~2 structure_void
+execute if score #hf2 sh matches 1 if score #hf3 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~2 ~ ~3 structure_void
+execute if score #hf2 sh matches 1 if score #hf4 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~2 ~ ~4 structure_void
+execute if score #hf2 sh matches 1 if score #hf5 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~2 ~ ~5 structure_void
+execute if score #hf3 sh matches 1 if score #hf0 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~3 ~ ~0 structure_void
+execute if score #hf3 sh matches 1 if score #hf1 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~3 ~ ~1 structure_void
+execute if score #hf3 sh matches 1 if score #hf2 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~3 ~ ~2 structure_void
+execute if score #hf3 sh matches 1 if score #hf3 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~3 ~ ~3 structure_void
+execute if score #hf3 sh matches 1 if score #hf4 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~3 ~ ~4 structure_void
+execute if score #hf3 sh matches 1 if score #hf5 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~3 ~ ~5 structure_void
+execute if score #hf4 sh matches 1 if score #hf0 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~4 ~ ~0 structure_void
+execute if score #hf4 sh matches 1 if score #hf1 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~4 ~ ~1 structure_void
+execute if score #hf4 sh matches 1 if score #hf2 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~4 ~ ~2 structure_void
+execute if score #hf4 sh matches 1 if score #hf3 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~4 ~ ~3 structure_void
+execute if score #hf4 sh matches 1 if score #hf4 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~4 ~ ~4 structure_void
+execute if score #hf4 sh matches 1 if score #hf5 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~4 ~ ~5 structure_void
+execute if score #hf5 sh matches 1 if score #hf0 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~5 ~ ~0 structure_void
+execute if score #hf5 sh matches 1 if score #hf1 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~5 ~ ~1 structure_void
+execute if score #hf5 sh matches 1 if score #hf2 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~5 ~ ~2 structure_void
+execute if score #hf5 sh matches 1 if score #hf3 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~5 ~ ~3 structure_void
+execute if score #hf5 sh matches 1 if score #hf4 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~5 ~ ~4 structure_void
+execute if score #hf5 sh matches 1 if score #hf5 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~5 ~ ~5 structure_void
