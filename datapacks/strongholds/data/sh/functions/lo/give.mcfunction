@@ -5,6 +5,7 @@ execute if score #lo sh matches 1 run data modify storage sh:lo cur set from sto
 execute if score #lo sh matches 2 run data modify storage sh:lo cur set from storage sh:lo l2
 execute if score #lo sh matches 3 run data modify storage sh:lo cur set from storage sh:lo l3
 execute if score #lo sh matches 4 run data modify storage sh:lo cur set from storage sh:lo l4
+execute if score #lo sh matches 5 run function sh:lo/pick
 data modify storage sh:lo part set value []
 data modify storage sh:lo part append from storage sh:lo cur[{Slot:0b}]
 data modify storage sh:lo part[{Slot:0b}].Slot set value 0b
