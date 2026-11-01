@@ -11,3 +11,4 @@ execute if score #pn sh matches 8 positioned 21504 1 1024 run function sh:cave/w
 execute if score #pn sh matches 9 positioned 20480 1 1536 run function sh:cave/walk0
 execute if score #pn sh matches 10 positioned 20992 1 1536 run function sh:cave/walk0
 execute if score #pn sh matches 11 positioned 21504 1 1536 run function sh:cave/walk0
+execute if score #pn sh matches 12 positioned 20480 1 2048 run function sh:cave/walk0

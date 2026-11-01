@@ -13,4 +13,5 @@ execute if score #r sh matches 0 at @e[tag=sh.at] run setblock ~ ~ ~ spawner{Spa
 execute if score #r sh matches 1 at @e[tag=sh.at] run setblock ~ ~ ~ spawner{SpawnData:{id:"minecraft:zombie"},SpawnPotentials:[{Weight:1,Entity:{id:"minecraft:zombie"}}]}
 execute if score #r sh matches 2 at @e[tag=sh.at] run setblock ~ ~ ~ spawner{SpawnData:{id:"minecraft:zombie"},SpawnPotentials:[{Weight:1,Entity:{id:"minecraft:zombie"}}]}
 execute if score #r sh matches 3 at @e[tag=sh.at] run setblock ~ ~ ~ spawner{SpawnData:{id:"minecraft:spider"},SpawnPotentials:[{Weight:1,Entity:{id:"minecraft:spider"}}]}
+execute if score #terrain sh matches 1 run function sh:sea/mark
 scoreboard players add #placed sh 1

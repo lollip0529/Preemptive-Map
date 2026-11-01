@@ -1,8 +1,8 @@
 data modify storage sh:b name set value "sh:p/2/3_1_k"
 function sh:build/keep
-fill 0 110 3200 10 114 3208 barrier replace cave_air
-fill 0 110 3200 10 114 3208 structure_void replace moving_piston
-clone 0 110 3200 10 114 3208 ~ ~ ~ filtered #sh:cut
+fill 0 110 6400 10 114 6408 barrier replace cave_air
+fill 0 110 6400 10 114 6408 structure_void replace moving_piston
+clone 0 110 6400 10 114 6408 ~ ~ ~ filtered #sh:cut
 fill ~ ~ ~ ~10 ~4 ~8 cave_air replace barrier
 fill ~ ~ ~ ~10 ~4 ~8 moving_piston replace structure_void
 setblock ~0 ~1 ~2 minecraft:oak_door[facing=east,half=lower,hinge=left,open=false,powered=false]

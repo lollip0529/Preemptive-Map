@@ -1,3 +1,6 @@
+scoreboard players set #busy sh 1
+schedule clear sh:mob/later
+schedule clear sh:mob/run
 scoreboard players set #pready sh 1
 scoreboard players set #pwait sh 0
 function sh:cave/pool

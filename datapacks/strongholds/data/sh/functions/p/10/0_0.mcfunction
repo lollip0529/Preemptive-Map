@@ -1,4 +1,4 @@
-execute if score #cut sh matches 1 run clone ~ ~ ~ ~13 ~5 ~14 0 110 3200
+execute if score #cut sh matches 1 run clone ~ ~ ~ ~13 ~5 ~14 0 110 6400
 data modify storage sh:b name set value "sh:p/10/0_0"
 function sh:build/base
 data modify storage sh:b name set value "sh:p/10/0_0_m"

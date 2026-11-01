@@ -4,6 +4,7 @@ scoreboard players operation @e[tag=sh.new] sh.f = #cf sh
 scoreboard players operation @e[tag=sh.new] sh.v = #nv sh
 scoreboard players operation @e[tag=sh.new] sh.d = #l sh
 scoreboard players operation @e[tag=sh.new] sh.o = #npc sh
+scoreboard players operation @e[tag=sh.new] sh.p = #par sh
 scoreboard players operation @e[tag=sh.new] sh.q = #npend sh
 scoreboard players operation @e[tag=sh.new] sh.x0 = #bx0 sh
 scoreboard players operation @e[tag=sh.new] sh.y0 = #by0 sh

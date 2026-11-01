@@ -1,3 +1,4 @@
+scoreboard players operation #par sh = @s sh.o
 scoreboard players operation #px0 sh = @s sh.x0
 scoreboard players operation #py0 sh = @s sh.y0
 scoreboard players operation #pz0 sh = @s sh.z0

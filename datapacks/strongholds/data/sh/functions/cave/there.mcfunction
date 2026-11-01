@@ -9,3 +9,4 @@ execute if score #pn sh matches 8 run function sh:cave/fix2_2
 execute if score #pn sh matches 9 run function sh:cave/fix3_0
 execute if score #pn sh matches 10 run function sh:cave/fix3_1
 execute if score #pn sh matches 11 run function sh:cave/fix3_2
+execute if score #pn sh matches 12 run function sh:cave/fix4_0

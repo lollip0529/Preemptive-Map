@@ -18,8 +18,6 @@ execute if block 8 84 3398 barrel unless data block 8 84 3398 Items[{Slot:16b}] 
 execute if block 8 84 3398 barrel if data block 8 84 3398 Items[{Slot:16b,Count:1b}] run function sh:menu/back66
 execute if block 8 84 3398 barrel unless data block 8 84 3398 Items[{Slot:20b}] run function sh:menu/do74
 execute if block 8 84 3398 barrel if data block 8 84 3398 Items[{Slot:20b,Count:1b}] run function sh:menu/back74
-execute if block 8 84 3398 barrel unless data block 8 84 3398 Items[{Slot:20b}] run function sh:menu/do74
-execute if block 8 84 3398 barrel if data block 8 84 3398 Items[{Slot:20b,Count:1b}] run function sh:menu/back74
 execute if block 8 84 3398 barrel unless data block 8 84 3398 Items[{Slot:21b}] run function sh:menu/do75
 execute if block 8 84 3398 barrel if data block 8 84 3398 Items[{Slot:21b,Count:1b}] run function sh:menu/back75
 execute if block 8 84 3398 barrel unless data block 8 84 3398 Items[{Slot:22b}] run function sh:menu/do76

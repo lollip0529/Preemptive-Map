@@ -44,6 +44,7 @@ scoreboard players set #bz1 sh 6
 scoreboard players set #nt sh 0
 scoreboard players set #nv sh 0
 scoreboard players set #l sh 0
+scoreboard players set #par sh -1
 function sh:gen/spawn
 scoreboard players set @e[tag=sh.pc] sh.q -1
 scoreboard players set #npend sh 0

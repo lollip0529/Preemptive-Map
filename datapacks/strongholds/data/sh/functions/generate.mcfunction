@@ -1,3 +1,4 @@
 function sh:ready
 execute if score #unready sh matches 1 run tellraw @a {"text": "Terrain is still loading, try again in a few seconds.", "color": "red"}
-execute if score #unready sh matches 0 run function sh:generate1
+execute if score #unready sh matches 0 if score #busy sh matches 1 run tellraw @a {"text": "Still building the last one.", "color": "red"}
+execute if score #unready sh matches 0 unless score #busy sh matches 1 run function sh:generate1

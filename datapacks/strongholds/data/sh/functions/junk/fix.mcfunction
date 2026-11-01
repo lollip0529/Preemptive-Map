@@ -21,3 +21,4 @@ execute store result entity @e[tag=sh.at,limit=1] Pos[0] double 1 run scoreboard
 execute store result entity @e[tag=sh.at,limit=1] Pos[1] double 1 run scoreboard players get #jy sh
 execute store result entity @e[tag=sh.at,limit=1] Pos[2] double 1 run scoreboard players get #jz sh
 execute at @e[tag=sh.at] unless block ~ ~ ~ #sh:natural run scoreboard players set #hit sh 1
+execute at @e[tag=sh.at] if block ~ ~ ~ chest run scoreboard players set #hit sh 1

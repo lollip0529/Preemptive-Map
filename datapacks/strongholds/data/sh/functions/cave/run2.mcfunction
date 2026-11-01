@@ -287,22 +287,22 @@ clone ~256 ~ ~208 ~271 ~61 ~223 128 1 80 filtered #sh:pool
 clone ~256 ~ ~224 ~271 ~61 ~239 128 1 96 filtered #sh:pool
 clone ~256 ~ ~240 ~271 ~61 ~255 128 1 112 filtered #sh:pool
 clone ~256 ~ ~256 ~271 ~61 ~271 128 1 128 filtered #sh:pool
-clone ~ ~62 ~0 ~271 ~64 ~15 -128 63 -128
-clone ~ ~62 ~16 ~271 ~64 ~31 -128 63 -112
-clone ~ ~62 ~32 ~271 ~64 ~47 -128 63 -96
-clone ~ ~62 ~48 ~271 ~64 ~63 -128 63 -80
-clone ~ ~62 ~64 ~271 ~64 ~79 -128 63 -64
-clone ~ ~62 ~80 ~271 ~64 ~95 -128 63 -48
-clone ~ ~62 ~96 ~271 ~64 ~111 -128 63 -32
-clone ~ ~62 ~112 ~271 ~64 ~127 -128 63 -16
-clone ~ ~62 ~128 ~271 ~64 ~143 -128 63 0
-clone ~ ~62 ~144 ~271 ~64 ~159 -128 63 16
-clone ~ ~62 ~160 ~271 ~64 ~175 -128 63 32
-clone ~ ~62 ~176 ~271 ~64 ~191 -128 63 48
-clone ~ ~62 ~192 ~271 ~64 ~207 -128 63 64
-clone ~ ~62 ~208 ~271 ~64 ~223 -128 63 80
-clone ~ ~62 ~224 ~271 ~64 ~239 -128 63 96
-clone ~ ~62 ~240 ~271 ~64 ~255 -128 63 112
-clone ~ ~62 ~256 ~271 ~64 ~271 -128 63 128
+execute if score #terrain sh matches 0 run clone ~ ~62 ~0 ~271 ~64 ~15 -128 63 -128
+execute if score #terrain sh matches 0 run clone ~ ~62 ~16 ~271 ~64 ~31 -128 63 -112
+execute if score #terrain sh matches 0 run clone ~ ~62 ~32 ~271 ~64 ~47 -128 63 -96
+execute if score #terrain sh matches 0 run clone ~ ~62 ~48 ~271 ~64 ~63 -128 63 -80
+execute if score #terrain sh matches 0 run clone ~ ~62 ~64 ~271 ~64 ~79 -128 63 -64
+execute if score #terrain sh matches 0 run clone ~ ~62 ~80 ~271 ~64 ~95 -128 63 -48
+execute if score #terrain sh matches 0 run clone ~ ~62 ~96 ~271 ~64 ~111 -128 63 -32
+execute if score #terrain sh matches 0 run clone ~ ~62 ~112 ~271 ~64 ~127 -128 63 -16
+execute if score #terrain sh matches 0 run clone ~ ~62 ~128 ~271 ~64 ~143 -128 63 0
+execute if score #terrain sh matches 0 run clone ~ ~62 ~144 ~271 ~64 ~159 -128 63 16
+execute if score #terrain sh matches 0 run clone ~ ~62 ~160 ~271 ~64 ~175 -128 63 32
+execute if score #terrain sh matches 0 run clone ~ ~62 ~176 ~271 ~64 ~191 -128 63 48
+execute if score #terrain sh matches 0 run clone ~ ~62 ~192 ~271 ~64 ~207 -128 63 64
+execute if score #terrain sh matches 0 run clone ~ ~62 ~208 ~271 ~64 ~223 -128 63 80
+execute if score #terrain sh matches 0 run clone ~ ~62 ~224 ~271 ~64 ~239 -128 63 96
+execute if score #terrain sh matches 0 run clone ~ ~62 ~240 ~271 ~64 ~255 -128 63 112
+execute if score #terrain sh matches 0 run clone ~ ~62 ~256 ~271 ~64 ~271 -128 63 128
 forceload remove ~ ~0 ~271 ~135
 forceload remove ~ ~136 ~271 ~271

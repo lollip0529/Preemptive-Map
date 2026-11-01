@@ -9,5 +9,6 @@ execute at @e[tag=sh.at] run execute unless score #baby sh matches 0 run summon 
 scoreboard players set #bound sh 360
 function sh:rng/fast
 execute store result entity @e[tag=sh.new,limit=1] Rotation[0] float 1 run scoreboard players get #r sh
+execute if score #mai sh matches 1 run data merge entity @e[tag=sh.new,limit=1] {NoAI:1b,Silent:1b}
 tag @e[tag=sh.new] remove sh.new
 scoreboard players add #mcount sh 1

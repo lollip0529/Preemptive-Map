@@ -10,4 +10,5 @@ scoreboard players operation #ccz sh *= #16 sh
 scoreboard players remove #ccz sh 128
 function sh:animal/pack
 scoreboard players remove #tries sh 1
-execute if score #mcount sh < #mwant sh if score #tries sh matches 1.. run function sh:animal/some
+scoreboard players remove #mbud sh 1
+execute if score #mcount sh < #mwant sh if score #tries sh matches 1.. if score #mbud sh matches 1.. run function sh:animal/some

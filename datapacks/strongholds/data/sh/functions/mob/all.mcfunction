@@ -28,26 +28,6 @@ execute if score #mx0 sh matches ..-129 run scoreboard players set #mx0 sh -128
 execute if score #mz0 sh matches ..-129 run scoreboard players set #mz0 sh -128
 execute if score #mx1 sh matches 144.. run scoreboard players set #mx1 sh 143
 execute if score #mz1 sh matches 144.. run scoreboard players set #mz1 sh 143
-scoreboard players set #mcount sh 0
-scoreboard players operation #mwant sh = #mon sh
-scoreboard players set #mdark sh 7
-scoreboard players set #tries sh 30000
-execute if score #mwant sh matches 1.. run function sh:mob/try_monster
-scoreboard players operation #mplaced sh = #mcount sh
-scoreboard players set #mcount sh 0
-scoreboard players operation #mwant sh = #bats sh
-scoreboard players set #mdark sh 3
-scoreboard players set #tries sh 30000
-execute if score #mwant sh matches 1.. run function sh:mob/try_bat
-scoreboard players operation #mplaced sh += #mcount sh
-scoreboard players set #mcount sh 0
-execute if score #mobs sh matches 1..3 run function sh:animal/all
-scoreboard players operation #mwant sh = #npas sh
-scoreboard players set #tries sh 30000
-execute if score #mobs sh matches 4 if score #mwant sh matches 1.. run function sh:animal/some
-scoreboard players operation #mplaced sh += #mcount sh
-scoreboard players set #mcount sh 0
-scoreboard players operation #mwant sh = #nitem sh
-scoreboard players set #tries sh 30000
-execute if score #mobs sh matches 4 if score #mwant sh matches 1.. run function sh:mob/try_item
-scoreboard players operation #mplaced sh += #mcount sh
+scoreboard players set #mst sh 0
+function sh:mob/init0
+function sh:mob/run

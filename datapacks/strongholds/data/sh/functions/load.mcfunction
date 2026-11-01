@@ -4,6 +4,7 @@ scoreboard objectives add sh.f dummy
 scoreboard objectives add sh.v dummy
 scoreboard objectives add sh.d dummy
 scoreboard objectives add sh.o dummy
+scoreboard objectives add sh.p dummy
 scoreboard objectives add sh.q dummy
 scoreboard objectives add sh.x0 dummy
 scoreboard objectives add sh.y0 dummy
@@ -22,6 +23,7 @@ scoreboard objectives add sh.pk.iron minecraft.dropped:minecraft.iron_pickaxe
 scoreboard objectives add sh.pk.golden minecraft.dropped:minecraft.golden_pickaxe
 scoreboard objectives add sh.pk.diamond minecraft.dropped:minecraft.diamond_pickaxe
 scoreboard objectives add sh.pk.netherite minecraft.dropped:minecraft.netherite_pickaxe
+scoreboard players set #1200 sh 1200
 gamerule maxCommandChainLength 2147483647
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
@@ -32,7 +34,7 @@ gamerule randomTickSpeed 0
 gamerule doFireTick false
 gamerule announceAdvancements false
 gamerule mobGriefing false
-gamerule keepInventory true
+gamerule keepInventory false
 gamerule doImmediateRespawn true
 scoreboard players set #2 sh 2
 scoreboard players set #4 sh 4
@@ -112,6 +114,12 @@ execute unless score #cb7 sh matches -2147483648.. run scoreboard players set #c
 execute unless score #cb8 sh matches -2147483648.. run scoreboard players set #cb8 sh -1
 execute unless score #cb9 sh matches -2147483648.. run scoreboard players set #cb9 sh -1
 forceload add 8 3208 8 3208
+forceload add 0 6400
+forceload add 18 6402
+scoreboard players set #busy sh 0
+fill 17 1 6401 19 4 6403 stone
+setblock 18 3 6402 air
+scoreboard players set #glow sh 0
 function sh:area
 function sh:lo/init
 function sh:menu/build

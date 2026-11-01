@@ -6,6 +6,7 @@ function sh:menu/watch
 function sh:rec/watch
 function sh:vit/tick
 function sh:learn/hhb
+function sh:respawn
 execute as @a[scores={sh.egg=1..}] run function sh:egg
 execute as @a[scores={sh.pk.wooden=1..}] at @s run function sh:pick
 execute as @a[scores={sh.pk.stone=1..}] at @s run function sh:pick
@@ -14,6 +15,8 @@ execute as @a[scores={sh.pk.golden=1..}] at @s run function sh:pick
 execute as @a[scores={sh.pk.diamond=1..}] at @s run function sh:pick
 execute as @a[scores={sh.pk.netherite=1..}] at @s run function sh:pick
 execute as @e[type=player,scores={sh.die=1..}] run function sh:died
+execute if score #nav sh matches 1 if score #hint sh matches 0 if score #hcul sh matches 1 run function sh:hint/clock
+execute if score #hst sh matches 1.. run function sh:h/tick
 execute if score #nav sh matches 1 at @e[tag=sh.mark] if block ~0 ~ ~4 end_portal run function sh:finish
 execute if score #nav sh matches 1 at @e[tag=sh.mark] if block ~0 ~ ~-4 end_portal run function sh:finish
 execute if score #nav sh matches 1 at @e[tag=sh.mark] if block ~4 ~ ~0 end_portal run function sh:finish

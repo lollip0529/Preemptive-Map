@@ -28,6 +28,7 @@ execute if score @s ps matches 39 run function sh:ui/a39
 execute if score @s ps matches 40 run function sh:ui/a40
 execute if score @s ps matches 41 run function sh:ui/a41
 execute if score @s ps matches 42 run function sh:ui/a42
+execute if score @s ps matches 43 run function sh:ui/a43
 execute if score @s ps matches 49 run function sh:ui/a49
 execute if score @s ps matches 50 run function sh:ui/a50
 execute if score @s ps matches 51 run function sh:ui/a51

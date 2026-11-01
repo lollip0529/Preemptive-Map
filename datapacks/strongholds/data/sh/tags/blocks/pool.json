@@ -2,8 +2,10 @@
   "values": [
     "minecraft:andesite",
     "minecraft:bedrock",
+    "minecraft:bubble_column",
     "minecraft:cave_air",
     "minecraft:chest",
+    "minecraft:clay",
     "minecraft:coal_ore",
     "minecraft:cobblestone",
     "minecraft:cobweb",
@@ -15,17 +17,26 @@
     "minecraft:grass_block",
     "minecraft:gravel",
     "minecraft:iron_ore",
+    "minecraft:kelp",
+    "minecraft:kelp_plant",
     "minecraft:lapis_ore",
     "minecraft:lava",
+    "minecraft:magma_block",
     "minecraft:mossy_cobblestone",
     "minecraft:moving_piston",
     "minecraft:oak_fence",
     "minecraft:oak_planks",
+    "minecraft:obsidian",
     "minecraft:redstone_ore",
+    "minecraft:sand",
+    "minecraft:sandstone",
+    "minecraft:seagrass",
     "minecraft:spawner",
+    "minecraft:tall_seagrass",
     "minecraft:wall_torch",
     "minecraft:water",
     "minecraft:black_concrete",
-    "minecraft:white_concrete"
+    "minecraft:white_concrete",
+    "minecraft:polished_andesite"
   ]
 }

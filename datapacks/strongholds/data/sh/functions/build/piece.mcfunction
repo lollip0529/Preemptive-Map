@@ -3,6 +3,7 @@ execute store result storage sh:gen pieces[-1].t int 1 run scoreboard players ge
 execute store result storage sh:gen pieces[-1].f int 1 run scoreboard players get @s sh.f
 execute store result storage sh:gen pieces[-1].v int 1 run scoreboard players get @s sh.v
 execute store result storage sh:gen pieces[-1].d int 1 run scoreboard players get @s sh.d
+execute store result storage sh:gen pieces[-1].p int 1 run scoreboard players get @s sh.p
 execute store result storage sh:gen pieces[-1].x0 int 1 run scoreboard players get @s sh.x0
 execute store result storage sh:gen pieces[-1].y0 int 1 run scoreboard players get @s sh.y0
 execute store result storage sh:gen pieces[-1].z0 int 1 run scoreboard players get @s sh.z0

@@ -267,3 +267,4 @@ fill -128 49 54 143 49 143 minecraft:rail[shape=east_west] replace minecraft:whi
 scoreboard players operation #wx sh = #psx sh
 scoreboard players operation #wz sh = #psz sh
 execute positioned -128 0 -128 run function sh:cave/back0
+execute if score #terrain sh matches 1 run function sh:cave/sea
