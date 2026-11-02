@@ -1,2 +1,2 @@
-scoreboard players set #hbud sh 150
+scoreboard players operation #hbud sh = #hbmax sh
 function sh:h/loop

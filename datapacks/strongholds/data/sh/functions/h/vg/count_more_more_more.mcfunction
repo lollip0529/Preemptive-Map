@@ -1,3 +1,4 @@
+execute positioned ~3 ~11 ~11 unless block ~ ~ ~ #sh:opq unless block ~ ~ ~ minecraft:smooth_stone_slab[type=double] run scoreboard players add #hsee sh 1
 execute positioned ~4 ~11 ~11 unless block ~ ~ ~ #sh:opq unless block ~ ~ ~ minecraft:smooth_stone_slab[type=double] run scoreboard players add #hsee sh 1
 execute positioned ~5 ~11 ~11 unless block ~ ~ ~ #sh:opq unless block ~ ~ ~ minecraft:smooth_stone_slab[type=double] run scoreboard players add #hsee sh 1
 execute positioned ~6 ~11 ~11 unless block ~ ~ ~ #sh:opq unless block ~ ~ ~ minecraft:smooth_stone_slab[type=double] run scoreboard players add #hsee sh 1
@@ -996,5 +997,4 @@ execute positioned ~6 ~15 ~9 unless block ~ ~ ~ #sh:opq unless block ~ ~ ~ minec
 execute positioned ~7 ~15 ~9 unless block ~ ~ ~ #sh:opq unless block ~ ~ ~ minecraft:smooth_stone_slab[type=double] run scoreboard players add #hsee sh 1
 execute positioned ~8 ~15 ~9 unless block ~ ~ ~ #sh:opq unless block ~ ~ ~ minecraft:smooth_stone_slab[type=double] run scoreboard players add #hsee sh 1
 execute positioned ~9 ~15 ~9 unless block ~ ~ ~ #sh:opq unless block ~ ~ ~ minecraft:smooth_stone_slab[type=double] run scoreboard players add #hsee sh 1
-execute positioned ~10 ~15 ~9 unless block ~ ~ ~ #sh:opq unless block ~ ~ ~ minecraft:smooth_stone_slab[type=double] run scoreboard players add #hsee sh 1
 function sh:h/vg/count_more_more_more_more

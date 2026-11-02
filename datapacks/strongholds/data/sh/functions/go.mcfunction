@@ -7,3 +7,4 @@ function sh:lo/give
 function sh:hint/new
 scoreboard players set #nav sh 1
 execute store result score #nt0 sh run time query gametime
+function sh:sc/try

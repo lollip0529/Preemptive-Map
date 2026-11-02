@@ -1,3 +1,4 @@
+execute positioned ~10 ~15 ~9 unless block ~ ~ ~ #sh:opq unless block ~ ~ ~ minecraft:smooth_stone_slab[type=double] run scoreboard players add #hsee sh 1
 execute positioned ~11 ~15 ~9 unless block ~ ~ ~ #sh:opq unless block ~ ~ ~ minecraft:smooth_stone_slab[type=double] run scoreboard players add #hsee sh 1
 execute positioned ~12 ~15 ~9 unless block ~ ~ ~ #sh:opq unless block ~ ~ ~ minecraft:smooth_stone_slab[type=double] run scoreboard players add #hsee sh 1
 execute positioned ~13 ~15 ~9 unless block ~ ~ ~ #sh:opq unless block ~ ~ ~ minecraft:smooth_stone_slab[type=double] run scoreboard players add #hsee sh 1

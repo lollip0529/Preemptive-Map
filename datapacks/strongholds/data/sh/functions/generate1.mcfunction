@@ -1,4 +1,5 @@
 scoreboard players set #busy sh 1
+function sh:h/stop
 schedule clear sh:mob/later
 schedule clear sh:mob/run
 scoreboard players set #pready sh 1

@@ -1,10 +1,4 @@
-scoreboard players set #hf0 sh 0
-scoreboard players set #hf1 sh 0
-scoreboard players set #hf2 sh 0
-scoreboard players set #hf3 sh 0
-scoreboard players set #hf4 sh 0
-scoreboard players set #hf5 sh 0
-function sh:h/vg/step
+scoreboard players set #hvr sh 0
 execute if score #hf0 sh matches 1 if score #hf0 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~0 ~ ~0 structure_void
 execute if score #hf0 sh matches 1 if score #hf1 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~0 ~ ~1 structure_void
 execute if score #hf0 sh matches 1 if score #hf2 sh matches 1 at @e[tag=sh.hm,limit=1] run setblock ~0 ~ ~2 structure_void

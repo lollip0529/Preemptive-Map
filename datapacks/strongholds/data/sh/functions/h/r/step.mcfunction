@@ -1,11 +1,6 @@
-execute store result score #hx sh run data get storage sh:h q[0].x
-execute store result score #hy sh run data get storage sh:h q[0].y
-execute store result score #hz sh run data get storage sh:h q[0].z
 execute store result score #hb sh run data get storage sh:h q[0].b
 execute store result score #hs sh run data get storage sh:h q[0].s
 data remove storage sh:h q[0]
-function sh:h/at/sec
-execute at @e[tag=sh.hm,limit=1] unless block ~6 ~ ~ structure_void run function sh:h/vg/sec
 scoreboard players operation #hs0 sh = #hs sh
 scoreboard players operation #hs0 sh /= #hp0 sh
 scoreboard players operation #hs0 sh %= #h2 sh

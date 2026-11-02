@@ -1,8 +1,4 @@
 setblock ~ ~128 ~ structure_void
 scoreboard players add #hcnt sh 1
-execute positioned ~0 ~-1 ~0 run function sh:h/vg/n
-execute positioned ~0 ~1 ~0 run function sh:h/vg/n
-execute positioned ~0 ~0 ~-1 run function sh:h/vg/n
-execute positioned ~0 ~0 ~1 run function sh:h/vg/n
-execute positioned ~-1 ~0 ~0 run function sh:h/vg/n
-execute positioned ~1 ~0 ~0 run function sh:h/vg/n
+scoreboard players remove #hva sh 1
+function sh:h/vg/x
