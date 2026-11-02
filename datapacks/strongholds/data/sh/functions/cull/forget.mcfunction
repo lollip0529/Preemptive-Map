@@ -8,3 +8,4 @@ scoreboard players set #cb6 sh -1
 scoreboard players set #cb7 sh -1
 scoreboard players set #cb8 sh -1
 scoreboard players set #cb9 sh -1
+scoreboard players set #cb10 sh -1

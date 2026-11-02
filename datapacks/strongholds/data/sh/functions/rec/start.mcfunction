@@ -14,3 +14,4 @@ execute if score #cb6 sh matches 1 run scoreboard players add #rc sh 64
 execute if score #cb7 sh matches 1 run scoreboard players add #rc sh 128
 execute if score #cb8 sh matches 1 run scoreboard players add #rc sh 256
 execute if score #cb9 sh matches 1 run scoreboard players add #rc sh 512
+execute if score #cb10 sh matches 1 run scoreboard players add #rc sh 1024

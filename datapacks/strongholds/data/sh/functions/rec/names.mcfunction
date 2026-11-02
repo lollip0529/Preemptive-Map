@@ -43,9 +43,14 @@ scoreboard players operation #ry sh = #rcc sh
 scoreboard players set #rk sh 256
 scoreboard players operation #ry sh /= #rk sh
 scoreboard players operation #ry sh %= #2 sh
-execute if score #rcc sh matches 0.. if score #ry sh matches 1 run data modify storage sh:rec names append value "Angle"
+execute if score #rcc sh matches 0.. if score #ry sh matches 1 run data modify storage sh:rec names append value "Angle EZ"
 scoreboard players operation #ry sh = #rcc sh
 scoreboard players set #rk sh 512
 scoreboard players operation #ry sh /= #rk sh
 scoreboard players operation #ry sh %= #2 sh
 execute if score #rcc sh matches 0.. if score #ry sh matches 1 run data modify storage sh:rec names append value "Ghost"
+scoreboard players operation #ry sh = #rcc sh
+scoreboard players set #rk sh 1024
+scoreboard players operation #ry sh /= #rk sh
+scoreboard players operation #ry sh %= #2 sh
+execute if score #rcc sh matches 0.. if score #ry sh matches 1 run data modify storage sh:rec names append value "Angle Thin"

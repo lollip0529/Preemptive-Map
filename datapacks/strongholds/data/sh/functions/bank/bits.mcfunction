@@ -28,3 +28,6 @@ scoreboard players operation #cbm sh /= #2 sh
 scoreboard players operation #cb9 sh = #cbm sh
 scoreboard players operation #cb9 sh %= #2 sh
 scoreboard players operation #cbm sh /= #2 sh
+scoreboard players operation #cb10 sh = #cbm sh
+scoreboard players operation #cb10 sh %= #2 sh
+scoreboard players operation #cbm sh /= #2 sh

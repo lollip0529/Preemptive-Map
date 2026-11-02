@@ -10,4 +10,5 @@ execute if score #cb6 sh matches 1 run scoreboard players set #hcul sh 1
 execute if score #cb7 sh matches 1 run scoreboard players set #hcul sh 1
 execute if score #cb8 sh matches 1 run scoreboard players set #hcul sh 1
 execute if score #cb9 sh matches 1 run scoreboard players set #hcul sh 1
+execute if score #cb10 sh matches 1 run scoreboard players set #hcul sh 1
 execute if score #hcul sh matches 1 run function sh:h/start

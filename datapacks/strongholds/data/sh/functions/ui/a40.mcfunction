@@ -8,3 +8,4 @@ scoreboard players set #ct6 sh 0
 scoreboard players set #ct7 sh 0
 scoreboard players set #ct8 sh 0
 scoreboard players set #ct9 sh 0
+scoreboard players set #ct10 sh 0

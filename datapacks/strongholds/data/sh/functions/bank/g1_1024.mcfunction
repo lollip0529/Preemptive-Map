@@ -1,5 +1,5 @@
 scoreboard players set #pk sh 1
-scoreboard players set #cbm sh 256
+scoreboard players set #cbm sh 1024
 function sh:bank/bits
 scoreboard players set #bound sh 8992
 function sh:bank/roll

@@ -4,3 +4,4 @@ execute if score #ct1 sh matches 1 run scoreboard players set #ct0 sh 2
 execute if score #ct1 sh matches 1 run scoreboard players set #ct7 sh 2
 execute if score #ct1 sh matches 1 run scoreboard players set #ct8 sh 2
 execute if score #ct1 sh matches 1 run scoreboard players set #ct9 sh 2
+execute if score #ct1 sh matches 1 run scoreboard players set #ct10 sh 2
