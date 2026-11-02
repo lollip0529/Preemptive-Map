@@ -53,20 +53,20 @@ scoreboard players set #lcg sh 1103515245
 scoreboard players set #3 sh 3
 scoreboard players set #5 sh 5
 scoreboard players set #20 sh 20
-execute unless score #hp sh matches -2147483648.. run scoreboard players set #hp sh 0
-execute unless score #food sh matches -2147483648.. run scoreboard players set #food sh 0
+execute unless score #hp sh matches -2147483648.. run scoreboard players set #hp sh 5
+execute unless score #food sh matches -2147483648.. run scoreboard players set #food sh 5
 execute unless score #seed sh matches -2147483648.. run scoreboard players set #seed sh 0
 execute unless score #jfront sh matches -2147483648.. run scoreboard players set #jfront sh 0
 execute unless score #jbehind sh matches -2147483648.. run scoreboard players set #jbehind sh 0
 execute unless score #jaround sh matches -2147483648.. run scoreboard players set #jaround sh 0
 execute unless score #jspawn sh matches -2147483648.. run scoreboard players set #jspawn sh 0
-execute unless score #jmob sh matches -2147483648.. run scoreboard players set #jmob sh 1
+execute unless score #jmob sh matches -2147483648.. run scoreboard players set #jmob sh 5
 execute unless score #jdung sh matches -2147483648.. run scoreboard players set #jdung sh 0
 execute unless score #pmob sh matches -2147483648.. run scoreboard players set #pmob sh 0
 execute unless score #terrain sh matches -2147483648.. run scoreboard players set #terrain sh 0
 execute unless score #caves sh matches -2147483648.. run scoreboard players set #caves sh 2
-execute unless score #mines sh matches -2147483648.. run scoreboard players set #mines sh 0
-execute unless score #mobs sh matches -2147483648.. run scoreboard players set #mobs sh 2
+execute unless score #mines sh matches -2147483648.. run scoreboard players set #mines sh 1
+execute unless score #mobs sh matches -2147483648.. run scoreboard players set #mobs sh 4
 execute unless score #nobuild sh matches -2147483648.. run scoreboard players set #nobuild sh 0
 execute unless score #seg sh matches -2147483648.. run scoreboard players set #seg sh 0
 execute unless score #back sh matches -2147483648.. run scoreboard players set #back sh 0
