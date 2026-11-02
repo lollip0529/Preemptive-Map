@@ -1,3 +1,4 @@
+scoreboard players set #ct0 sh 0
 scoreboard players set #con sh 0
 execute if score #ct0 sh matches 1.. run scoreboard players set #con sh 1
 execute if score #ct1 sh matches 1.. run scoreboard players set #con sh 1

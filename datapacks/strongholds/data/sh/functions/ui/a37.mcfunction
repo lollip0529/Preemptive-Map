@@ -1,6 +1,5 @@
 scoreboard players add #ct7 sh 1
 execute if score #ct7 sh matches 3.. run scoreboard players set #ct7 sh 0
-execute if score #ct7 sh matches 1 run scoreboard players set #ct0 sh 2
 execute if score #ct7 sh matches 1 run scoreboard players set #ct1 sh 2
 execute if score #ct7 sh matches 1 if score #ct2 sh matches 1 run scoreboard players set #ct2 sh 0
 execute if score #ct7 sh matches 1 if score #ct3 sh matches 1 run scoreboard players set #ct3 sh 0

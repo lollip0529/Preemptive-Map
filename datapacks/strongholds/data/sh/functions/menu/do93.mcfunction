@@ -1,3 +1,3 @@
-scoreboard players set @p ps 32
+scoreboard players set @p ps 93
 execute as @p at @s run function sh:ui/act
 function sh:menu/refill
