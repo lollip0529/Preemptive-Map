@@ -147,4 +147,4 @@ scoreboard players set #hready sh 1
 scoreboard players set #hst sh 0
 kill @e[tag=sh.hc]
 kill @e[tag=sh.hm]
-execute if score #nav sh matches 1 run function sh:hint/offer
+execute if score #nav sh matches 1 if score #hfq sh matches 1.. run function sh:hint/offer

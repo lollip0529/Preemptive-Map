@@ -23,7 +23,6 @@ scoreboard objectives add sh.pk.iron minecraft.dropped:minecraft.iron_pickaxe
 scoreboard objectives add sh.pk.golden minecraft.dropped:minecraft.golden_pickaxe
 scoreboard objectives add sh.pk.diamond minecraft.dropped:minecraft.diamond_pickaxe
 scoreboard objectives add sh.pk.netherite minecraft.dropped:minecraft.netherite_pickaxe
-scoreboard players set #1200 sh 1200
 gamerule maxCommandChainLength 2147483647
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
@@ -113,6 +112,7 @@ execute unless score #cb6 sh matches -2147483648.. run scoreboard players set #c
 execute unless score #cb7 sh matches -2147483648.. run scoreboard players set #cb7 sh -1
 execute unless score #cb8 sh matches -2147483648.. run scoreboard players set #cb8 sh -1
 execute unless score #cb9 sh matches -2147483648.. run scoreboard players set #cb9 sh -1
+execute unless score #hfq sh matches -2147483648.. run scoreboard players set #hfq sh 3
 forceload add 8 3208 8 3208
 forceload add 0 6400
 forceload add 18 6402
