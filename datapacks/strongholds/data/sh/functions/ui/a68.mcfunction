@@ -1,0 +1,1 @@
+give @s written_book{title:"Mob weight",author:"lollip0529",pages:['"Mob weight\\n\\nEvery frame the game checks each mob it has loaded, even ones behind you. More mobs make that take longer, so the spikes look smaller.\\n\\nSet the cows close to the number after the slash next to E: on F3 in your runs."']}

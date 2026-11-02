@@ -50,6 +50,7 @@ execute if score @s ps matches 63 run function sh:ui/a63
 execute if score @s ps matches 64 run function sh:ui/a64
 execute if score @s ps matches 65 run function sh:ui/a65
 execute if score @s ps matches 66 run function sh:ui/a66
+execute if score @s ps matches 68 run function sh:ui/a68
 execute if score @s ps matches 70 run function sh:ui/a70
 execute if score @s ps matches 71 run function sh:ui/a71
 execute if score @s ps matches 72 run function sh:ui/a72
