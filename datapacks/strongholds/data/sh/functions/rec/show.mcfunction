@@ -20,7 +20,7 @@ scoreboard players operation #rskip sh = #rpage sh
 scoreboard players operation #rskip sh *= #rpp sh
 execute if score #rskip sh matches 1.. run function sh:rec/skip
 data modify storage sh:rec fname set value ""
-execute if score #rf sh matches 1 run data modify storage sh:rec fname set value "  Spike"
+execute if score #rf sh matches 1 run data modify storage sh:rec fname set value "  Not culled"
 execute if score #rf sh matches 2 run data modify storage sh:rec fname set value "  Too far"
 execute if score #rf sh matches 3 run data modify storage sh:rec fname set value "  Directionality"
 execute if score #rf sh matches 4 run data modify storage sh:rec fname set value "  Vertical culling"
