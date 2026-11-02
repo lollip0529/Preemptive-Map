@@ -1,1 +1,1 @@
-give @s written_book{title:"Mob weight",author:"lollip0529",pages:['"Mob weight\\n\\nEvery frame the game checks each mob it has loaded, even ones behind you. More mobs make that take longer, so the spikes look smaller.\\n\\nSet the cows close to T: on F3 in your runs."']}
+give @s written_book{title:"Mob weight",author:"lollip0529",pages:['"Mob weight\\n\\nEvery frame the game checks each mob it has loaded, even ones behind you. More mobs make that take longer, so the spikes look smaller.\\n\\nSet the cows to 60 for low, 75 for average or 90 for high."']}
