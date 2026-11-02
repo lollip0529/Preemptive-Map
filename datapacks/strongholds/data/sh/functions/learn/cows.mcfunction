@@ -83,5 +83,10 @@ execute if score #lmn sh matches 82.. run summon cow 4.5 84 3383.5 {NoAI:1b,Sile
 execute if score #lmn sh matches 83.. run summon cow 5.5 84 3383.5 {NoAI:1b,Silent:1b,PersistenceRequired:1b,DeathLootTable:"minecraft:empty",Tags:["sh.lmob"]}
 execute if score #lmn sh matches 84.. run summon cow 6.5 84 3383.5 {NoAI:1b,Silent:1b,PersistenceRequired:1b,DeathLootTable:"minecraft:empty",Tags:["sh.lmob"]}
 execute if score #lmn sh matches 85.. run summon cow 7.5 84 3383.5 {NoAI:1b,Silent:1b,PersistenceRequired:1b,DeathLootTable:"minecraft:empty",Tags:["sh.lmob"]}
-scoreboard players remove #lmn sh 85
+execute if score #lmn sh matches 86.. run summon cow 8.5 84 3383.5 {NoAI:1b,Silent:1b,PersistenceRequired:1b,DeathLootTable:"minecraft:empty",Tags:["sh.lmob"]}
+execute if score #lmn sh matches 87.. run summon cow 9.5 84 3383.5 {NoAI:1b,Silent:1b,PersistenceRequired:1b,DeathLootTable:"minecraft:empty",Tags:["sh.lmob"]}
+execute if score #lmn sh matches 88.. run summon cow 10.5 84 3383.5 {NoAI:1b,Silent:1b,PersistenceRequired:1b,DeathLootTable:"minecraft:empty",Tags:["sh.lmob"]}
+execute if score #lmn sh matches 89.. run summon cow 11.5 84 3383.5 {NoAI:1b,Silent:1b,PersistenceRequired:1b,DeathLootTable:"minecraft:empty",Tags:["sh.lmob"]}
+execute if score #lmn sh matches 90.. run summon cow 12.5 84 3383.5 {NoAI:1b,Silent:1b,PersistenceRequired:1b,DeathLootTable:"minecraft:empty",Tags:["sh.lmob"]}
+scoreboard players remove #lmn sh 90
 execute if score #lmn sh matches 1.. run function sh:learn/cows

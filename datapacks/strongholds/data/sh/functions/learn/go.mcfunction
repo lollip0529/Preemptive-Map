@@ -6,5 +6,6 @@ effect clear @s
 replaceitem entity @s hotbar.8 minecraft:egg 16
 function sh:lo/cancel
 function sh:menu/build_learn
+function sh:learn/weight
 execute unless block 8 85 3398 lever run setblock 8 85 3398 lever[face=floor,facing=south]
 title @s actionbar {"text": "Presets in the barrel behind you, throw the egg to go back", "color": "gold"}
