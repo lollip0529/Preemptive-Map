@@ -119,6 +119,7 @@ forceload add 8 3208 8 3208
 forceload add 0 6400
 forceload add 18 6402
 scoreboard players set #busy sh 0
+scoreboard players set #vaim sh 0
 fill 17 1 6401 19 4 6403 stone
 setblock 18 3 6402 air
 scoreboard players set #glow sh 0

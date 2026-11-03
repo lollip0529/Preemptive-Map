@@ -1,5 +1,6 @@
 tellraw @a {"text": "Building stronghold...", "color": "yellow"}
 tp @a[x=-128,y=-64,z=-128,dx=271,dy=330,dz=271] 8 43 3241
+function sh:vit/drain
 kill @e[tag=sh.at]
 summon area_effect_cloud 8 100 3208 {Tags:["sh.at"],Duration:1000000000,WaitTime:0,Radius:0f}
 kill @e[tag=sh.scan]
