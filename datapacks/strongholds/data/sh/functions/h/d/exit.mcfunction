@@ -34,10 +34,29 @@ execute unless score #hside sh matches 0 run scoreboard players set #hup sh 0
 scoreboard players operation #hu sh = @s sh.y0
 scoreboard players operation #hu sh -= #hky sh
 scoreboard players operation #hu sh *= #h-1 sh
+execute if score #hkt sh matches 1 run scoreboard players add #hu sh 1
+execute if score #hkt sh matches 2 run scoreboard players add #hu sh 1
+execute if score #hkt sh matches 3 run scoreboard players add #hu sh 1
+execute if score #hkt sh matches 4 run scoreboard players add #hu sh 1
+execute if score #hkt sh matches 5 run scoreboard players add #hu sh 1
+execute if score #hkt sh matches 6 run scoreboard players add #hu sh 7
+execute if score #hkt sh matches 7 run scoreboard players add #hu sh 7
+execute if score #hkt sh matches 8 run scoreboard players add #hu sh 3
+execute if score #hkt sh matches 9 run scoreboard players add #hu sh 1
+execute if score #hkt sh matches 10 run scoreboard players add #hu sh 1
+execute if score #hkt sh matches 11 run scoreboard players add #hu sh 1
+execute if score #hkt sh matches 12 run scoreboard players add #hu sh 1
 execute unless score #hside sh matches 0 if score #hu sh matches 5.. run scoreboard players set #hup sh 1
-execute if score @s sh.t matches 8 if score #hside sh matches 0 unless score #hup sh matches 0.. run data modify storage sh:h r prepend value "\"the 5-way's front exit\""
-execute if score @s sh.t matches 8 if score #hside sh matches 0 if score #hup sh matches 0 run data modify storage sh:h r prepend value "\"the 5-way's lower front exit\""
-execute if score @s sh.t matches 8 if score #hside sh matches 0 if score #hup sh matches 1 run data modify storage sh:h r prepend value "\"the 5-way's upper front exit\""
+scoreboard players set #hb sh 16
+execute if score @s sh.f matches 0 if score #hix sh matches ..-1 run scoreboard players set #hb sh 4
+execute if score @s sh.f matches 2 if score #hix sh matches ..-1 run scoreboard players set #hb sh 4
+execute if score @s sh.f matches 1 if score #hiz sh matches ..-1 run scoreboard players set #hb sh 4
+execute if score @s sh.f matches 3 if score #hiz sh matches ..-1 run scoreboard players set #hb sh 4
+execute if score #hup sh matches 1 run scoreboard players operation #hb sh *= #h2 sh
+scoreboard players operation #hhole sh = @s sh.v
+scoreboard players operation #hhole sh /= #hb sh
+scoreboard players operation #hhole sh %= #h2 sh
+execute if score @s sh.t matches 8 if score #hside sh matches 0 run data modify storage sh:h r prepend value "\"the 5-way's front exit\""
 execute if score @s sh.t matches 1 if score #hside sh matches 0 run data modify storage sh:h r prepend value "\"the corridor\""
 execute if score @s sh.t matches 5 if score #hrt sh matches 0 if score #hside sh matches 0 run data modify storage sh:h r prepend value "\"the pillar room\""
 execute if score @s sh.t matches 5 if score #hrt sh matches 1 if score #hside sh matches 0 run data modify storage sh:h r prepend value "\"the fountain room\""
@@ -45,9 +64,10 @@ execute if score @s sh.t matches 5 if score #hrt sh matches 2 if score #hside sh
 execute if score @s sh.t matches 5 if score #hrt sh matches 3 if score #hside sh matches 0 run data modify storage sh:h r prepend value "\"the empty room\""
 execute if score @s sh.t matches 5 if score #hrt sh matches 4 if score #hside sh matches 0 run data modify storage sh:h r prepend value "\"the empty room\""
 execute if score @s sh.t matches 3..4 if score #hside sh matches 0 run data modify storage sh:h r prepend value "\"the turn\""
-execute if score @s sh.t matches 8 if score #hside sh matches 1 unless score #hup sh matches 0.. run data modify storage sh:h r prepend value "\"the 5-way's left exit\""
-execute if score @s sh.t matches 8 if score #hside sh matches 1 if score #hup sh matches 0 run data modify storage sh:h r prepend value "\"the 5-way's lower left exit\""
-execute if score @s sh.t matches 8 if score #hside sh matches 1 if score #hup sh matches 1 run data modify storage sh:h r prepend value "\"the 5-way's upper left exit\""
+execute if score @s sh.t matches 8 if score #hside sh matches 1 if score #hup sh matches 0 if score #hhole sh matches 1 run data modify storage sh:h r prepend value "\"the 5-way's lower left exit\""
+execute if score @s sh.t matches 8 if score #hside sh matches 1 if score #hup sh matches 0 if score #hhole sh matches 0 run data modify storage sh:h r prepend value "\"the 5-way's lower left wall (mine through it)\""
+execute if score @s sh.t matches 8 if score #hside sh matches 1 if score #hup sh matches 1 if score #hhole sh matches 1 run data modify storage sh:h r prepend value "\"the 5-way's upper left exit\""
+execute if score @s sh.t matches 8 if score #hside sh matches 1 if score #hup sh matches 1 if score #hhole sh matches 0 run data modify storage sh:h r prepend value "\"the 5-way's upper left wall (mine through it)\""
 execute if score @s sh.t matches 1 if score #hside sh matches 1 run data modify storage sh:h r prepend value "\"the corridor's left door\""
 execute if score @s sh.t matches 5 if score #hrt sh matches 0 if score #hside sh matches 1 run data modify storage sh:h r prepend value "\"the pillar room's left door\""
 execute if score @s sh.t matches 5 if score #hrt sh matches 1 if score #hside sh matches 1 run data modify storage sh:h r prepend value "\"the fountain room's left door\""
@@ -55,9 +75,10 @@ execute if score @s sh.t matches 5 if score #hrt sh matches 2 if score #hside sh
 execute if score @s sh.t matches 5 if score #hrt sh matches 3 if score #hside sh matches 1 run data modify storage sh:h r prepend value "\"the empty room's left door\""
 execute if score @s sh.t matches 5 if score #hrt sh matches 4 if score #hside sh matches 1 run data modify storage sh:h r prepend value "\"the empty room's left door\""
 execute if score @s sh.t matches 3..4 if score #hside sh matches 1 run data modify storage sh:h r prepend value "\"the left turn\""
-execute if score @s sh.t matches 8 if score #hside sh matches 2 unless score #hup sh matches 0.. run data modify storage sh:h r prepend value "\"the 5-way's right exit\""
-execute if score @s sh.t matches 8 if score #hside sh matches 2 if score #hup sh matches 0 run data modify storage sh:h r prepend value "\"the 5-way's lower right exit\""
-execute if score @s sh.t matches 8 if score #hside sh matches 2 if score #hup sh matches 1 run data modify storage sh:h r prepend value "\"the 5-way's upper right exit\""
+execute if score @s sh.t matches 8 if score #hside sh matches 2 if score #hup sh matches 0 if score #hhole sh matches 1 run data modify storage sh:h r prepend value "\"the 5-way's lower right exit\""
+execute if score @s sh.t matches 8 if score #hside sh matches 2 if score #hup sh matches 0 if score #hhole sh matches 0 run data modify storage sh:h r prepend value "\"the 5-way's lower right wall (mine through it)\""
+execute if score @s sh.t matches 8 if score #hside sh matches 2 if score #hup sh matches 1 if score #hhole sh matches 1 run data modify storage sh:h r prepend value "\"the 5-way's upper right exit\""
+execute if score @s sh.t matches 8 if score #hside sh matches 2 if score #hup sh matches 1 if score #hhole sh matches 0 run data modify storage sh:h r prepend value "\"the 5-way's upper right wall (mine through it)\""
 execute if score @s sh.t matches 1 if score #hside sh matches 2 run data modify storage sh:h r prepend value "\"the corridor's right door\""
 execute if score @s sh.t matches 5 if score #hrt sh matches 0 if score #hside sh matches 2 run data modify storage sh:h r prepend value "\"the pillar room's right door\""
 execute if score @s sh.t matches 5 if score #hrt sh matches 1 if score #hside sh matches 2 run data modify storage sh:h r prepend value "\"the fountain room's right door\""
