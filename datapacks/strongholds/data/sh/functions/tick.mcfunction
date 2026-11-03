@@ -18,6 +18,7 @@ execute as @a[scores={sh.pk.netherite=1..}] at @s run function sh:pick
 execute as @e[type=player,scores={sh.die=1..}] run function sh:died
 execute if score #nav sh matches 1 if score #hint sh matches 0 if score #hcul sh matches 1 if score #hfq sh matches 2.. run function sh:hint/clock
 execute if score #hst sh matches 1.. run function sh:h/tick
+execute if score #hline sh matches 1.. if score #nav sh matches 1 run function sh:h/l/tick
 execute if score #nav sh matches 1 at @e[tag=sh.mark] if block ~0 ~ ~4 end_portal run function sh:finish
 execute if score #nav sh matches 1 at @e[tag=sh.mark] if block ~0 ~ ~-4 end_portal run function sh:finish
 execute if score #nav sh matches 1 at @e[tag=sh.mark] if block ~4 ~ ~0 end_portal run function sh:finish
