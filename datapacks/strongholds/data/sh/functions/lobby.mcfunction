@@ -1,4 +1,5 @@
 execute if score #nav sh matches 1 run function sh:rec/quit
+execute if score #imp sh matches 1 run function sh:io/cancel
 gamemode adventure @s
 clear @s
 tp @s 8.5 43 3241.5 -163.5 1.5

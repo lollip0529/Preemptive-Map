@@ -50,6 +50,7 @@ execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4
 execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 3240 Items[{Slot:15b,Count:1b}] run function sh:menu/back28
 execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:16b}] run function sh:menu/do22
 execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 3240 Items[{Slot:16b,Count:1b}] run function sh:menu/back22
+execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:18b}] run function sh:menu/do84
 execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:19b}] run function sh:menu/do41
 execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 3240 Items[{Slot:19b,Count:1b}] run function sh:menu/back41
 execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:20b}] run function sh:menu/do42
@@ -60,6 +61,7 @@ execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4
 execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:23b}] run function sh:menu/do27
 execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 3240 Items[{Slot:23b,Count:1b}] run function sh:menu/back27
 execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:25b}] run function sh:menu/do29
+execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:26b}] run function sh:menu/do85
 execute if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:9b}] run function sh:menu/page0
 execute if block 4 44 3240 barrel if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:2b}] run function sh:menu/do90
 execute if block 4 44 3240 barrel if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:3b}] run function sh:menu/do91
