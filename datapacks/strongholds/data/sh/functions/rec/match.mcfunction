@@ -6,10 +6,9 @@ execute if score #rf sh matches 4 run scoreboard players set #rk sh 8
 execute if score #rf sh matches 5 run scoreboard players set #rk sh 16
 execute if score #rf sh matches 6 run scoreboard players set #rk sh 32
 execute if score #rf sh matches 7 run scoreboard players set #rk sh 64
-execute if score #rf sh matches 8 run scoreboard players set #rk sh 128
-execute if score #rf sh matches 9 run scoreboard players set #rk sh 256
-execute if score #rf sh matches 10 run scoreboard players set #rk sh 512
-execute if score #rf sh matches 11 run scoreboard players set #rk sh 1024
+execute if score #rf sh matches 8 run scoreboard players set #rk sh 256
+execute if score #rf sh matches 9 run scoreboard players set #rk sh 512
+execute if score #rf sh matches 10 run scoreboard players set #rk sh 1024
 scoreboard players operation #ry sh = #rx sh
 scoreboard players operation #ry sh /= #rk sh
 scoreboard players operation #ry sh %= #2 sh

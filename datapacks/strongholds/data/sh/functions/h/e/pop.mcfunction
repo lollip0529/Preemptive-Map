@@ -1,5 +1,4 @@
-scoreboard players operation #hwn sh = #hwB sh
-scoreboard players operation #hwn sh += #hwV sh
+scoreboard players operation #hwn sh = #hwV sh
 scoreboard players operation #hwn sh += #hwH sh
 scoreboard players operation #hwn sh += #hwA sh
 execute if score #hwn sh matches 0 run function sh:h/e/done

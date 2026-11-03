@@ -39,16 +39,13 @@ scoreboard players set #hly sh 0
 execute if score #hsy sh = #hey sh run scoreboard players set #hly sh 1
 scoreboard players set #hoc sh 1
 execute if score #hsx sh = #hex sh if score #hsz sh = #hez sh run scoreboard players set #hoc sh 0
-scoreboard players set #hcB sh 0
 scoreboard players set #hcV sh 0
 scoreboard players set #hcH sh 0
 scoreboard players set #hcA sh 0
-execute if score #hin sh matches 1 if score #hwB sh matches 1 if score #hm sh matches ..40 if score #hly sh matches 1 if score #hoc sh matches 1 run scoreboard players set #hcB sh 1
 execute if score #hin sh matches 1 if score #hwV sh matches 1 if score #hly sh matches 0 run scoreboard players set #hcV sh 1
 execute if score #hin sh matches 1 if score #hwH sh matches 1 if score #hoc sh matches 1 run scoreboard players set #hcH sh 1
 execute if score #hin sh matches 1 if score #hwA sh matches 1 run scoreboard players set #hcA sh 1
-scoreboard players operation #hpl sh = #hcB sh
-scoreboard players operation #hpl sh += #hcV sh
+scoreboard players operation #hpl sh = #hcV sh
 scoreboard players operation #hpl sh += #hcH sh
 scoreboard players operation #hpl sh += #hcA sh
 execute if score #hpl sh matches 2.. run scoreboard players set #hpl sh 1

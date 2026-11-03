@@ -22,7 +22,6 @@ execute if score @s ps matches 33 run function sh:ui/a33
 execute if score @s ps matches 34 run function sh:ui/a34
 execute if score @s ps matches 35 run function sh:ui/a35
 execute if score @s ps matches 36 run function sh:ui/a36
-execute if score @s ps matches 37 run function sh:ui/a37
 execute if score @s ps matches 38 run function sh:ui/a38
 execute if score @s ps matches 39 run function sh:ui/a39
 execute if score @s ps matches 40 run function sh:ui/a40
@@ -74,6 +73,5 @@ execute if score @s ps matches 95 run function sh:ui/a95
 execute if score @s ps matches 96 run function sh:ui/a96
 execute if score @s ps matches 97 run function sh:ui/a97
 execute if score @s ps matches 98 run function sh:ui/a98
-execute if score @s ps matches 99 run function sh:ui/a99
 scoreboard players set @s ps 0
 scoreboard players enable @s ps

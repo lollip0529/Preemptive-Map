@@ -12,7 +12,7 @@ scoreboard players operation #cb9 sh = #sc9 sh
 scoreboard players operation #cb10 sh = #sc10 sh
 execute if score #nav sh matches 1 run function sh:rec/cull
 scoreboard players set #hci sh 0
-scoreboard players set #hkret sh 17
+scoreboard players set #hkret sh 15
 scoreboard players set #hst sh 1
 scoreboard players set #shint sh 0
 execute if score #cb1 sh matches 1 run scoreboard players set #shint sh 1

@@ -5,7 +5,7 @@ scoreboard players set #bound sh 1427
 function sh:bank/roll
 scoreboard players operation #hi sh = #r sh
 scoreboard players operation #hi sh /= #bk sh
-scoreboard players add #hi sh 991
+scoreboard players add #hi sh 3669
 scoreboard players operation #bi sh = #r sh
 scoreboard players operation #bi sh %= #bk sh
 function sh:bank/fetch

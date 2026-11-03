@@ -6,6 +6,5 @@ execute if score #ct10 sh matches 1 run scoreboard players set #ct3 sh 2
 execute if score #ct10 sh matches 1 run scoreboard players set #ct4 sh 2
 execute if score #ct10 sh matches 1 run scoreboard players set #ct5 sh 2
 execute if score #ct10 sh matches 1 run scoreboard players set #ct6 sh 2
-execute if score #ct10 sh matches 1 run scoreboard players set #ct7 sh 2
 execute if score #ct10 sh matches 1 run scoreboard players set #ct8 sh 2
 execute if score #ct10 sh matches 1 run scoreboard players set #ct9 sh 2
