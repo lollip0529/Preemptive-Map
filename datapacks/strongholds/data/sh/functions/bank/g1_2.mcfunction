@@ -1,7 +1,7 @@
 scoreboard players set #pk sh 1
 scoreboard players set #cbm sh 2
 function sh:bank/bits
-scoreboard players set #bound sh 142184
+scoreboard players set #bound sh 119796
 function sh:bank/roll
 scoreboard players operation #hi sh = #r sh
 scoreboard players operation #hi sh /= #bk sh
