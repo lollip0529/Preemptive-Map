@@ -114,6 +114,16 @@ execute unless score #cb8 sh matches -2147483648.. run scoreboard players set #c
 execute unless score #cb9 sh matches -2147483648.. run scoreboard players set #cb9 sh -1
 execute unless score #cb10 sh matches -2147483648.. run scoreboard players set #cb10 sh -1
 execute unless score #hfq sh matches -2147483648.. run scoreboard players set #hfq sh 3
+execute unless score #cany sh matches -2147483648.. run scoreboard players set #cany sh 0
+execute unless score #cp1 sh matches -2147483648.. run scoreboard players set #cp1 sh 1
+execute unless score #cp2 sh matches -2147483648.. run scoreboard players set #cp2 sh 1
+execute unless score #cp3 sh matches -2147483648.. run scoreboard players set #cp3 sh 1
+execute unless score #cp4 sh matches -2147483648.. run scoreboard players set #cp4 sh 1
+execute unless score #cp5 sh matches -2147483648.. run scoreboard players set #cp5 sh 1
+execute unless score #cp6 sh matches -2147483648.. run scoreboard players set #cp6 sh 1
+execute unless score #cp8 sh matches -2147483648.. run scoreboard players set #cp8 sh 1
+execute unless score #cp9 sh matches -2147483648.. run scoreboard players set #cp9 sh 1
+execute unless score #cp10 sh matches -2147483648.. run scoreboard players set #cp10 sh 1
 forceload add 8 3208 8 3208
 forceload add 0 6400
 forceload add 18 6402

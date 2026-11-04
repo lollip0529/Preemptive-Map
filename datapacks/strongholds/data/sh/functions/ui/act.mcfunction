@@ -30,6 +30,7 @@ execute if score @s ps matches 43 run function sh:ui/a43
 execute if score @s ps matches 44 run function sh:ui/a44
 execute if score @s ps matches 45 run function sh:ui/a45
 execute if score @s ps matches 46 run function sh:ui/a46
+execute if score @s ps matches 47 run function sh:ui/a47
 execute if score @s ps matches 49 run function sh:ui/a49
 execute if score @s ps matches 50 run function sh:ui/a50
 execute if score @s ps matches 51 run function sh:ui/a51
@@ -72,5 +73,25 @@ execute if score @s ps matches 95 run function sh:ui/a95
 execute if score @s ps matches 96 run function sh:ui/a96
 execute if score @s ps matches 97 run function sh:ui/a97
 execute if score @s ps matches 98 run function sh:ui/a98
+execute if score @s ps matches 100 run function sh:ui/a100
+execute if score @s ps matches 101 run function sh:ui/a101
+execute if score @s ps matches 102 run function sh:ui/a102
+execute if score @s ps matches 103 run function sh:ui/a103
+execute if score @s ps matches 104 run function sh:ui/a104
+execute if score @s ps matches 105 run function sh:ui/a105
+execute if score @s ps matches 106 run function sh:ui/a106
+execute if score @s ps matches 107 run function sh:ui/a107
+execute if score @s ps matches 108 run function sh:ui/a108
+execute if score @s ps matches 111 run function sh:ui/a111
+execute if score @s ps matches 112 run function sh:ui/a112
+execute if score @s ps matches 113 run function sh:ui/a113
+execute if score @s ps matches 114 run function sh:ui/a114
+execute if score @s ps matches 115 run function sh:ui/a115
+execute if score @s ps matches 116 run function sh:ui/a116
+execute if score @s ps matches 118 run function sh:ui/a118
+execute if score @s ps matches 119 run function sh:ui/a119
+execute if score @s ps matches 120 run function sh:ui/a120
+execute if score @s ps matches 121 run function sh:ui/a121
+execute if score @s ps matches 122 run function sh:ui/a122
 scoreboard players set @s ps 0
 scoreboard players enable @s ps

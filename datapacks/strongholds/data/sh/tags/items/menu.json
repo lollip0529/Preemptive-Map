@@ -20,6 +20,7 @@
     "minecraft:golden_apple",
     "minecraft:gray_dye",
     "minecraft:iron_ingot",
+    "minecraft:lime_concrete",
     "minecraft:lime_dye",
     "minecraft:mossy_cobblestone",
     "minecraft:mossy_stone_bricks",
@@ -30,6 +31,7 @@
     "minecraft:prismarine",
     "minecraft:rabbit_foot",
     "minecraft:rail",
+    "minecraft:red_concrete",
     "minecraft:red_dye",
     "minecraft:rotten_flesh",
     "minecraft:silverfish_spawn_egg",
@@ -40,6 +42,7 @@
     "minecraft:stone",
     "minecraft:sweet_berries",
     "minecraft:tnt",
+    "minecraft:yellow_dye",
     "minecraft:zombie_head",
     "minecraft:zombie_spawn_egg"
   ]

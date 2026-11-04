@@ -42,6 +42,16 @@ execute if data storage sh:io x.s.ct7 store result score #ct7 sh run data get st
 execute if data storage sh:io x.s.ct8 store result score #ct8 sh run data get storage sh:io x.s.ct8
 execute if data storage sh:io x.s.ct9 store result score #ct9 sh run data get storage sh:io x.s.ct9
 execute if data storage sh:io x.s.ct10 store result score #ct10 sh run data get storage sh:io x.s.ct10
+execute if data storage sh:io x.s.cany store result score #cany sh run data get storage sh:io x.s.cany
+execute if data storage sh:io x.s.cp1 store result score #cp1 sh run data get storage sh:io x.s.cp1
+execute if data storage sh:io x.s.cp2 store result score #cp2 sh run data get storage sh:io x.s.cp2
+execute if data storage sh:io x.s.cp3 store result score #cp3 sh run data get storage sh:io x.s.cp3
+execute if data storage sh:io x.s.cp4 store result score #cp4 sh run data get storage sh:io x.s.cp4
+execute if data storage sh:io x.s.cp5 store result score #cp5 sh run data get storage sh:io x.s.cp5
+execute if data storage sh:io x.s.cp6 store result score #cp6 sh run data get storage sh:io x.s.cp6
+execute if data storage sh:io x.s.cp8 store result score #cp8 sh run data get storage sh:io x.s.cp8
+execute if data storage sh:io x.s.cp9 store result score #cp9 sh run data get storage sh:io x.s.cp9
+execute if data storage sh:io x.s.cp10 store result score #cp10 sh run data get storage sh:io x.s.cp10
 execute if data storage sh:io x.lo.l0 run data modify storage sh:lo l0 set from storage sh:io x.lo.l0
 execute if data storage sh:io x.lo.l1 run data modify storage sh:lo l1 set from storage sh:io x.lo.l1
 execute if data storage sh:io x.lo.l2 run data modify storage sh:lo l2 set from storage sh:io x.lo.l2

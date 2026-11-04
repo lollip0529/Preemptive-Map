@@ -1,0 +1,9 @@
+scoreboard players set #cp1 sh 1
+scoreboard players set #cp2 sh 1
+scoreboard players set #cp3 sh 1
+scoreboard players set #cp4 sh 1
+scoreboard players set #cp5 sh 1
+scoreboard players set #cp6 sh 1
+scoreboard players set #cp8 sh 1
+scoreboard players set #cp9 sh 1
+scoreboard players set #cp10 sh 1

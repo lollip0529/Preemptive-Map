@@ -42,6 +42,16 @@ execute if score #ct7 sh matches -2147483648.. store result storage sh:io x.s.ct
 execute if score #ct8 sh matches -2147483648.. store result storage sh:io x.s.ct8 int 1 run scoreboard players get #ct8 sh
 execute if score #ct9 sh matches -2147483648.. store result storage sh:io x.s.ct9 int 1 run scoreboard players get #ct9 sh
 execute if score #ct10 sh matches -2147483648.. store result storage sh:io x.s.ct10 int 1 run scoreboard players get #ct10 sh
+execute if score #cany sh matches -2147483648.. store result storage sh:io x.s.cany int 1 run scoreboard players get #cany sh
+execute if score #cp1 sh matches -2147483648.. store result storage sh:io x.s.cp1 int 1 run scoreboard players get #cp1 sh
+execute if score #cp2 sh matches -2147483648.. store result storage sh:io x.s.cp2 int 1 run scoreboard players get #cp2 sh
+execute if score #cp3 sh matches -2147483648.. store result storage sh:io x.s.cp3 int 1 run scoreboard players get #cp3 sh
+execute if score #cp4 sh matches -2147483648.. store result storage sh:io x.s.cp4 int 1 run scoreboard players get #cp4 sh
+execute if score #cp5 sh matches -2147483648.. store result storage sh:io x.s.cp5 int 1 run scoreboard players get #cp5 sh
+execute if score #cp6 sh matches -2147483648.. store result storage sh:io x.s.cp6 int 1 run scoreboard players get #cp6 sh
+execute if score #cp8 sh matches -2147483648.. store result storage sh:io x.s.cp8 int 1 run scoreboard players get #cp8 sh
+execute if score #cp9 sh matches -2147483648.. store result storage sh:io x.s.cp9 int 1 run scoreboard players get #cp9 sh
+execute if score #cp10 sh matches -2147483648.. store result storage sh:io x.s.cp10 int 1 run scoreboard players get #cp10 sh
 data modify storage sh:io x.lo.l0 set from storage sh:lo l0
 data modify storage sh:io x.lo.l1 set from storage sh:lo l1
 data modify storage sh:io x.lo.l2 set from storage sh:lo l2

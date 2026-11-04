@@ -1,0 +1,126 @@
+scoreboard players operation #bound sh = #bw sh
+function sh:bank/roll
+execute if score #pk sh matches 0 if score #pt sh matches 1 run scoreboard players remove #r sh 19525525
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_2
+execute if score #pk sh matches 0 if score #pt sh matches 2 run scoreboard players remove #r sh 5302325
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_4
+execute if score #pk sh matches 0 if score #pt sh matches 1 run scoreboard players remove #r sh 784753
+execute if score #pk sh matches 0 if score #pt sh matches 2 run scoreboard players remove #r sh 784753
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_6
+execute if score #pk sh matches 0 if score #pt sh matches 3 run scoreboard players remove #r sh 7581865
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_8
+execute if score #pk sh matches 0 if score #pt sh matches 1 run scoreboard players remove #r sh 379704
+execute if score #pk sh matches 0 if score #pt sh matches 3 run scoreboard players remove #r sh 379704
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_10
+execute if score #pk sh matches 0 if score #pt sh matches 2 run scoreboard players remove #r sh 2398974
+execute if score #pk sh matches 0 if score #pt sh matches 3 run scoreboard players remove #r sh 2398974
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_12
+execute if score #pk sh matches 0 if score #pt sh matches 1 run scoreboard players remove #r sh 229732
+execute if score #pk sh matches 0 if score #pt sh matches 2 run scoreboard players remove #r sh 229732
+execute if score #pk sh matches 0 if score #pt sh matches 3 run scoreboard players remove #r sh 229732
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_14
+execute if score #pk sh matches 0 if score #pt sh matches 4 run scoreboard players remove #r sh 58965375
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_16
+execute if score #pk sh matches 0 if score #pt sh matches 1 run scoreboard players remove #r sh 1919909
+execute if score #pk sh matches 0 if score #pt sh matches 4 run scoreboard players remove #r sh 1919909
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_18
+execute if score #pk sh matches 0 if score #pt sh matches 2 run scoreboard players remove #r sh 16593317
+execute if score #pk sh matches 0 if score #pt sh matches 4 run scoreboard players remove #r sh 16593317
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_20
+execute if score #pk sh matches 0 if score #pt sh matches 1 run scoreboard players remove #r sh 838372
+execute if score #pk sh matches 0 if score #pt sh matches 2 run scoreboard players remove #r sh 838372
+execute if score #pk sh matches 0 if score #pt sh matches 4 run scoreboard players remove #r sh 838372
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_22
+execute if score #pk sh matches 0 if score #pt sh matches 3 run scoreboard players remove #r sh 9491262
+execute if score #pk sh matches 0 if score #pt sh matches 4 run scoreboard players remove #r sh 9491262
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_24
+execute if score #pk sh matches 0 if score #pt sh matches 1 run scoreboard players remove #r sh 363508
+execute if score #pk sh matches 0 if score #pt sh matches 3 run scoreboard players remove #r sh 363508
+execute if score #pk sh matches 0 if score #pt sh matches 4 run scoreboard players remove #r sh 363508
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_26
+execute if score #pk sh matches 0 if score #pt sh matches 2 run scoreboard players remove #r sh 890874
+execute if score #pk sh matches 0 if score #pt sh matches 3 run scoreboard players remove #r sh 890874
+execute if score #pk sh matches 0 if score #pt sh matches 4 run scoreboard players remove #r sh 890874
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_28
+execute if score #pk sh matches 0 if score #pt sh matches 1 run scoreboard players remove #r sh 111964
+execute if score #pk sh matches 0 if score #pt sh matches 2 run scoreboard players remove #r sh 111964
+execute if score #pk sh matches 0 if score #pt sh matches 3 run scoreboard players remove #r sh 111964
+execute if score #pk sh matches 0 if score #pt sh matches 4 run scoreboard players remove #r sh 111964
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_30
+execute if score #pk sh matches 0 if score #pt sh matches 5 run scoreboard players remove #r sh 125650
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_32
+execute if score #pk sh matches 0 if score #pt sh matches 1 run scoreboard players remove #r sh 3534
+execute if score #pk sh matches 0 if score #pt sh matches 5 run scoreboard players remove #r sh 3534
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_34
+execute if score #pk sh matches 0 if score #pt sh matches 2 run scoreboard players remove #r sh 1990796
+execute if score #pk sh matches 0 if score #pt sh matches 6 run scoreboard players remove #r sh 1990796
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_68
+execute if score #pk sh matches 0 if score #pt sh matches 1 run scoreboard players remove #r sh 178852
+execute if score #pk sh matches 0 if score #pt sh matches 2 run scoreboard players remove #r sh 178852
+execute if score #pk sh matches 0 if score #pt sh matches 6 run scoreboard players remove #r sh 178852
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_70
+execute if score #pk sh matches 0 if score #pt sh matches 3 run scoreboard players remove #r sh 2127176
+execute if score #pk sh matches 0 if score #pt sh matches 6 run scoreboard players remove #r sh 2127176
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_72
+execute if score #pk sh matches 0 if score #pt sh matches 1 run scoreboard players remove #r sh 91626
+execute if score #pk sh matches 0 if score #pt sh matches 3 run scoreboard players remove #r sh 91626
+execute if score #pk sh matches 0 if score #pt sh matches 6 run scoreboard players remove #r sh 91626
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_74
+execute if score #pk sh matches 0 if score #pt sh matches 2 run scoreboard players remove #r sh 2061317
+execute if score #pk sh matches 0 if score #pt sh matches 3 run scoreboard players remove #r sh 2061317
+execute if score #pk sh matches 0 if score #pt sh matches 6 run scoreboard players remove #r sh 2061317
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_76
+execute if score #pk sh matches 0 if score #pt sh matches 1 run scoreboard players remove #r sh 103094
+execute if score #pk sh matches 0 if score #pt sh matches 2 run scoreboard players remove #r sh 103094
+execute if score #pk sh matches 0 if score #pt sh matches 3 run scoreboard players remove #r sh 103094
+execute if score #pk sh matches 0 if score #pt sh matches 6 run scoreboard players remove #r sh 103094
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_78
+execute if score #pk sh matches 0 if score #pt sh matches 4 run scoreboard players remove #r sh 15500648
+execute if score #pk sh matches 0 if score #pt sh matches 6 run scoreboard players remove #r sh 15500648
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_80
+execute if score #pk sh matches 0 if score #pt sh matches 1 run scoreboard players remove #r sh 504095
+execute if score #pk sh matches 0 if score #pt sh matches 4 run scoreboard players remove #r sh 504095
+execute if score #pk sh matches 0 if score #pt sh matches 6 run scoreboard players remove #r sh 504095
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_82
+execute if score #pk sh matches 0 if score #pt sh matches 2 run scoreboard players remove #r sh 8554952
+execute if score #pk sh matches 0 if score #pt sh matches 4 run scoreboard players remove #r sh 8554952
+execute if score #pk sh matches 0 if score #pt sh matches 6 run scoreboard players remove #r sh 8554952
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_84
+execute if score #pk sh matches 0 if score #pt sh matches 1 run scoreboard players remove #r sh 282976
+execute if score #pk sh matches 0 if score #pt sh matches 2 run scoreboard players remove #r sh 282976
+execute if score #pk sh matches 0 if score #pt sh matches 4 run scoreboard players remove #r sh 282976
+execute if score #pk sh matches 0 if score #pt sh matches 6 run scoreboard players remove #r sh 282976
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_86
+execute if score #pk sh matches 0 if score #pt sh matches 3 run scoreboard players remove #r sh 4323392
+execute if score #pk sh matches 0 if score #pt sh matches 4 run scoreboard players remove #r sh 4323392
+execute if score #pk sh matches 0 if score #pt sh matches 6 run scoreboard players remove #r sh 4323392
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_88
+execute if score #pk sh matches 0 if score #pt sh matches 1 run scoreboard players remove #r sh 142623
+execute if score #pk sh matches 0 if score #pt sh matches 3 run scoreboard players remove #r sh 142623
+execute if score #pk sh matches 0 if score #pt sh matches 4 run scoreboard players remove #r sh 142623
+execute if score #pk sh matches 0 if score #pt sh matches 6 run scoreboard players remove #r sh 142623
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_90
+execute if score #pk sh matches 0 if score #pt sh matches 2 run scoreboard players remove #r sh 1809572
+execute if score #pk sh matches 0 if score #pt sh matches 3 run scoreboard players remove #r sh 1809572
+execute if score #pk sh matches 0 if score #pt sh matches 4 run scoreboard players remove #r sh 1809572
+execute if score #pk sh matches 0 if score #pt sh matches 6 run scoreboard players remove #r sh 1809572
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_92
+execute if score #pk sh matches 0 if score #pt sh matches 1 run scoreboard players remove #r sh 73558
+execute if score #pk sh matches 0 if score #pt sh matches 2 run scoreboard players remove #r sh 73558
+execute if score #pk sh matches 0 if score #pt sh matches 3 run scoreboard players remove #r sh 73558
+execute if score #pk sh matches 0 if score #pt sh matches 4 run scoreboard players remove #r sh 73558
+execute if score #pk sh matches 0 if score #pt sh matches 6 run scoreboard players remove #r sh 73558
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_94
+execute if score #pk sh matches 0 if score #pt sh matches 5 run scoreboard players remove #r sh 6349707
+execute if score #pk sh matches 0 if score #pt sh matches 6 run scoreboard players remove #r sh 6349707
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_96
+execute if score #pk sh matches 0 if score #pt sh matches 1 run scoreboard players remove #r sh 233430
+execute if score #pk sh matches 0 if score #pt sh matches 5 run scoreboard players remove #r sh 233430
+execute if score #pk sh matches 0 if score #pt sh matches 6 run scoreboard players remove #r sh 233430
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_98
+execute if score #pk sh matches 0 if score #pt sh matches 8 run scoreboard players remove #r sh 43603032
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_257
+execute if score #pk sh matches 0 if score #pt sh matches 9 run scoreboard players remove #r sh 20962367
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_513
+execute if score #pk sh matches 0 if score #pt sh matches 10 run scoreboard players remove #r sh 1230530
+execute if score #pk sh matches 0 if score #r sh matches ..-1 run function sh:bank/g1_1024
