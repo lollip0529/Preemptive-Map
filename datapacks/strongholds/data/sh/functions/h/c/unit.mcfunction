@@ -1,6 +1,3 @@
-execute if score #hfB sh matches 1 run function sh:h/c/b
-execute if score #hfV sh matches 1 run function sh:h/c/v
-execute if score #hfH sh matches 1 run function sh:h/c/h
 execute if score #hfA sh matches 1 run function sh:h/c/a
 execute if score #hwX sh matches 1 run function sh:h/c/x
 function sh:h/c/p
@@ -145,6 +142,7 @@ execute if score #hu sh <= #hd2 sh run scoreboard players operation #hlo sh = #h
 execute if score #hu sh > #hd2 sh run scoreboard players operation #hhi sh = #hmid sh
 scoreboard players set #hready sh 1
 scoreboard players set #hst sh 0
-kill @e[tag=sh.hc]
-kill @e[tag=sh.hm]
+scoreboard players set #hpa sh 0
+scoreboard players set #hpx sh 0
+function sh:h/c/route
 execute if score #nav sh matches 1 if score #hfq sh matches 1.. run function sh:hint/offer

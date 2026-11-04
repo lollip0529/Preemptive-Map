@@ -1,0 +1,13 @@
+particle dust 0.33 1 0.33 1 ~0.5 ~0.15 ~0.5 0 0 0 0 1 force @a
+particle dust 0.33 1 0.33 1 ~0.5 ~0.65 ~0.5 0 0 0 0 1 force @a
+particle dust 0.33 1 0.33 1 ~0.5 ~1.15 ~0.5 0 0 0 0 1 force @a
+particle dust 0.33 1 0.33 1 ~0.5 ~1.65 ~0.5 0 0 0 0 1 force @a
+particle dust 0.33 1 0.33 1 ~0.5 ~2.15 ~0.5 0 0 0 0 1 force @a
+particle dust 0.33 1 0.33 1 ~0.5 ~2.65 ~0.5 0 0 0 0 1 force @a
+particle dust 0.33 1 0.33 1 ~0.5 ~3.15 ~0.5 0 0 0 0 1 force @a
+particle dust 0.33 1 0.33 1 ~0.5 ~3.65 ~0.5 0 0 0 0 1 force @a
+particle dust 0.33 1 0.33 1 ~0.5 ~4.15 ~0.5 0 0 0 0 1 force @a
+particle dust 0.33 1 0.33 1 ~0.5 ~4.65 ~0.5 0 0 0 0 1 force @a
+particle dust 0.33 1 0.33 1 ~0.5 ~5.15 ~-0.5 0 0 0 0 1 force @a
+particle dust 0.33 1 0.33 1 ~0.5 ~5.15 ~0.0 0 0 0 0 1 force @a
+particle dust 0.33 1 0.33 1 ~0.5 ~5.15 ~0.5 0 0 0 0 1 force @a
