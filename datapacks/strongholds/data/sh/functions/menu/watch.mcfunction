@@ -25,52 +25,58 @@ execute if block 8 84 3398 barrel if data block 8 84 3398 Items[{Slot:22b,Count:
 execute if block 8 84 3398 barrel unless data block 8 84 3398 Items[{Slot:23b}] run function sh:menu/do77
 execute if block 8 84 3398 barrel if data block 8 84 3398 Items[{Slot:23b,Count:1b}] run function sh:menu/back77
 execute if block 8 84 3398 barrel unless data block 8 84 3398 Items[{Slot:26b}] run function sh:menu/do68
-execute if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:17b}] run function sh:menu/page1
-execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:1b}] run function sh:menu/do10
-execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 3240 Items[{Slot:1b,Count:1b}] run function sh:menu/back10
-execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:2b}] run function sh:menu/do11
-execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 3240 Items[{Slot:2b,Count:1b}] run function sh:menu/back11
-execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:3b}] run function sh:menu/do12
-execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 3240 Items[{Slot:3b,Count:1b}] run function sh:menu/back12
-execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:4b}] run function sh:menu/do13
-execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 3240 Items[{Slot:4b,Count:1b}] run function sh:menu/back13
-execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:5b}] run function sh:menu/do14
-execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 3240 Items[{Slot:5b,Count:1b}] run function sh:menu/back14
-execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:6b}] run function sh:menu/do18
-execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 3240 Items[{Slot:6b,Count:1b}] run function sh:menu/back18
-execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:7b}] run function sh:menu/do23
-execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:11b}] run function sh:menu/do24
-execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 3240 Items[{Slot:11b,Count:1b}] run function sh:menu/back24
-execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:12b}] run function sh:menu/do19
-execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 3240 Items[{Slot:12b,Count:1b}] run function sh:menu/back19
-execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:13b}] run function sh:menu/do22
-execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 3240 Items[{Slot:13b,Count:1b}] run function sh:menu/back22
-execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:14b}] run function sh:menu/do25
-execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 3240 Items[{Slot:14b,Count:1b}] run function sh:menu/back25
-execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:15b}] run function sh:menu/do28
-execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 3240 Items[{Slot:15b,Count:1b}] run function sh:menu/back28
-execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:19b}] run function sh:menu/do41
-execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 3240 Items[{Slot:19b,Count:1b}] run function sh:menu/back41
-execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:20b}] run function sh:menu/do42
-execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 3240 Items[{Slot:20b,Count:1b}] run function sh:menu/back42
-execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:21b}] run function sh:menu/do26
-execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 3240 Items[{Slot:21b,Count:1b}] run function sh:menu/back26
-execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:22b}] run function sh:menu/do27
-execute if block 4 44 3240 barrel if score #seg sh matches 0 if data block 4 44 3240 Items[{Slot:22b,Count:1b}] run function sh:menu/back27
-execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:23b}] run function sh:menu/do29
-execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:24b}] run function sh:menu/do84
-execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:25b}] run function sh:menu/do85
-execute if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:9b}] run function sh:menu/page0
-execute if block 4 44 3240 barrel if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:2b}] run function sh:menu/do90
-execute if block 4 44 3240 barrel if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:3b}] run function sh:menu/do91
-execute if block 4 44 3240 barrel if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:4b}] run function sh:menu/do92
-execute if block 4 44 3240 barrel if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:5b}] run function sh:menu/do93
-execute if block 4 44 3240 barrel if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:6b}] run function sh:menu/do94
-execute if block 4 44 3240 barrel if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:11b}] run function sh:menu/do95
-execute if block 4 44 3240 barrel if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:12b}] run function sh:menu/do96
-execute if block 4 44 3240 barrel if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:13b}] run function sh:menu/do97
-execute if block 4 44 3240 barrel if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:14b}] run function sh:menu/do98
-execute if block 4 44 3240 barrel if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:22b}] run function sh:menu/do40
-execute if block 4 44 3240 barrel if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:24b}] run function sh:menu/do44
-execute if block 4 44 3240 barrel if score #seg sh matches 1 if data block 4 44 3240 Items[{Slot:24b,Count:1b}] run function sh:menu/back44
-execute if block 4 44 3240 barrel if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:26b}] run function sh:menu/do45
+execute if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:10b}] run function sh:menu/page1
+execute if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:12b}] run function sh:menu/page2
+execute if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:14b}] run function sh:menu/page3
+execute if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:16b}] run function sh:menu/page4
+execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:21b}] run function sh:menu/do84
+execute if block 4 44 3240 barrel if score #seg sh matches 0 unless data block 4 44 3240 Items[{Slot:23b}] run function sh:menu/do85
+execute if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:18b}] run function sh:menu/page0
+execute if block 4 44 3240 barrel if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:11b}] run function sh:menu/do24
+execute if block 4 44 3240 barrel if score #seg sh matches 1 if data block 4 44 3240 Items[{Slot:11b,Count:1b}] run function sh:menu/back24
+execute if block 4 44 3240 barrel if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:12b}] run function sh:menu/do19
+execute if block 4 44 3240 barrel if score #seg sh matches 1 if data block 4 44 3240 Items[{Slot:12b,Count:1b}] run function sh:menu/back19
+execute if block 4 44 3240 barrel if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:13b}] run function sh:menu/do22
+execute if block 4 44 3240 barrel if score #seg sh matches 1 if data block 4 44 3240 Items[{Slot:13b,Count:1b}] run function sh:menu/back22
+execute if block 4 44 3240 barrel if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:14b}] run function sh:menu/do25
+execute if block 4 44 3240 barrel if score #seg sh matches 1 if data block 4 44 3240 Items[{Slot:14b,Count:1b}] run function sh:menu/back25
+execute if block 4 44 3240 barrel if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:15b}] run function sh:menu/do28
+execute if block 4 44 3240 barrel if score #seg sh matches 1 if data block 4 44 3240 Items[{Slot:15b,Count:1b}] run function sh:menu/back28
+execute if block 4 44 3240 barrel if score #seg sh matches 1 unless data block 4 44 3240 Items[{Slot:22b}] run function sh:menu/do29
+execute if score #seg sh matches 2 unless data block 4 44 3240 Items[{Slot:18b}] run function sh:menu/page0
+execute if block 4 44 3240 barrel if score #seg sh matches 2 unless data block 4 44 3240 Items[{Slot:11b}] run function sh:menu/do10
+execute if block 4 44 3240 barrel if score #seg sh matches 2 if data block 4 44 3240 Items[{Slot:11b,Count:1b}] run function sh:menu/back10
+execute if block 4 44 3240 barrel if score #seg sh matches 2 unless data block 4 44 3240 Items[{Slot:12b}] run function sh:menu/do11
+execute if block 4 44 3240 barrel if score #seg sh matches 2 if data block 4 44 3240 Items[{Slot:12b,Count:1b}] run function sh:menu/back11
+execute if block 4 44 3240 barrel if score #seg sh matches 2 unless data block 4 44 3240 Items[{Slot:13b}] run function sh:menu/do12
+execute if block 4 44 3240 barrel if score #seg sh matches 2 if data block 4 44 3240 Items[{Slot:13b,Count:1b}] run function sh:menu/back12
+execute if block 4 44 3240 barrel if score #seg sh matches 2 unless data block 4 44 3240 Items[{Slot:14b}] run function sh:menu/do13
+execute if block 4 44 3240 barrel if score #seg sh matches 2 if data block 4 44 3240 Items[{Slot:14b,Count:1b}] run function sh:menu/back13
+execute if block 4 44 3240 barrel if score #seg sh matches 2 unless data block 4 44 3240 Items[{Slot:15b}] run function sh:menu/do14
+execute if block 4 44 3240 barrel if score #seg sh matches 2 if data block 4 44 3240 Items[{Slot:15b,Count:1b}] run function sh:menu/back14
+execute if block 4 44 3240 barrel if score #seg sh matches 2 unless data block 4 44 3240 Items[{Slot:21b}] run function sh:menu/do18
+execute if block 4 44 3240 barrel if score #seg sh matches 2 if data block 4 44 3240 Items[{Slot:21b,Count:1b}] run function sh:menu/back18
+execute if block 4 44 3240 barrel if score #seg sh matches 2 unless data block 4 44 3240 Items[{Slot:23b}] run function sh:menu/do23
+execute if score #seg sh matches 3 unless data block 4 44 3240 Items[{Slot:18b}] run function sh:menu/page0
+execute if block 4 44 3240 barrel if score #seg sh matches 3 unless data block 4 44 3240 Items[{Slot:11b}] run function sh:menu/do41
+execute if block 4 44 3240 barrel if score #seg sh matches 3 if data block 4 44 3240 Items[{Slot:11b,Count:1b}] run function sh:menu/back41
+execute if block 4 44 3240 barrel if score #seg sh matches 3 unless data block 4 44 3240 Items[{Slot:12b}] run function sh:menu/do42
+execute if block 4 44 3240 barrel if score #seg sh matches 3 if data block 4 44 3240 Items[{Slot:12b,Count:1b}] run function sh:menu/back42
+execute if block 4 44 3240 barrel if score #seg sh matches 3 unless data block 4 44 3240 Items[{Slot:14b}] run function sh:menu/do26
+execute if block 4 44 3240 barrel if score #seg sh matches 3 if data block 4 44 3240 Items[{Slot:14b,Count:1b}] run function sh:menu/back26
+execute if block 4 44 3240 barrel if score #seg sh matches 3 unless data block 4 44 3240 Items[{Slot:15b}] run function sh:menu/do27
+execute if block 4 44 3240 barrel if score #seg sh matches 3 if data block 4 44 3240 Items[{Slot:15b,Count:1b}] run function sh:menu/back27
+execute if score #seg sh matches 4 unless data block 4 44 3240 Items[{Slot:18b}] run function sh:menu/page0
+execute if block 4 44 3240 barrel if score #seg sh matches 4 unless data block 4 44 3240 Items[{Slot:2b}] run function sh:menu/do90
+execute if block 4 44 3240 barrel if score #seg sh matches 4 unless data block 4 44 3240 Items[{Slot:3b}] run function sh:menu/do91
+execute if block 4 44 3240 barrel if score #seg sh matches 4 unless data block 4 44 3240 Items[{Slot:4b}] run function sh:menu/do92
+execute if block 4 44 3240 barrel if score #seg sh matches 4 unless data block 4 44 3240 Items[{Slot:5b}] run function sh:menu/do93
+execute if block 4 44 3240 barrel if score #seg sh matches 4 unless data block 4 44 3240 Items[{Slot:6b}] run function sh:menu/do94
+execute if block 4 44 3240 barrel if score #seg sh matches 4 unless data block 4 44 3240 Items[{Slot:11b}] run function sh:menu/do95
+execute if block 4 44 3240 barrel if score #seg sh matches 4 unless data block 4 44 3240 Items[{Slot:12b}] run function sh:menu/do96
+execute if block 4 44 3240 barrel if score #seg sh matches 4 unless data block 4 44 3240 Items[{Slot:13b}] run function sh:menu/do97
+execute if block 4 44 3240 barrel if score #seg sh matches 4 unless data block 4 44 3240 Items[{Slot:14b}] run function sh:menu/do98
+execute if block 4 44 3240 barrel if score #seg sh matches 4 unless data block 4 44 3240 Items[{Slot:22b}] run function sh:menu/do40
+execute if block 4 44 3240 barrel if score #seg sh matches 4 unless data block 4 44 3240 Items[{Slot:24b}] run function sh:menu/do44
+execute if block 4 44 3240 barrel if score #seg sh matches 4 if data block 4 44 3240 Items[{Slot:24b,Count:1b}] run function sh:menu/back44
+execute if block 4 44 3240 barrel if score #seg sh matches 4 unless data block 4 44 3240 Items[{Slot:26b}] run function sh:menu/do45
