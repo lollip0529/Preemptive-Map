@@ -7,7 +7,6 @@ execute if score #jaround sh matches -2147483648.. store result storage sh:io x.
 execute if score #jspawn sh matches -2147483648.. store result storage sh:io x.s.jspawn int 1 run scoreboard players get #jspawn sh
 execute if score #jmob sh matches -2147483648.. store result storage sh:io x.s.jmob int 1 run scoreboard players get #jmob sh
 execute if score #jdung sh matches -2147483648.. store result storage sh:io x.s.jdung int 1 run scoreboard players get #jdung sh
-execute if score #pmob sh matches -2147483648.. store result storage sh:io x.s.pmob int 1 run scoreboard players get #pmob sh
 execute if score #terrain sh matches -2147483648.. store result storage sh:io x.s.terrain int 1 run scoreboard players get #terrain sh
 execute if score #caves sh matches -2147483648.. store result storage sh:io x.s.caves int 1 run scoreboard players get #caves sh
 execute if score #mines sh matches -2147483648.. store result storage sh:io x.s.mines int 1 run scoreboard players get #mines sh
@@ -48,6 +47,6 @@ data modify storage sh:io x.lo.l1 set from storage sh:lo l1
 data modify storage sh:io x.lo.l2 set from storage sh:lo l2
 data modify storage sh:io x.lo.l3 set from storage sh:lo l3
 data modify storage sh:io x.lo.l4 set from storage sh:lo l4
-data modify block 4 44 3240 Items append value {Slot:24b,id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text": "Export", "italic": false}'}}}
-data modify block 4 44 3240 Items[{Slot:24b}].tag.shx set from storage sh:io x
+data modify block 4 44 3240 Items append value {Slot:26b,id:"minecraft:paper",Count:1b,tag:{display:{Name:'{"text": "Export", "italic": false}'}}}
+data modify block 4 44 3240 Items[{Slot:26b}].tag.shx set from storage sh:io x
 tellraw @a {"text": "Look at the settings barrel and press F3 + I. That copies your loadouts and settings. In a new copy of the map, click Import in the settings barrel.", "color": "aqua"}

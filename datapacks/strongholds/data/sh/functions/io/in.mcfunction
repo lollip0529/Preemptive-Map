@@ -7,7 +7,6 @@ execute if data storage sh:io x.s.jaround store result score #jaround sh run dat
 execute if data storage sh:io x.s.jspawn store result score #jspawn sh run data get storage sh:io x.s.jspawn
 execute if data storage sh:io x.s.jmob store result score #jmob sh run data get storage sh:io x.s.jmob
 execute if data storage sh:io x.s.jdung store result score #jdung sh run data get storage sh:io x.s.jdung
-execute if data storage sh:io x.s.pmob store result score #pmob sh run data get storage sh:io x.s.pmob
 execute if data storage sh:io x.s.terrain store result score #terrain sh run data get storage sh:io x.s.terrain
 execute if data storage sh:io x.s.caves store result score #caves sh run data get storage sh:io x.s.caves
 execute if data storage sh:io x.s.mines store result score #mines sh run data get storage sh:io x.s.mines

@@ -5,7 +5,6 @@ execute if score #terrain sh matches 1 run scoreboard players set #cut sh 1
 execute if score #pn sh matches 1.. if score #nobuild sh matches 0 run function sh:sea/drain
 execute if score #nobuild sh matches 0 run function sh:build/all
 function sh:spot/all
-function sh:spot/mob
 function sh:junk/all
 execute if score #pn sh matches 1.. if score #nobuild sh matches 0 run function sh:sea/all
 kill @e[type=item]
