@@ -2,6 +2,8 @@ setblock 3 39 3232 structure_block[mode=load]{mode:"LOAD",name:"sh:lobby",posX:0
 setblock 3 38 3232 redstone_block
 fill 3 38 3232 3 39 3232 stone
 setblock 4 44 3240 barrel[facing=east]{CustomName:'{"text": "Settings", "italic": false, "color": "white"}'}
+kill @e[tag=sh.mlabel]
+summon area_effect_cloud 4.5 45.25 3240.5 {Tags:["sh.mlabel"],Duration:1000000000,WaitTime:0,Radius:2f,Particle:"block air",CustomNameVisible:1b,CustomName:"{\"text\": \"Settings\", \"color\": \"aqua\", \"bold\": true}"}
 setblock 9 45 3238 oak_wall_sign[facing=south]{Text2:'{"text": "Learn", "color": "light_purple", "clickEvent": {"action": "run_command", "value": "trigger ps set 49"}}',Text3:'{"text": "Spikes", "color": "light_purple"}'}
 setblock 9 44 3238 oak_wall_sign[facing=south]{Text2:'{"text": "Start", "color": "green", "clickEvent": {"action": "run_command", "value": "trigger ps set 2"}}',Text3:'{"text": "Nav", "color": "green"}'}
 function sh:lo/build
