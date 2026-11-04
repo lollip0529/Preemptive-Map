@@ -62,6 +62,7 @@ execute unless score #jaround sh matches -2147483648.. run scoreboard players se
 execute unless score #jspawn sh matches -2147483648.. run scoreboard players set #jspawn sh 0
 execute unless score #jmob sh matches -2147483648.. run scoreboard players set #jmob sh 5
 execute unless score #jdung sh matches -2147483648.. run scoreboard players set #jdung sh 0
+execute unless score #dzom sh matches -2147483648.. run scoreboard players set #dzom sh 0
 execute unless score #terrain sh matches -2147483648.. run scoreboard players set #terrain sh 0
 execute unless score #caves sh matches -2147483648.. run scoreboard players set #caves sh 2
 execute unless score #mines sh matches -2147483648.. run scoreboard players set #mines sh 1
