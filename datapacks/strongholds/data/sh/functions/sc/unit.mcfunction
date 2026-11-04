@@ -3,6 +3,11 @@ execute if score #hst sh matches 8 run function sh:sc/after
 execute if score #hst sh matches 9 run function sh:sc/spun
 execute if score #hst sh matches 10 run function sh:sc/next
 execute if score #hst sh matches 11 run function sh:sc/fixed
+execute if score #hst sh matches 12 run function sh:sc/after5
 execute if score #hst sh matches 13 run function sh:sc/f/unit
 execute if score #hst sh matches 14 run function sh:sc/done
 execute if score #hst sh matches 15 run function sh:h/stop
+execute if score #hst sh matches 16 run function sh:sc/five/unit
+execute if score #hst sh matches 17 run function sh:sc/five/r
+execute if score #hst sh matches 18 run function sh:sc/five/spun
+execute if score #hst sh matches 19 run function sh:sc/five/walked

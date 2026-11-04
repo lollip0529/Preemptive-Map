@@ -97,6 +97,7 @@ scoreboard players set #hbg1s sh 0
 tag @e[tag=sh.hr] remove sh.hr
 scoreboard players set #hci sh 0
 scoreboard players set #hvj sh 0
+scoreboard players set #h5s sh 0
 scoreboard players set #hsret sh 6
 scoreboard players set #hbmax sh 150
 scoreboard players set #hst sh 1

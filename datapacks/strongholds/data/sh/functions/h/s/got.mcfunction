@@ -1,4 +1,5 @@
 scoreboard players set #hrdone sh 0
+execute if score #h5s sh matches 1 if score #hok sh matches 1 run function sh:sc/five/hit
 scoreboard players operation #hdot sh = #hvx sh
 scoreboard players operation #hdot sh *= #hgdx sh
 scoreboard players operation #ht sh = #hvz sh

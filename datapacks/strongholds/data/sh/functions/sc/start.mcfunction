@@ -21,6 +21,7 @@ scoreboard players set #sf4 sh -1
 scoreboard players set #sf5 sh -1
 scoreboard players set #sf6 sh -1
 scoreboard players set #hspun sh 0
+scoreboard players set #s5 sh 0
 scoreboard players operation #sdx sh = #gx sh
 scoreboard players operation #sdx sh -= #ex sh
 scoreboard players operation #sdx sh *= #sdx sh
