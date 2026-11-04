@@ -1,3 +1,19 @@
+scoreboard players set #dc sh 0
+execute if predicate sh:coin run scoreboard players set #dc sh 1
+execute if score #dzom sh matches 1 if score #psx sh matches 111..382 if score #psz sh matches 210..481 if score #dc sh matches 0 run data merge block ~382 ~19 ~481 {SpawnData:{id:"minecraft:skeleton"},SpawnPotentials:[{Weight:1,Entity:{id:"minecraft:skeleton"}}]}
+execute if score #dzom sh matches 1 if score #psx sh matches 111..382 if score #psz sh matches 210..481 if score #dc sh matches 1 run data merge block ~382 ~19 ~481 {SpawnData:{id:"minecraft:spider"},SpawnPotentials:[{Weight:1,Entity:{id:"minecraft:spider"}}]}
+scoreboard players set #dc sh 0
+execute if predicate sh:coin run scoreboard players set #dc sh 1
+execute if score #dzom sh matches 1 if score #psx sh matches 88..359 if score #psz sh matches 24..295 if score #dc sh matches 0 run data merge block ~359 ~49 ~295 {SpawnData:{id:"minecraft:skeleton"},SpawnPotentials:[{Weight:1,Entity:{id:"minecraft:skeleton"}}]}
+execute if score #dzom sh matches 1 if score #psx sh matches 88..359 if score #psz sh matches 24..295 if score #dc sh matches 1 run data merge block ~359 ~49 ~295 {SpawnData:{id:"minecraft:spider"},SpawnPotentials:[{Weight:1,Entity:{id:"minecraft:spider"}}]}
+scoreboard players set #dc sh 0
+execute if predicate sh:coin run scoreboard players set #dc sh 1
+execute if score #dzom sh matches 1 if score #psx sh matches -183..88 if score #psz sh matches -256..15 if score #dc sh matches 0 run data merge block ~88 ~43 ~15 {SpawnData:{id:"minecraft:skeleton"},SpawnPotentials:[{Weight:1,Entity:{id:"minecraft:skeleton"}}]}
+execute if score #dzom sh matches 1 if score #psx sh matches -183..88 if score #psz sh matches -256..15 if score #dc sh matches 1 run data merge block ~88 ~43 ~15 {SpawnData:{id:"minecraft:spider"},SpawnPotentials:[{Weight:1,Entity:{id:"minecraft:spider"}}]}
+scoreboard players set #dc sh 0
+execute if predicate sh:coin run scoreboard players set #dc sh 1
+execute if score #dzom sh matches 1 if score #psx sh matches 171..442 if score #psz sh matches -52..219 if score #dc sh matches 0 run data merge block ~442 ~26 ~219 {SpawnData:{id:"minecraft:skeleton"},SpawnPotentials:[{Weight:1,Entity:{id:"minecraft:skeleton"}}]}
+execute if score #dzom sh matches 1 if score #psx sh matches 171..442 if score #psz sh matches -52..219 if score #dc sh matches 1 run data merge block ~442 ~26 ~219 {SpawnData:{id:"minecraft:spider"},SpawnPotentials:[{Weight:1,Entity:{id:"minecraft:spider"}}]}
 fill ~490 ~9 ~296 ~490 ~9 ~296 minecraft:rail[shape=east_west] replace air
 fill ~489 ~9 ~297 ~489 ~9 ~297 minecraft:rail[shape=east_west] replace air
 fill ~490 ~9 ~297 ~490 ~9 ~297 minecraft:rail[shape=east_west] replace air
