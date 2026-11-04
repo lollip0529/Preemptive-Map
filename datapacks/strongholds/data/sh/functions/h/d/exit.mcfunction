@@ -47,14 +47,14 @@ execute if score #hkt sh matches 10 run scoreboard players add #hu sh 1
 execute if score #hkt sh matches 11 run scoreboard players add #hu sh 1
 execute if score #hkt sh matches 12 run scoreboard players add #hu sh 1
 execute unless score #hside sh matches 0 if score #hu sh matches 5.. run scoreboard players set #hup sh 1
-scoreboard players set #hb sh 16
-execute if score @s sh.f matches 0 if score #hix sh matches ..-1 run scoreboard players set #hb sh 4
-execute if score @s sh.f matches 2 if score #hix sh matches ..-1 run scoreboard players set #hb sh 4
-execute if score @s sh.f matches 1 if score #hiz sh matches ..-1 run scoreboard players set #hb sh 4
-execute if score @s sh.f matches 3 if score #hiz sh matches ..-1 run scoreboard players set #hb sh 4
-execute if score #hup sh matches 1 run scoreboard players operation #hb sh *= #h2 sh
+scoreboard players set #hbit sh 16
+execute if score @s sh.f matches 0 if score #hix sh matches ..-1 run scoreboard players set #hbit sh 4
+execute if score @s sh.f matches 2 if score #hix sh matches ..-1 run scoreboard players set #hbit sh 4
+execute if score @s sh.f matches 1 if score #hiz sh matches ..-1 run scoreboard players set #hbit sh 4
+execute if score @s sh.f matches 3 if score #hiz sh matches ..-1 run scoreboard players set #hbit sh 4
+execute if score #hup sh matches 1 run scoreboard players operation #hbit sh *= #h2 sh
 scoreboard players operation #hhole sh = @s sh.v
-scoreboard players operation #hhole sh /= #hb sh
+scoreboard players operation #hhole sh /= #hbit sh
 scoreboard players operation #hhole sh %= #h2 sh
 execute if score @s sh.t matches 8 if score #hside sh matches 0 run data modify storage sh:h r prepend value "\"the 5-way's front exit\""
 execute if score @s sh.t matches 1 if score #hside sh matches 0 run data modify storage sh:h r prepend value "\"the corridor\""
