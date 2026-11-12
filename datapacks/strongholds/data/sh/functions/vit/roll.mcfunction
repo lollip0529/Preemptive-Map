@@ -22,5 +22,5 @@ execute if score #food sh matches 5 run execute if predicate sh:coin run scorebo
 execute if score #food sh matches 5 run execute if predicate sh:coin run scoreboard players add #vf sh 4
 execute if score #food sh matches 5 run execute if predicate sh:coin run scoreboard players add #vf sh 8
 execute if score #food sh matches 5 run execute if predicate sh:coin run scoreboard players add #vf sh 16
-execute if score #food sh matches 5 run scoreboard players operation #vf sh %= #20 sh
-execute if score #food sh matches 5 run scoreboard players add #vf sh 1
+execute if score #food sh matches 5 run scoreboard players operation #vf sh %= #11 sh
+execute if score #food sh matches 5 run scoreboard players add #vf sh 10

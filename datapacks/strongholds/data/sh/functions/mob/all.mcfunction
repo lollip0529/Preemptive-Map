@@ -3,18 +3,16 @@ kill @e[tag=sh.drop]
 function sh:rng/n31
 scoreboard players operation #fs sh = #r sh
 scoreboard players operation #mlv sh = #mobs sh
-execute if score #mobs sh matches 4 run function sh:mob/any_level
-execute if score #mobs sh matches 5 run scoreboard players set #mlv sh 4
-execute if score #mlv sh matches 0 run scoreboard players set #mon sh 0
-execute if score #mlv sh matches 0 run scoreboard players set #bats sh 0
-execute if score #mlv sh matches 1 run scoreboard players set #mon sh 20
-execute if score #mlv sh matches 1 run scoreboard players set #bats sh 4
-execute if score #mlv sh matches 2 run scoreboard players set #mon sh 45
-execute if score #mlv sh matches 2 run scoreboard players set #bats sh 8
-execute if score #mlv sh matches 3 run scoreboard players set #mon sh 70
-execute if score #mlv sh matches 3 run scoreboard players set #bats sh 15
-execute if score #mlv sh matches 4 run scoreboard players operation #mon sh = #nmon sh
-execute if score #mlv sh matches 4 run scoreboard players operation #bats sh = #nbat sh
+execute if score #mobs sh matches 3 run function sh:mob/any_level
+execute if score #mobs sh matches 4 run scoreboard players set #mlv sh 3
+execute if score #mlv sh matches 0 run scoreboard players set #mon sh 20
+execute if score #mlv sh matches 0 run scoreboard players set #bats sh 4
+execute if score #mlv sh matches 1 run scoreboard players set #mon sh 45
+execute if score #mlv sh matches 1 run scoreboard players set #bats sh 8
+execute if score #mlv sh matches 2 run scoreboard players set #mon sh 70
+execute if score #mlv sh matches 2 run scoreboard players set #bats sh 15
+execute if score #mlv sh matches 3 run scoreboard players operation #mon sh = #nmon sh
+execute if score #mlv sh matches 3 run scoreboard players operation #bats sh = #nbat sh
 scoreboard players set #mx0 sh 2147483647
 scoreboard players set #mz0 sh 2147483647
 scoreboard players set #mx1 sh -2147483648

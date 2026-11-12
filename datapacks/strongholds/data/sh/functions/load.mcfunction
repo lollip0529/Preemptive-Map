@@ -52,6 +52,7 @@ scoreboard players set #m2 sh 1502
 scoreboard players set #lcg sh 1103515245
 scoreboard players set #3 sh 3
 scoreboard players set #5 sh 5
+scoreboard players set #11 sh 11
 scoreboard players set #20 sh 20
 execute unless score #hp sh matches -2147483648.. run scoreboard players set #hp sh 5
 execute unless score #food sh matches -2147483648.. run scoreboard players set #food sh 5
@@ -66,7 +67,7 @@ execute unless score #dzom sh matches -2147483648.. run scoreboard players set #
 execute unless score #terrain sh matches -2147483648.. run scoreboard players set #terrain sh 0
 execute unless score #caves sh matches -2147483648.. run scoreboard players set #caves sh 2
 execute unless score #mines sh matches -2147483648.. run scoreboard players set #mines sh 1
-execute unless score #mobs sh matches -2147483648.. run scoreboard players set #mobs sh 4
+execute unless score #mobs sh matches -2147483648.. run scoreboard players set #mobs sh 3
 execute unless score #nobuild sh matches -2147483648.. run scoreboard players set #nobuild sh 0
 execute unless score #seg sh matches -2147483648.. run scoreboard players set #seg sh 0
 execute unless score #back sh matches -2147483648.. run scoreboard players set #back sh 0

@@ -3,6 +3,8 @@ scoreboard players set #hfb sh 0
 scoreboard players set #hfm sh 0
 scoreboard players set #sopen sh 0
 scoreboard players set #sflush sh 0
+scoreboard players set #snda sh 0
+scoreboard players set #sndb sh 0
 data modify storage sh:h fa set value []
 data modify storage sh:h fb set value []
 scoreboard players operation #hx sh = #ex sh
