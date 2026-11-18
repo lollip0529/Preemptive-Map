@@ -7,6 +7,8 @@ kill @e[tag=sh.scan]
 summon area_effect_cloud 8 100 3208 {Tags:["sh.scan"],Duration:1000000000,WaitTime:0,Radius:0f}
 kill @e[tag=sh.mark]
 summon area_effect_cloud 8 100 3208 {Tags:["sh.mark"],Duration:1000000000,WaitTime:0,Radius:0f}
+kill @e[tag=sh.ghost]
+summon area_effect_cloud 8 100 3208 {Tags:["sh.ghost"],Duration:1000000000,WaitTime:0,Radius:0f}
 scoreboard players set #rs sh 1
 execute if score #terrain sh matches 1 if score #sea sh matches 1 run scoreboard players set #rs sh 0
 execute if score #rs sh matches 1 run function sh:reset

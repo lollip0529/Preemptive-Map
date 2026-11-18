@@ -17,6 +17,7 @@ scoreboard objectives add seed trigger
 scoreboard objectives add count trigger
 scoreboard objectives add sh.egg minecraft.used:minecraft.egg
 scoreboard objectives add sh.die deathCount
+scoreboard objectives add sh.left minecraft.custom:minecraft.leave_game
 scoreboard objectives add sh.pk.wooden minecraft.dropped:minecraft.wooden_pickaxe
 scoreboard objectives add sh.pk.stone minecraft.dropped:minecraft.stone_pickaxe
 scoreboard objectives add sh.pk.iron minecraft.dropped:minecraft.iron_pickaxe
@@ -77,6 +78,7 @@ execute unless score #edit sh matches -2147483648.. run scoreboard players set #
 execute unless score #nav sh matches -2147483648.. run scoreboard players set #nav sh 0
 execute unless score #invj sh matches -2147483648.. run scoreboard players set #invj sh 0
 execute unless score #pickr sh matches -2147483648.. run scoreboard players set #pickr sh 0
+execute unless score #dspec sh matches -2147483648.. run scoreboard players set #dspec sh 0
 execute unless score #mai sh matches -2147483648.. run scoreboard players set #mai sh 0
 execute unless score #lc0 sh matches -2147483648.. run scoreboard players set #lc0 sh 0
 execute unless score #lc1 sh matches -2147483648.. run scoreboard players set #lc1 sh 0

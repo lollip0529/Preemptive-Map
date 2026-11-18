@@ -15,6 +15,7 @@ execute if score #mobs sh matches -2147483648.. store result storage sh:io x.s.m
 execute if score #mai sh matches -2147483648.. store result storage sh:io x.s.mai int 1 run scoreboard players get #mai sh
 execute if score #invj sh matches -2147483648.. store result storage sh:io x.s.invj int 1 run scoreboard players get #invj sh
 execute if score #pickr sh matches -2147483648.. store result storage sh:io x.s.pickr int 1 run scoreboard players get #pickr sh
+execute if score #dspec sh matches -2147483648.. store result storage sh:io x.s.dspec int 1 run scoreboard players get #dspec sh
 execute if score #lo sh matches -2147483648.. store result storage sh:io x.s.lo int 1 run scoreboard players get #lo sh
 execute if score #lmw sh matches -2147483648.. store result storage sh:io x.s.lmw int 1 run scoreboard players get #lmw sh
 execute if score #lc0 sh matches -2147483648.. store result storage sh:io x.s.lc0 int 1 run scoreboard players get #lc0 sh

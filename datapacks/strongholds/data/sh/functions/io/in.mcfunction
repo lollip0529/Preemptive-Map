@@ -15,6 +15,7 @@ execute if data storage sh:io x.s.mobs store result score #mobs sh run data get 
 execute if data storage sh:io x.s.mai store result score #mai sh run data get storage sh:io x.s.mai
 execute if data storage sh:io x.s.invj store result score #invj sh run data get storage sh:io x.s.invj
 execute if data storage sh:io x.s.pickr store result score #pickr sh run data get storage sh:io x.s.pickr
+execute if data storage sh:io x.s.dspec store result score #dspec sh run data get storage sh:io x.s.dspec
 execute if data storage sh:io x.s.lo store result score #lo sh run data get storage sh:io x.s.lo
 execute if data storage sh:io x.s.lmw store result score #lmw sh run data get storage sh:io x.s.lmw
 execute if data storage sh:io x.s.lc0 store result score #lc0 sh run data get storage sh:io x.s.lc0

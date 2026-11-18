@@ -64,6 +64,8 @@ execute if block 4 44 3240 barrel if score #seg sh matches 3 unless data block 4
 execute if block 4 44 3240 barrel if score #seg sh matches 3 if data block 4 44 3240 Items[{Slot:11b,Count:1b}] run function sh:menu/back41
 execute if block 4 44 3240 barrel if score #seg sh matches 3 unless data block 4 44 3240 Items[{Slot:12b}] run function sh:menu/do42
 execute if block 4 44 3240 barrel if score #seg sh matches 3 if data block 4 44 3240 Items[{Slot:12b,Count:1b}] run function sh:menu/back42
+execute if block 4 44 3240 barrel if score #seg sh matches 3 unless data block 4 44 3240 Items[{Slot:13b}] run function sh:menu/do86
+execute if block 4 44 3240 barrel if score #seg sh matches 3 if data block 4 44 3240 Items[{Slot:13b,Count:1b}] run function sh:menu/back86
 execute if block 4 44 3240 barrel if score #seg sh matches 3 unless data block 4 44 3240 Items[{Slot:14b}] run function sh:menu/do26
 execute if block 4 44 3240 barrel if score #seg sh matches 3 if data block 4 44 3240 Items[{Slot:14b,Count:1b}] run function sh:menu/back26
 execute if block 4 44 3240 barrel if score #seg sh matches 3 unless data block 4 44 3240 Items[{Slot:15b}] run function sh:menu/do27
