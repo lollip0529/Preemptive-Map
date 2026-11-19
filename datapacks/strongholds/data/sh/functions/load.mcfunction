@@ -141,3 +141,4 @@ function sh:area
 function sh:lo/init
 function sh:menu/build
 function sh:rec/load
+function sh:sv/load

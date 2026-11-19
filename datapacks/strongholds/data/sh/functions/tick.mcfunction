@@ -4,6 +4,7 @@ execute as @a unless score @s count matches -2147483648.. run scoreboard players
 scoreboard players enable @a count
 function sh:menu/watch
 function sh:rec/watch
+function sh:sv/tick
 function sh:vit/tick
 function sh:learn/hhb
 function sh:respawn

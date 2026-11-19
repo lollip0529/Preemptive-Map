@@ -67,6 +67,8 @@ execute if score @s ps matches 84 run function sh:ui/a84
 execute if score @s ps matches 85 run function sh:ui/a85
 execute if score @s ps matches 86 run function sh:ui/a86
 execute if score @s ps matches 87 run function sh:ui/a87
+execute if score @s ps matches 88 run function sh:ui/a88
+execute if score @s ps matches 89 run function sh:ui/a89
 execute if score @s ps matches 90 run function sh:ui/a90
 execute if score @s ps matches 91 run function sh:ui/a91
 execute if score @s ps matches 92 run function sh:ui/a92
