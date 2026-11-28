@@ -1,1 +1,0 @@
-function sh:rng/int
